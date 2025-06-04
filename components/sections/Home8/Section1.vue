@@ -159,7 +159,7 @@ export default {
     let isScrolling = false;
 
     window.addEventListener("wheel", (event) => {
-      if (isScrolling) return; // Prevent new scroll until current one finishes
+      if (isScrolling) return;
 
       const delta = Math.sign(event.deltaY);
 
@@ -178,7 +178,7 @@ export default {
       const targetPosition = targetSection.offsetTop;
       const startPosition = window.pageYOffset;
       const distance = targetPosition - startPosition;
-      const duration = 1000; // Adjust this value to control the scroll speed
+      const duration = 1000;
       let startTimestamp = null;
 
       function scrollStep(timestamp) {
@@ -195,14 +195,13 @@ export default {
         } else {
           currentSection = index;
           isScrolling = false;
-          window.scrollTo(0, targetPosition); // Ensure exact position
+          window.scrollTo(0, targetPosition);
         }
       }
 
       window.requestAnimationFrame(scrollStep);
     }
 
-    // Easing function - Cubic easing in/out
     function easeInOutCubic(t, b, c, d) {
       t /= d / 2;
       if (t < 1) return (c / 2) * t * t * t + b;
@@ -210,7 +209,6 @@ export default {
       return (c / 2) * (t * t * t + 2) + b;
     }
 
-    // Set the initial active section
     const initialSection = document.getElementById("section1");
     initialSection.classList.add("active");
   },

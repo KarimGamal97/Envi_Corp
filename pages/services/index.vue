@@ -1,17 +1,15 @@
 <template>
   <div>
     <SectionsCareerSection1 />
+    <SectionsServices2Section2 />
     <SectionsCareerSection2 />
     <SectionsCareerSection3 />
-    <SectionsCareerSection4 />
-    <SectionsCareerSection5 />
-    <SectionsServices2Section5 />
   </div>
 </template>
 <script setup>
 useHead({
   bodyAttrs: {
-    class: "overflow-x-hidden w-screen relative career-page",
+    class: "overflow-x-hidden w-screen relative services-2-page",
   },
 });
 </script>

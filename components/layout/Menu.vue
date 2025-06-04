@@ -19,7 +19,7 @@
     <li class="flex items-center group">
       <NuxtLink
         class="hover:text-green-900 text-base font-inter menu-link lg:text-heading-6 mr-[7px]"
-        to="#"
+        to="/services"
         >Services</NuxtLink
       >
       <!-- <i><img class="icon-caret group-hover:filter-green" src="/assets/images/icons/icon-caret.svg" alt="caret" /></i> -->
