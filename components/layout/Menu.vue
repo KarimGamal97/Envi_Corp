@@ -56,14 +56,14 @@
     <li class="flex items-center group">
       <NuxtLink
         class="hover:text-green-900 text-base font-inter menu-link lg:text-heading-6 mr-[7px]"
-        to="#"
+        to="/products"
         >Products</NuxtLink
       >
     </li>
     <li class="flex items-center group">
       <NuxtLink
         class="hover:text-green-900 text-base font-inter menu-link lg:text-heading-6 mr-[7px]"
-        to="#"
+        to="/resources"
         >Resources</NuxtLink
       >
     </li>

@@ -1,3 +1,5 @@
+<script setup></script>
+
 <template>
   <div class="wrapper mx-auto text-gray-900 font-normal max-w-[1320px]">
     <!-- <ElementsVideoPopup /> -->

@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     },
     css: [
         'swiper/css',
-        // 'swiper/css/navigation',
+        'swiper/css/navigation',
         'swiper/css/pagination',
         'swiper/css/free-mode',
         'swiper/css/thumbs',
