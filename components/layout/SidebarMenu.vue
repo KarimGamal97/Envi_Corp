@@ -385,7 +385,9 @@
         </ul>
       </div>
       <div class="text-gray-400 font-chivo text-[13px]">
-        Copyright 2024 © Agon - Agency Template.<br /><span>Designed by</span>
+        Copyright 2024 © Envi Corp - Agency Template.<br /><span
+          >Designed by</span
+        >
         <NuxtLink class="text-green-900" href="http://alithemes.com"
           >&nbsp;AliThemes</NuxtLink
         >

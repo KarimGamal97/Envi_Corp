@@ -82,14 +82,16 @@
                   src="/assets/images/icons/icon-home-fill.svg"
                   alt="home icon"
               /></i>
-              <p class="text-heading-6 font-bold font-chivo">Agon Studio</p>
+              <p class="text-heading-6 font-bold font-chivo">Envi-Comm</p>
             </div>
             <p class="text-text text-gray-600">4517 Washington Ave.</p>
             <p class="text-text text-gray-600 mb-[10px] md:mb-[16px]">
               Manchester, Kentucky 39495
             </p>
             <p class="text-text text-gray-600 underline">(239) 555-0108</p>
-            <p class="text-text text-gray-600 underline">contact@agon.com</p>
+            <p class="text-text text-gray-600 underline">
+              official@envicomm.org
+            </p>
           </div>
           <form class="flex-1" action="/">
             <div class="flex flex-col gap-6 mb-6 lg:flex-row xl:gap-[30px]">

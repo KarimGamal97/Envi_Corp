@@ -26,21 +26,21 @@
           <img
             class="shadow-3 rounded-[158px] lg:max-w-[140px] xl:max-w-[184px]"
             src="/assets/images/hero-8a.png"
-            alt="agon hero banner"
+            alt="envi hero banner"
           />
         </div>
         <div class="flex-1 z-10">
           <img
             class="shadow-3 rounded-[158px] lg:max-w-[140px] xl:max-w-[184px]"
             src="/assets/images/hero-8b.png"
-            alt="agon hero banner"
+            alt="envi hero banner"
           />
         </div>
         <div class="flex-1 z-10">
           <img
             class="shadow-3 rounded-[158px] lg:max-w-[140px] xl:max-w-[184px]"
             src="/assets/images/hero-8c.png"
-            alt="agon hero banner"
+            alt="envi hero banner"
           />
         </div>
         <div
