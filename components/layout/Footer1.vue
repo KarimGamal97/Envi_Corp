@@ -84,43 +84,29 @@
             <li class="mb-2">
               <a
                 class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
+                href="/faqs"
                 >FAQs</a
               >
             </li>
             <li class="mb-2">
               <a
                 class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
-                >Editor Help</a
+                href="/terms-conditions"
+                >Terms &amp; Conditions</a
               >
             </li>
             <li class="mb-2">
               <a
                 class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
-                >Community</a
+                href="/privacy-policy"
+                >Privacy Policy</a
               >
             </li>
             <li class="mb-2">
               <a
                 class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
-                >Live Chatting</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
+                href="/contact"
                 >Contact Us</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
-                >Support Center</a
               >
             </li>
           </ul>

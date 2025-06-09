@@ -3,7 +3,6 @@
     <SectionsFaqs1Section1 />
     <SectionsFaqs1Section2 />
     <SectionsFaqs1Section3 />
-
     <SectionsFaqs1Section5 />
   </div>
 </template>
