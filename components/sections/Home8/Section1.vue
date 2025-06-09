@@ -12,7 +12,7 @@
           class="font-chivo text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 font-extrabold mb-6 lg:mb-10"
         >
           <p class="font-bold inline-block">Leading  </p>
-          <p class="text-green-900 font-bold inline-block">Environmental </p>
+          <p class="text-green-900 font-bold inline-block">Environmental</p>
           <p class="font-bold inline-block">Consultancy Solutions</p>
         </h1>
         <p class="text-quote md:text-lead-lg text-gray-600 mb-[45px]">
