@@ -1,56 +1,65 @@
 <template>
   <section id="section1">
-    <div
-      class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] grid items-center mx-auto lg:mt-[128px] max-w-[1320px] lg:gap-10 lg:grid-cols-2 xl:grid-cols-[minmax(695px,_1fr)_1fr]"
+    <Swiper
+      :modules="modules"
+      :slides-per-view="1"
+      :space-between="0"
+      :loop="true"
+      :pagination="{
+        clickable: true,
+        el: '.swiper-pagination',
+      }"
+      :navigation="{
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }"
+      :autoplay="{
+        delay: 5000,
+        disableOnInteraction: false,
+      }"
+      class="mySwiper"
     >
-      <div class="flex-1">
-        <span
-          class="font-chivo inline-block bg-bg-6 text-green-900 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]"
-          >ENVI-COMM CORPORATION</span
-        >
-        <h1
-          class="font-chivo text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 font-extrabold mb-6 lg:mb-10"
-        >
-          <p class="font-bold inline-block">Leading  </p>
-          <p class="text-green-900 font-bold inline-block">Environmental</p>
-          <p class="font-bold inline-block">Consultancy Solutions</p>
-        </h1>
-        <p class="text-quote md:text-lead-lg text-gray-600 mb-[45px]">
-          we are a team of environmental experts dedicated to assisting
-          businesses and organizations in navigating the complexities of
-          environmental compliance
-        </p>
-      </div>
-      <div class="items-center flex-1 relative hidden gap-[17px] lg:flex">
-        <div class="flex-1 z-10">
-          <img
-            class="shadow-3 rounded-[158px] lg:max-w-[140px] xl:max-w-[184px]"
-            src="/assets/images/hero-8a.png"
-            alt="envi hero banner"
-          />
+      <SwiperSlide v-for="(slide, index) in slides" :key="index">
+        <div class="px-[12px] grid lg:mt-[90px]">
+          <div
+            class="flex-1 relative"
+            :style="{
+              backgroundImage: `url('${slide.image}')`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+              height: '70vh',
+            }"
+          >
+            <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+            <div
+              class="relative z-10 p-8 flex flex-col justify-center h-full"
+              style="width: 1080px"
+            >
+              <p
+                class="text-gray-600 mb-[45px] max-w-[50%]"
+                style="font-size: 2.5rem; line-height: 1.3; margin-top: 50px"
+              >
+                {{ slide.title }}
+              </p>
+              <button
+                class="bg-green-900 text-white px-5 py-2 w-fit hidden"
+                style="border-radius: 6px"
+              >
+                {{ slide.buttonText }}
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="flex-1 z-10">
-          <img
-            class="shadow-3 rounded-[158px] lg:max-w-[140px] xl:max-w-[184px]"
-            src="/assets/images/hero-8b.png"
-            alt="envi hero banner"
-          />
-        </div>
-        <div class="flex-1 z-10">
-          <img
-            class="shadow-3 rounded-[158px] lg:max-w-[140px] xl:max-w-[184px]"
-            src="/assets/images/hero-8c.png"
-            alt="envi hero banner"
-          />
-        </div>
-        <div
-          class="rounded-full absolute opacity-50 w-[600px] h-[600px] bg-[#9BE9FB] blur-[200px] z-0 top-0 left-0 -translate-x-1/3 -translate-y-1/3"
-        ></div>
-        <div
-          class="rounded-full absolute opacity-50 w-[400px] h-[400px] bg-[#FFD5C8] blur-[200px] z-0 bottom-0 right-0 translate-x-1/3 translate-y-1/3"
-        ></div>
-      </div>
-    </div>
+      </SwiperSlide>
+
+      <!-- Navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </Swiper>
   </section>
   <section id="section2">
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[150px]">
@@ -147,14 +156,248 @@
       </button>
     </div>
   </section>
+  <section id="section3">
+    <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[150px]">
+      <h2
+        class="text-center text-gray-900 font-bold font-chivo mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px]"
+      >
+        What We Do
+      </h2>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-[30px] gap-y-[50px] mb-[52px]"
+      >
+        <div>
+          <p
+            style="
+              background-image: url('/assets/images/main-imgs/what_we_do_01.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              height: 150px;
+              filter: brightness(0.8);
+              border-radius: 6px;
+            "
+          >
+            Planning
+          </p>
+        </div>
+        <div>
+          <p
+            style="
+              background-image: url('/assets/images/main-imgs/what_we_do_02.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              height: 150px;
+              filter: brightness(0.8);
+              border-radius: 6px;
+            "
+          >
+            Permitting
+          </p>
+        </div>
+        <div>
+          <p
+            style="
+              background-image: url('/assets/images/main-imgs/what_we_do_03.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              height: 150px;
+              filter: brightness(0.8);
+              border-radius: 6px;
+            "
+          >
+            Reporting
+          </p>
+        </div>
+        <div>
+          <p
+            style="
+              background-image: url('/assets/images/main-imgs/what_we_do_04.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              height: 150px;
+              filter: brightness(0.8);
+              border-radius: 6px;
+            "
+          >
+            STPs
+          </p>
+        </div>
+        <div>
+          <p
+            style="
+              background-image: url('/assets/images/main-imgs/what_we_do_05.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              height: 150px;
+              filter: brightness(0.8);
+              border-radius: 6px;
+            "
+          >
+            STP Chemicals
+          </p>
+        </div>
+        <div>
+          <p
+            style="
+              background-image: url('/assets/images/main-imgs/what_we_do_06.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              height: 150px;
+              filter: brightness(0.8);
+              border-radius: 6px;
+            "
+          >
+            Solar
+          </p>
+        </div>
+        <div>
+          <p
+            style="
+              background-image: url('/assets/images/main-imgs/what_we_do_07.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              height: 150px;
+              filter: brightness(0.8);
+              border-radius: 6px;
+            "
+          >
+            Hauling & Septage
+          </p>
+        </div>
+        <div>
+          <p
+            style="
+              background-image: url('/assets/images/main-imgs/what_we_do_08.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              height: 150px;
+              filter: brightness(0.8);
+              border-radius: 6px;
+            "
+          >
+            Saas
+          </p>
+        </div>
+        <div>
+          <p
+            style="
+              background-image: url('/assets/images/main-imgs/what_we_do_09.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              height: 150px;
+              filter: brightness(0.8);
+              border-radius: 6px;
+            "
+          >
+            Training
+          </p>
+        </div>
+        <div>
+          <p
+            style="
+              background-image: url('/assets/images/main-imgs/what_we_do_10.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              height: 150px;
+              filter: brightness(0.8);
+              border-radius: 6px;
+            "
+          >
+            Planning
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  data() {
+    return {
+      modules: [Navigation, Pagination, Autoplay],
+      slides: [
+        {
+          image: "/assets/images/main-imgs/slider-01.jpg",
+          title:
+            "We are your trusted experts in environmental impact study (EIS) preparation",
+          buttonText: "Know More",
+        },
+        {
+          image: "/assets/images/main-imgs/slider-02.jpg",
+          // title:
+          //   "Comprehensive environmental consulting services for sustainable development",
+          // buttonText: "Learn More",
+        },
+        {
+          image: "/assets/images/main-imgs/slider-03.jpg",
+          // title:
+          //   "Expert guidance for environmental compliance and regulatory requirements",
+          // buttonText: "Discover More",
+        },
+      ],
+    };
+  },
   mounted() {
     // Define the scroll handler function
     this.handleScroll = (event) => {
       if (this.isScrolling) return;
+
+      // Check if the scroll event is happening within the Swiper area
+      const swiperElement = event.target.closest(".mySwiper");
+      if (swiperElement) {
+        return; // Don't handle scroll if it's within the Swiper
+      }
 
       const delta = Math.sign(event.deltaY);
 
@@ -224,3 +467,61 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Custom navigation buttons */
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+}
+
+.mySwiper .swiper-button-next:after,
+.mySwiper .swiper-button-prev:after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mySwiper .swiper-button-next:hover,
+.mySwiper .swiper-button-prev:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Custom pagination */
+.mySwiper .swiper-pagination {
+  bottom: 20px;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  background: #ffffff;
+}
+
+/* Ensure slides don't stack */
+.mySwiper .swiper-wrapper {
+  display: flex;
+  transition-property: transform;
+}
+
+.mySwiper .swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+</style>
