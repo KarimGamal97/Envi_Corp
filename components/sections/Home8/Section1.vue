@@ -1,5 +1,5 @@
 <template>
-    <section id="section1" class="w-full min-h-screen md:h-screen">
+    <section id="section1" class="w-full min-h-dvh md:h-screen">
         <Swiper
             @swiper="onSwiper"
             :modules="modules"
@@ -18,14 +18,16 @@
                 delay: 5000,
                 disableOnInteraction: false,
             }"
-            class="mySwiper h-full w-full relative overflow-hidden"
+            class="mySwiper min-h-dvh md:h-screen w-full relative overflow-hidden"
         >
             <!-- Slide 1 -->
-            <SwiperSlide class="h-full w-full">
+            <SwiperSlide class="min-h-dvh md:h-screen w-full">
                 <div
-                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
+                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
                 >
-                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                    <div
+                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                    >
                         <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
                             STP & WTP SYSTEMS Engineered for Efficiency
                         </h2>
@@ -41,11 +43,13 @@
             </SwiperSlide>
 
             <!-- Slide 2 -->
-            <SwiperSlide class="h-full w-full">
+            <SwiperSlide class="min-h-dvh md:h-screen w-full">
                 <div
-                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
+                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
                 >
-                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                    <div
+                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                    >
                         <h2 class="text-3xl md:text-5xl mb-10 text-white md:max-w-[35%]">
                             EIS Tailored for Your Industry
                         </h2>
@@ -61,11 +65,13 @@
             </SwiperSlide>
 
             <!-- Slide 3 -->
-            <SwiperSlide class="h-full w-full">
+            <SwiperSlide class="min-h-dvh md:h-screen w-full">
                 <div
-                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
+                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
                 >
-                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                    <div
+                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                    >
                         <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
                             Solar Streetlight That Saves More Than Just Power
                         </h2>
@@ -82,11 +88,13 @@
             </SwiperSlide>
 
             <!-- Slide 4 -->
-            <SwiperSlide class="h-full w-full">
+            <SwiperSlide class="min-h-dvh md:h-screen w-full">
                 <div
-                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
+                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
                 >
-                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                    <div
+                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                    >
                         <h2 class="text-3xl md:text-5xl mb-10 text-white md:max-w-[35%]">
                             Secure Your DENR Certificate of Tree Planting
                         </h2>
@@ -100,11 +108,13 @@
             </SwiperSlide>
 
             <!-- Slide 5 -->
-            <SwiperSlide class="h-full w-full">
+            <SwiperSlide class="min-h-dvh md:h-screen w-full">
                 <div
-                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
+                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
                 >
-                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                    <div
+                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                    >
                         <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
                             Compliance Made Simple. Savings Made Easy.
                         </h2>
@@ -120,11 +130,13 @@
             </SwiperSlide>
 
             <!-- Slide 6 -->
-            <SwiperSlide class="h-full w-full">
+            <SwiperSlide class="min-h-dvh md:h-screen w-full">
                 <div
-                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
+                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
                 >
-                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                    <div
+                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                    >
                         <h2 class="text-3xl md:text-5xl mb-5 text-black md:max-w-[35%]">
                             Clean Water Starts with Proven Chemistry
                         </h2>
@@ -151,15 +163,13 @@
         </Swiper>
 
         <!-- Slide titles under the slider -->
-        <div
-            class="flex flex-col md:flex-row justify-between gap-3 bg-[#1C1C1C] px-20 py-3 mt-[-1px]"
-        >
+        <div class="flex flex-col md:flex-row justify-between gap-3 bg-[#1C1C1C] px-20 py-3">
             <button
                 v-for="(title, index) in slideTitles"
                 :key="index"
                 @click="goToSlide(index)"
                 :class="[
-                    'text-md transition-all duration-200',
+                    'text-md transition-all duration-200 uppercase',
                     currentSlideIndex === index ? 'font-semibold text-white' : 'text-gray-200',
                 ]"
             >
@@ -190,7 +200,7 @@
                 <div class="rounded-2xl p-[25px] pb-[35px] border border-gray-200">
                     <div class="aspect-[408/275]">
                         <img
-                            class="h-full w-full object-cover rounded-2xl mb-[30px]"
+                            class="min-h-dvh md:h-screen w-full object-cover rounded-2xl mb-[30px]"
                             src="/assets/images/destination-1.png"
                             alt="Img"
                         />
@@ -209,7 +219,7 @@
                 <div class="rounded-2xl p-[25px] pb-[35px] border border-gray-200">
                     <div class="aspect-[408/275]">
                         <img
-                            class="h-full w-full object-cover rounded-2xl mb-[30px]"
+                            class="min-h-dvh md:h-screen w-full object-cover rounded-2xl mb-[30px]"
                             src="/assets/images/destination-1.png"
                             alt="Img"
                         />
@@ -263,194 +273,136 @@
         </div>
     </section> -->
     <section id="section3">
-        <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[150px]">
+        <div class="px-[12px] md:px-[36px] mt-20 md:mt-[150px]">
             <h2
-                class="text-center text-gray-900 font-bold font-chivo mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px]"
+                class="text-center text-gray-900 uppercase font-chivo mb-5 text-[35px] leading-[44px] md:text-[46px] lg:text-heading-1 md:mb-[30px]"
             >
                 What We Do
             </h2>
-            <div
-                class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-[30px] gap-y-[50px] mb-[52px]"
-            >
-                <div>
-                    <p
-                        style="
-                            background-image: url('/assets/images/main-imgs/what_we_do_01.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: white;
-                            font-size: 24px;
-                            font-weight: bold;
-                            height: 150px;
-                            filter: brightness(0.8);
-                            border-radius: 6px;
-                        "
-                    >
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mb-[52px]">
+                <!-- items 1 -->
+                <div class="relative rounded-lg overflow-hidden h-[180px] group">
+                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_01.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
                         Planning
-                    </p>
+                    </h3>
                 </div>
-                <div>
-                    <p
-                        style="
-                            background-image: url('/assets/images/main-imgs/what_we_do_02.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: white;
-                            font-size: 24px;
-                            font-weight: bold;
-                            height: 150px;
-                            filter: brightness(0.8);
-                            border-radius: 6px;
-                        "
-                    >
+                <!-- items 2 -->
+                <div class="relative rounded-lg overflow-hidden h-[180px] group">
+                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_02.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
                         Permitting
-                    </p>
+                    </h3>
                 </div>
-                <div>
-                    <p
-                        style="
-                            background-image: url('/assets/images/main-imgs/what_we_do_03.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: white;
-                            font-size: 24px;
-                            font-weight: bold;
-                            height: 150px;
-                            filter: brightness(0.8);
-                            border-radius: 6px;
-                        "
-                    >
+                <!-- items 3 -->
+                <div class="relative rounded-lg overflow-hidden h-[180px] group">
+                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_03.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
                         Reporting
-                    </p>
+                    </h3>
                 </div>
-                <div>
-                    <p
-                        style="
-                            background-image: url('/assets/images/main-imgs/what_we_do_04.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: white;
-                            font-size: 24px;
-                            font-weight: bold;
-                            height: 150px;
-                            filter: brightness(0.8);
-                            border-radius: 6px;
-                        "
-                    >
-                        STPs
-                    </p>
+                <!-- items 4 -->
+                <div class="relative rounded-lg overflow-hidden h-[180px] group">
+                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_04.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">STPs</h3>
                 </div>
-                <div>
-                    <p
-                        style="
-                            background-image: url('/assets/images/main-imgs/what_we_do_05.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: white;
-                            font-size: 24px;
-                            font-weight: bold;
-                            height: 150px;
-                            filter: brightness(0.8);
-                            border-radius: 6px;
-                        "
-                    >
+                <!-- items 5 -->
+                <div class="relative rounded-lg overflow-hidden h-[180px] group">
+                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_05.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
                         STP Chemicals
-                    </p>
+                    </h3>
                 </div>
-                <div>
-                    <p
-                        style="
-                            background-image: url('/assets/images/main-imgs/what_we_do_06.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: white;
-                            font-size: 24px;
-                            font-weight: bold;
-                            height: 150px;
-                            filter: brightness(0.8);
-                            border-radius: 6px;
-                        "
-                    >
-                        Solar
-                    </p>
+                <!-- items 6 -->
+                <div class="relative rounded-lg overflow-hidden h-[180px] group">
+                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_06.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">Solar</h3>
                 </div>
-                <div>
-                    <p
-                        style="
-                            background-image: url('/assets/images/main-imgs/what_we_do_07.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: white;
-                            font-size: 24px;
-                            font-weight: bold;
-                            height: 150px;
-                            filter: brightness(0.8);
-                            border-radius: 6px;
-                        "
-                    >
+                <!-- items 7 -->
+                <div class="relative rounded-lg overflow-hidden h-[180px] group">
+                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_07.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
                         Hauling & Septage
-                    </p>
+                    </h3>
                 </div>
-                <div>
-                    <p
-                        style="
-                            background-image: url('/assets/images/main-imgs/what_we_do_08.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: white;
-                            font-size: 24px;
-                            font-weight: bold;
-                            height: 150px;
-                            filter: brightness(0.8);
-                            border-radius: 6px;
-                        "
-                    >
-                        Saas
-                    </p>
+                <!-- items 8 -->
+                <div class="relative rounded-lg overflow-hidden h-[180px] group">
+                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_08.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">Saas</h3>
                 </div>
-                <div>
-                    <p
-                        style="
-                            background-image: url('/assets/images/main-imgs/what_we_do_09.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: white;
-                            font-size: 24px;
-                            font-weight: bold;
-                            height: 150px;
-                            filter: brightness(0.8);
-                            border-radius: 6px;
-                        "
-                    >
+                <!-- items 9 -->
+                <div class="relative rounded-lg overflow-hidden h-[180px] group">
+                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_09.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
                         Training
-                    </p>
+                    </h3>
                 </div>
-                <div>
-                    <p
-                        style="
-                            background-image: url('/assets/images/main-imgs/what_we_do_10.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            color: white;
-                            font-size: 24px;
-                            font-weight: bold;
-                            height: 150px;
-                            filter: brightness(0.8);
-                            border-radius: 6px;
-                        "
-                    >
+                <!-- items 10 -->
+                <div class="relative rounded-lg overflow-hidden h-[180px] group">
+                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_10.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
                         Planning
-                    </p>
+                    </h3>
                 </div>
             </div>
         </div>

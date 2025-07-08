@@ -1,11 +1,12 @@
 <template>
     <div
-        class="bg fixed bottom-28 rounded-full grid place-items-center transition-all duration-300 right-[20px] z-[9999] w-[48px] h-[48px]"
+        v-if="mounted"
+        class="fixed bottom-10 rounded-full grid place-items-center transition-all duration-300 right-[20px] z-[9999] w-[48px] h-[48px]"
         id="backToTop"
         :class="{ 'opacity-0': !isVisible, 'opacity-100': isVisible }"
     >
         <button
-            class="rounded-full bg-green-900 grid place-items-center w-[48px] h-[48px]"
+            class="rounded-full bg-[#547326] grid place-items-center w-[48px] h-[48px]"
             @click="scrollToTop"
             aria-label="Scroll to top"
         >
