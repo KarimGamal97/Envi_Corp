@@ -1,6 +1,5 @@
 <template>
     <div
-        v-if="mounted"
         class="fixed bottom-10 rounded-full grid place-items-center transition-all duration-300 right-[20px] z-[9999] w-[48px] h-[48px]"
         id="backToTop"
         :class="{ 'opacity-0': !isVisible, 'opacity-100': isVisible }"

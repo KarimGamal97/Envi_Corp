@@ -8,7 +8,7 @@
             <slot />
         </div>
         <ElementsBackToTop />
-        <ElementsInquiryBtn />
+        <!-- <ElementsInquiryBtn /> -->
         <LayoutFooter1 />
     </div>
 </template>

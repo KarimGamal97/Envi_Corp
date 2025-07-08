@@ -163,7 +163,9 @@
         </Swiper>
 
         <!-- Slide titles under the slider -->
-        <div class="flex flex-col md:flex-row justify-between gap-3 bg-[#1C1C1C] px-20 py-3">
+        <div
+            class="flex flex-col md:flex-row justify-between gap-3 bg-[#1C1C1C] px-10 md:px-20 py-3"
+        >
             <button
                 v-for="(title, index) in slideTitles"
                 :key="index"
@@ -273,7 +275,7 @@
         </div>
     </section> -->
     <section id="section3">
-        <div class="px-[12px] md:px-[36px] mt-20 md:mt-[150px]">
+        <div class="px-5 md:px-20 mt-20 md:mt-[150px]">
             <h2
                 class="text-center text-gray-900 uppercase font-chivo mb-5 text-[35px] leading-[44px] md:text-[46px] lg:text-heading-1 md:mb-[30px]"
             >
