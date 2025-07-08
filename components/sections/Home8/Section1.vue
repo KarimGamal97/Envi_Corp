@@ -24,7 +24,7 @@
             <SwiperSlide>
                 <div class="grid w-full h-full">
                     <div
-                        class="flex-1 relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01.png')]"
+                        class="flex-1 relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
                     >
                         <div class="relative z-10 p-8 flex flex-col justify-center h-full">
                             <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
