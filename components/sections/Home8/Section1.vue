@@ -1,5 +1,5 @@
 <template>
-    <section id="section1" class="w-full h-screen">
+    <section id="section1" class="w-full min-h-screen md:h-screen">
         <Swiper
             @swiper="onSwiper"
             :modules="modules"
@@ -18,144 +18,129 @@
                 delay: 5000,
                 disableOnInteraction: false,
             }"
-            class="mySwiper relative"
+            class="mySwiper h-full w-full relative overflow-hidden"
         >
-            <!-- slider 1  -->
-            <SwiperSlide>
-                <div class="grid w-full h-full">
-                    <div
-                        class="flex-1 relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
-                    >
-                        <div class="relative z-10 p-8 flex flex-col justify-center h-full">
-                            <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
-                                STP & WTP SYSTEMS Engineered for Efficiency
-                            </h2>
-                            <p class="text-xl text-black mb-10 md:max-w-[25%]">
-                                One-stop solutions for effective wastewater and water treatment with
-                                minimal downtime and maximum performance.
-                            </p>
-                            <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
-                                Know More
-                            </button>
-                        </div>
+            <!-- Slide 1 -->
+            <SwiperSlide class="h-full w-full">
+                <div
+                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
+                >
+                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                        <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
+                            STP & WTP SYSTEMS Engineered for Efficiency
+                        </h2>
+                        <p class="text-xl text-black mb-10 md:max-w-[25%]">
+                            One-stop solutions for effective wastewater and water treatment with
+                            minimal downtime and maximum performance.
+                        </p>
+                        <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
+                            Know More
+                        </button>
                     </div>
                 </div>
             </SwiperSlide>
 
-            <!-- slider 2 -->
-            <SwiperSlide>
-                <div class="grid w-full h-full">
-                    <div
-                        class="flex-1 relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
-                    >
-                        <div class="relative z-10 p-8 flex flex-col justify-center h-full">
-                            <h2 class="text-3xl md:text-5xl mb-10 text-white md:max-w-[35%]">
-                                EIS Tailored for Your Industry
-                            </h2>
-                            <p class="text-xl text-white mb-10 md:max-w-[25%]">
-                                Whether infrastructure, energy, or development — our Environmental
-                                Impact Studies are built to match your sector's needs.
-                            </p>
-                            <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
-                                Know More
-                            </button>
-                        </div>
+            <!-- Slide 2 -->
+            <SwiperSlide class="h-full w-full">
+                <div
+                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
+                >
+                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                        <h2 class="text-3xl md:text-5xl mb-10 text-white md:max-w-[35%]">
+                            EIS Tailored for Your Industry
+                        </h2>
+                        <p class="text-xl text-white mb-10 md:max-w-[25%]">
+                            Whether infrastructure, energy, or development — our Environmental
+                            Impact Studies are built to match your sector's needs.
+                        </p>
+                        <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
+                            Know More
+                        </button>
                     </div>
                 </div>
             </SwiperSlide>
 
-            <!-- slider 3 -->
-            <SwiperSlide>
-                <div class="grid w-full h-full">
-                    <div
-                        class="flex-1 relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
-                    >
-                        <div class="relative z-10 p-8 flex flex-col justify-center h-full">
-                            <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
-                                Solar Streetlight That Saves More Than Just Power
-                            </h2>
-                            <p class="text-xl text-black mb-10 md:max-w-[25%]">
-                                Introducing our 150W Solar Streetlight Harness the sun to save
-                                electricity, cut carbon emissions, and protect the planet — without
-                                compromising brightness or reliability.
-                            </p>
-                            <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
-                                Know More
-                            </button>
-                        </div>
+            <!-- Slide 3 -->
+            <SwiperSlide class="h-full w-full">
+                <div
+                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
+                >
+                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                        <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
+                            Solar Streetlight That Saves More Than Just Power
+                        </h2>
+                        <p class="text-xl text-black mb-10 md:max-w-[25%]">
+                            Introducing our 150W Solar Streetlight Harness the sun to save
+                            electricity, cut carbon emissions, and protect the planet — without
+                            compromising brightness or reliability.
+                        </p>
+                        <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
+                            Know More
+                        </button>
                     </div>
                 </div>
             </SwiperSlide>
 
-            <!-- slider 4 -->
-            <SwiperSlide>
-                <div class="grid w-full h-full">
-                    <div
-                        class="flex-1 relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
-                    >
-                        <div class="relative z-10 p-8 flex flex-col justify-center h-full">
-                            <h2 class="text-3xl md:text-5xl mb-10 text-white md:max-w-[35%]">
-                                Secure Your DENR Certificate of Tree Planting
-                            </h2>
-
-                            <button
-                                class="bg-transparent border-2 border-white rounded-md text-white px-5 py-2 w-fit"
-                            >
-                                Know More
-                            </button>
-                        </div>
+            <!-- Slide 4 -->
+            <SwiperSlide class="h-full w-full">
+                <div
+                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
+                >
+                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                        <h2 class="text-3xl md:text-5xl mb-10 text-white md:max-w-[35%]">
+                            Secure Your DENR Certificate of Tree Planting
+                        </h2>
+                        <button
+                            class="bg-transparent border-2 border-white rounded-md text-white px-5 py-2 w-fit"
+                        >
+                            Know More
+                        </button>
                     </div>
                 </div>
             </SwiperSlide>
 
-            <!-- slider 5 -->
-            <SwiperSlide>
-                <div class="grid w-full h-full">
-                    <div
-                        class="flex-1 relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
-                    >
-                        <div class="relative z-10 p-8 flex flex-col justify-center h-full">
-                            <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
-                                Compliance Made Simple. Savings Made Easy.
-                            </h2>
-                            <p class="text-xl text-black mb-10 md:max-w-[25%]">
-                                Envi-comm’s Retainership Program gives you continuous support and
-                                peace of mind, so you can run your business worry-free.
-                            </p>
-
-                            <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
-                                Know More
-                            </button>
-                        </div>
+            <!-- Slide 5 -->
+            <SwiperSlide class="h-full w-full">
+                <div
+                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
+                >
+                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                        <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
+                            Compliance Made Simple. Savings Made Easy.
+                        </h2>
+                        <p class="text-xl text-black mb-10 md:max-w-[25%]">
+                            Envi-comm’s Retainership Program gives you continuous support and peace
+                            of mind, so you can run your business worry-free.
+                        </p>
+                        <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
+                            Know More
+                        </button>
                     </div>
                 </div>
             </SwiperSlide>
 
-            <!-- slider 6 -->
-            <SwiperSlide>
-                <div class="grid w-full h-full">
-                    <div
-                        class="flex-1 relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
-                    >
-                        <div class="relative z-10 p-8 flex flex-col justify-center h-full">
-                            <h2 class="text-3xl md:text-5xl mb-5 text-black md:max-w-[35%]">
-                                Clean Water Starts with Proven Chemistry
-                            </h2>
-                            <p class="text-xl text-black mb-5 md:max-w-[25%]">
-                                Envi-comm Corporation provides high-performance chemical solutions
-                                tailored for optimal sludge control, odor management, and regulatory
-                                compliance.
-                            </p>
-
-                            <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
-                                Know More
-                            </button>
-                        </div>
+            <!-- Slide 6 -->
+            <SwiperSlide class="h-full w-full">
+                <div
+                    class="relative w-full h-full bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
+                >
+                    <div class="relative z-10 p-8 flex flex-col justify-center h-full">
+                        <h2 class="text-3xl md:text-5xl mb-5 text-black md:max-w-[35%]">
+                            Clean Water Starts with Proven Chemistry
+                        </h2>
+                        <p class="text-xl text-black mb-5 md:max-w-[25%]">
+                            Envi-comm Corporation provides high-performance chemical solutions
+                            tailored for optimal sludge control, odor management, and regulatory
+                            compliance.
+                        </p>
+                        <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
+                            Know More
+                        </button>
                     </div>
                 </div>
             </SwiperSlide>
 
-            <!-- Navigation buttons -->
+            <!-- Navigation Buttons -->
             <div class="hidden md:block">
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -164,7 +149,11 @@
             <!-- Pagination -->
             <div class="swiper-pagination hidden"></div>
         </Swiper>
-        <div class="flex flex-wrap justify-between gap-3 bg-[#1C1C1C] px-20 py-3">
+
+        <!-- Slide titles under the slider -->
+        <div
+            class="flex flex-col md:flex-row justify-between gap-3 bg-[#1C1C1C] px-20 py-3 mt-[-1px]"
+        >
             <button
                 v-for="(title, index) in slideTitles"
                 :key="index"
@@ -178,6 +167,7 @@
             </button>
         </div>
     </section>
+
     <!-- <section id="section2">
         <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[150px]">
             <span
@@ -585,11 +575,6 @@ export default {
 </script>
 
 <style scoped>
-.mySwiper {
-    width: 100%;
-    height: 100%;
-}
-
 /* Custom navigation buttons */
 .mySwiper .swiper-button-next,
 .mySwiper .swiper-button-prev {
