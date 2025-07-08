@@ -1,4 +1,4 @@
-import { resolve } from "path"
+import { resolve } from "path";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     devtools: { enabled: true },
@@ -9,15 +9,15 @@ export default defineNuxtConfig({
         head: {
             meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
             title: "Envi Corp - Consultancy",
-            script: []
-        }
+            script: [],
+        },
     },
     css: [
-        'swiper/css',
-        'swiper/css/navigation',
-        'swiper/css/pagination',
-        'swiper/css/free-mode',
-        'swiper/css/thumbs',
+        "swiper/css",
+        "swiper/css/navigation",
+        "swiper/css/pagination",
+        "swiper/css/free-mode",
+        "swiper/css/thumbs",
         "~/public/assets/styles/app.min.css",
         "~/public/assets/styles/tailwind.min.css",
     ],
@@ -27,17 +27,18 @@ export default defineNuxtConfig({
             {
                 families: {
                     Chivo: {
-                        wght: [400, 700, 900]
+                        wght: [400, 700, 900],
                     },
                     "Noto+Sans": {
-                        wght: [400, 500, 600, 700,800]
+                        wght: [400, 500, 600, 700, 800],
                     },
                     download: true,
-                    inject: true
-                }
-            }
+                    inject: true,
+                },
+            },
         ],
+        "@nuxtjs/tailwindcss",
         // "swiper"
         // "vue-youtube-embed"
     ],
-})
+});
