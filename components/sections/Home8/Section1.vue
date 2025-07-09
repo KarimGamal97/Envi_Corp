@@ -309,7 +309,7 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
+                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
                         Planning
                     </h3>
                 </div>
@@ -322,7 +322,7 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
+                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
                         Permitting
                     </h3>
                 </div>
@@ -335,7 +335,7 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
+                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
                         Reporting
                     </h3>
                 </div>
@@ -348,7 +348,7 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">STPs</h3>
+                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">STPs</h3>
                 </div>
                 <!-- items 5 -->
                 <div class="relative rounded-lg overflow-hidden h-[180px] group">
@@ -359,7 +359,7 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
+                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
                         STP Chemicals
                     </h3>
                 </div>
@@ -372,7 +372,9 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">Solar</h3>
+                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
+                        Solar
+                    </h3>
                 </div>
                 <!-- items 7 -->
                 <div class="relative rounded-lg overflow-hidden h-[180px] group">
@@ -383,7 +385,7 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
+                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
                         Hauling & Septage
                     </h3>
                 </div>
@@ -396,7 +398,7 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">Saas</h3>
+                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">Saas</h3>
                 </div>
                 <!-- items 9 -->
                 <div class="relative rounded-lg overflow-hidden h-[180px] group">
@@ -407,7 +409,7 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
+                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
                         Training
                     </h3>
                 </div>
@@ -420,7 +422,7 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-2xl absolute bottom-10 left-10">
+                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
                         Planning
                     </h3>
                 </div>

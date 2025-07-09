@@ -31,18 +31,20 @@
                         <h2 class="text-3xl md:text-5xl mb-10 md:max-w-[70%]">
                             Unlock the Benefits of Partnering with Envi-comm for Your Business
                         </h2>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full md:max-w-[70%]">
-                            <div class="bg-black/50 p-4">
+                        <div
+                            class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full md:max-w-[50%] justify-items-center"
+                        >
+                            <div class="max-w-[450px] bg-black/50 p-4">
                                 <h3 class="text-3xl mb-2">MISSION</h3>
-                                <p class="text-xl">
+                                <p class="text-xl md:text-2xl">
                                     We strive to deliver unparalleled service across different
                                     fields of expertise and provide service reliability that exceeds
                                     our Customer’s standards and expectations
                                 </p>
                             </div>
-                            <div class="bg-black/50 p-4">
+                            <div class="max-w-[450px] bg-black/50 p-4">
                                 <h3 class="text-3xl mb-2">VISION</h3>
-                                <p class="text-xl">
+                                <p class="text-xl md:text-2xl">
                                     We aim to be the national leader in providing reliable
                                     environmental compliance and consultancy solutions.
                                 </p>
@@ -64,29 +66,29 @@
                         <h2 class="text-3xl md:text-5xl mb-10 md:max-w-[70%]">
                             Unlock the Benefits of Partnering with Envi-comm for Your Business
                         </h2>
-                        <div class="w-full md:max-w-[80%]">
+                        <div class="w-full md:max-w-[70%]">
                             <h3 class="text-3xl mb-6 uppercase">Core Values</h3>
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-                                <div class="bg-black/50 p-4">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 justify-items-center">
+                                <div class="max-w-[450px] bg-black/50 p-4">
                                     <h4 class="text-2xl mb-2 uppercase">Integrity</h4>
-                                    <p class="text-xl">
+                                    <p class="text-xl md:text-2xl">
                                         We value our relationships with co-workers, clients, and
                                         shareholders. With this in mind: truth, honesty, and
                                         accountability in our professional dealings are of the
                                         utmost importance.
                                     </p>
                                 </div>
-                                <div class="bg-black/50 p-4">
+                                <div class="max-w-[450px] bg-black/50 p-4">
                                     <h4 class="text-2xl mb-2 uppercase">Professionalism</h4>
-                                    <p class="text-xl">
+                                    <p class="text-xl md:text-2xl">
                                         As a consultancy firm, we seek to achieve work with quality
                                         by conducting professional and expertise competence
                                         according to the highest ethics and proficiency standards
                                     </p>
                                 </div>
-                                <div class="bg-black/50 p-4">
+                                <div class="max-w-[450px] bg-black/50 p-4">
                                     <h4 class="text-2xl mb-2 uppercase">Unparalleled Service</h4>
-                                    <p class="text-xl">
+                                    <p class="text-xl md:text-2xl">
                                         We provide maximum value and flexibility with minimum risk
                                         to our clients. We focus on finding the balance between
                                         preserving the natural environment and urban development
