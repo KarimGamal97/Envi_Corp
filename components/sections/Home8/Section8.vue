@@ -70,7 +70,7 @@
                             <h3 class="text-3xl mb-6 uppercase">Core Values</h3>
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-5 justify-items-center">
                                 <div class="max-w-[450px] bg-black/50 p-4">
-                                    <h4 class="text-2xl mb-2 uppercase">Integrity</h4>
+                                    <h4 class="text-2xl md:text-3xl mb-2 uppercase">Integrity</h4>
                                     <p class="text-xl md:text-2xl">
                                         We value our relationships with co-workers, clients, and
                                         shareholders. With this in mind: truth, honesty, and
@@ -79,7 +79,9 @@
                                     </p>
                                 </div>
                                 <div class="max-w-[450px] bg-black/50 p-4">
-                                    <h4 class="text-2xl mb-2 uppercase">Professionalism</h4>
+                                    <h4 class="text-2xl md:text-3xl mb-2 uppercase">
+                                        Professionalism
+                                    </h4>
                                     <p class="text-xl md:text-2xl">
                                         As a consultancy firm, we seek to achieve work with quality
                                         by conducting professional and expertise competence
@@ -87,7 +89,9 @@
                                     </p>
                                 </div>
                                 <div class="max-w-[450px] bg-black/50 p-4">
-                                    <h4 class="text-2xl mb-2 uppercase">Unparalleled Service</h4>
+                                    <h4 class="text-2xl md:text-3xl mb-2 uppercase">
+                                        Unparalleled Service
+                                    </h4>
                                     <p class="text-xl md:text-2xl">
                                         We provide maximum value and flexibility with minimum risk
                                         to our clients. We focus on finding the balance between
