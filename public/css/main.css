@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .text-clamp {
+        font-size: clamp(1rem, 2vw, 1.2rem);
+    }
+}
+
+body {
+    /* font-size: clamp(1rem, 1.2vw, 1.2rem) !important; */
+}
+
+/* 3. تأكدي من max-w جوه الكاردات نفسها
+ممكن الكارد يكون واخد w-full جوه كونتينر واسع، فالحل:
+
+html
+Copy
+Edit
+<div class="card w-full max-w-[400px] ...">...</div>
+أو حتى Tailwind class جاهز:
+
+html
+Copy
+Edit
+<div class="w-full max-w-md">...</div> */

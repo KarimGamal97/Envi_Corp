@@ -1,7 +1,7 @@
 <template>
     <section
         id="section9"
-        class="relative bg-[url('/assets/images/main-imgs/consult.jpg')] bg-cover bg-center flex justify-center items-center px-10 md:px-20 py-40"
+        class="relative bg-[url('/assets/images/main-imgs/consult.jpg')] bg-cover bg-center bg-fixed flex justify-center items-center px-10 md:px-20 py-40"
     >
         <div class="absolute inset-0 bg-black opacity-50 z-1"></div>
         <div class="text-center z-10">

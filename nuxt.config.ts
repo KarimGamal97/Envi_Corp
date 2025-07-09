@@ -20,6 +20,7 @@ export default defineNuxtConfig({
         "swiper/css/thumbs",
         "~/public/assets/styles/app.min.css",
         "~/public/assets/styles/tailwind.min.css",
+        "~/public/css/main.css",
     ],
     modules: [
         [

@@ -5,7 +5,7 @@
             :modules="modules"
             :slides-per-view="1"
             :space-between="0"
-            :loop="true"
+            :loop="false"
             :pagination="{
                 clickable: false,
                 el: '.swiper-pagination',
@@ -14,10 +14,7 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             }"
-            :autoplay="{
-                delay: 5000,
-                disableOnInteraction: false,
-            }"
+            :autoplay="false"
             class="mySwiper min-h-dvh md:h-screen w-full relative overflow-hidden"
         >
             <!-- Slide 1 -->
@@ -26,16 +23,18 @@
                     class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
                 >
                     <div
-                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center gap-5 min-h-dvh md:h-screen"
                     >
-                        <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
+                        <h2 class="text-3xl md:text-4xl font-semibold text-black md:max-w-[40%]">
                             STP & WTP SYSTEMS Engineered for Efficiency
                         </h2>
-                        <p class="text-xl text-black mb-10 md:max-w-[25%]">
+                        <p class="text-black text-clamp md:max-w-[25%]">
                             One-stop solutions for effective wastewater and water treatment with
                             minimal downtime and maximum performance.
                         </p>
-                        <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
+                        <button
+                            class="bg-[#547326] text-clamp rounded-md text-white px-5 py-2 w-fit"
+                        >
                             Know More
                         </button>
                     </div>
@@ -48,16 +47,18 @@
                     class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
                 >
                     <div
-                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col gap-5 justify-center min-h-dvh md:h-screen"
                     >
-                        <h2 class="text-3xl md:text-5xl mb-10 text-white md:max-w-[35%]">
+                        <h2 class="text-3xl md:text-4xl font-semibold text-white md:max-w-[35%]">
                             EIS Tailored for Your Industry
                         </h2>
-                        <p class="text-xl text-white mb-10 md:max-w-[25%]">
+                        <p class="text-clamp text-white md:max-w-[25%]">
                             Whether infrastructure, energy, or development — our Environmental
                             Impact Studies are built to match your sector's needs.
                         </p>
-                        <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
+                        <button
+                            class="bg-[#547326] text-clamp rounded-md text-white px-5 py-2 w-fit"
+                        >
                             Know More
                         </button>
                     </div>
@@ -70,17 +71,21 @@
                     class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
                 >
                     <div
-                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:h-screen"
                     >
-                        <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
+                        <h2
+                            class="text-3xl md:text-5xl font-semibold mb-10 text-black md:max-w-[25%]"
+                        >
                             Solar Streetlight That Saves More Than Just Power
                         </h2>
-                        <p class="text-xl text-black mb-10 md:max-w-[25%]">
+                        <p class="text-black text-clamp mb-10 md:max-w-[25%]">
                             Introducing our 150W Solar Streetlight Harness the sun to save
                             electricity, cut carbon emissions, and protect the planet — without
                             compromising brightness or reliability.
                         </p>
-                        <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
+                        <button
+                            class="bg-[#547326] text-clamp rounded-md text-white px-5 py-2 w-fit"
+                        >
                             Know More
                         </button>
                     </div>
@@ -93,13 +98,15 @@
                     class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
                 >
                     <div
-                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:h-screen"
                     >
-                        <h2 class="text-3xl md:text-5xl mb-10 text-white md:max-w-[35%]">
+                        <h2
+                            class="text-3xl md:text-5xl font-semibold mb-10 text-white md:max-w-[30%]"
+                        >
                             Secure Your DENR Certificate of Tree Planting
                         </h2>
                         <button
-                            class="bg-transparent border-2 border-white rounded-md text-white px-5 py-2 w-fit"
+                            class="text-clamp bg-transparent border-2 border-white rounded-md text-white px-5 py-2 w-fit"
                         >
                             Know More
                         </button>
@@ -113,16 +120,20 @@
                     class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
                 >
                     <div
-                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:h-screen"
                     >
-                        <h2 class="text-3xl md:text-5xl mb-10 text-black md:max-w-[35%]">
+                        <h2
+                            class="text-3xl md:text-5xl font-semibold mb-10 text-black md:max-w-[35%]"
+                        >
                             Compliance Made Simple. Savings Made Easy.
                         </h2>
-                        <p class="text-xl text-black mb-10 md:max-w-[25%]">
+                        <p class="text-black text-clamp mb-10 md:max-w-[25%]">
                             Envi-comm’s Retainership Program gives you continuous support and peace
                             of mind, so you can run your business worry-free.
                         </p>
-                        <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
+                        <button
+                            class="bg-[#547326] text-clamp rounded-md text-white px-5 py-2 w-fit"
+                        >
                             Know More
                         </button>
                     </div>
@@ -137,15 +148,19 @@
                     <div
                         class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
                     >
-                        <h2 class="text-3xl md:text-5xl mb-5 text-black md:max-w-[35%]">
+                        <h2
+                            class="text-3xl md:text-5xl font-semibold mb-5 text-black md:max-w-[35%]"
+                        >
                             Clean Water Starts with Proven Chemistry
                         </h2>
-                        <p class="text-xl text-black mb-5 md:max-w-[25%]">
+                        <p class="text-black text-clamp mb-5 md:max-w-[25%]">
                             Envi-comm Corporation provides high-performance chemical solutions
                             tailored for optimal sludge control, odor management, and regulatory
                             compliance.
                         </p>
-                        <button class="bg-[#547326] rounded-md text-white px-5 py-2 w-fit">
+                        <button
+                            class="bg-[#547326] text-clamp rounded-md text-white px-5 py-2 w-fit"
+                        >
                             Know More
                         </button>
                     </div>
@@ -171,7 +186,7 @@
                 :key="index"
                 @click="goToSlide(index)"
                 :class="[
-                    'text-md transition-all duration-200 uppercase',
+                    'text-clamp transition-all duration-200 uppercase',
                     currentSlideIndex === index ? 'font-semibold text-white' : 'text-gray-200',
                 ]"
             >
@@ -275,7 +290,7 @@
         </div>
     </section> -->
     <section id="section3">
-        <div class="px-5 md:px-20 mt-20 md:mt-[150px]">
+        <div class="container mt-20 md:mt-[150px]">
             <h2
                 class="text-center text-gray-900 uppercase font-chivo mb-5 text-[35px] leading-[44px] md:text-[46px] lg:text-heading-1 md:mb-[30px]"
             >
@@ -442,7 +457,6 @@ export default {
         onSwiper(swiper) {
             this.swiperInstance = swiper;
 
-            // بنسجل تغيير السلايد عشان نعمل active للزر
             swiper.on("slideChange", () => {
                 this.currentSlideIndex = swiper.realIndex;
             });
