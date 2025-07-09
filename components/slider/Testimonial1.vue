@@ -52,9 +52,9 @@
                 src="/assets/images/avatar-1.png"
                 alt="avatar"
             />
-            <p class="text-heading-6 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-sm font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-text text-gray-500">
+            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
+            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
+            <p class="text-xl md:text-2xl text-gray-500">
                 Even factoring differences in body weight between children and adults into account.
             </p>
         </swiper-slide>
@@ -66,9 +66,9 @@
                 src="/assets/images/avatar-2.png"
                 alt="avatar"
             />
-            <p class="text-heading-6 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-sm font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-text text-gray-500">
+            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
+            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
+            <p class="text-xl md:text-2xl text-gray-500">
                 Even factoring differences in body weight between children and adults into account.
             </p>
         </swiper-slide>
@@ -80,9 +80,9 @@
                 src="/assets/images/avatar-3.png"
                 alt="avatar"
             />
-            <p class="text-heading-6 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-sm font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-text text-gray-500">
+            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
+            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
+            <p class="text-xl md:text-2xl text-gray-500">
                 Even factoring differences in body weight between children and adults into account.
             </p>
         </swiper-slide>
@@ -94,9 +94,9 @@
                 src="/assets/images/avatar-4.png"
                 alt="avatar"
             />
-            <p class="text-heading-6 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-sm font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-text text-gray-500">
+            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
+            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
+            <p class="text-xl md:text-2xl text-gray-500">
                 Even factoring differences in body weight between children and adults into account.
             </p>
         </swiper-slide>
@@ -108,9 +108,9 @@
                 src="/assets/images/avatar-5.png"
                 alt="avatar"
             />
-            <p class="text-heading-6 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-sm font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-text text-gray-500">
+            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
+            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
+            <p class="text-xl md:text-2xl text-gray-500">
                 Even factoring differences in body weight between children and adults into account.
             </p>
         </swiper-slide>
@@ -122,9 +122,9 @@
                 src="/assets/images/avatar-6.png"
                 alt="avatar"
             />
-            <p class="text-heading-6 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-sm font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-text text-gray-500">
+            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
+            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
+            <p class="text-xl md:text-2xl text-gray-500">
                 Even factoring differences in body weight between children and adults into account.
             </p>
         </swiper-slide>
@@ -136,9 +136,9 @@
                 src="/assets/images/avatar-7.png"
                 alt="avatar"
             />
-            <p class="text-heading-6 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-sm font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-text text-gray-500">
+            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
+            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
+            <p class="text-xl md:text-2xl text-gray-500">
                 Even factoring differences in body weight between children and adults into account.
             </p>
         </swiper-slide>
@@ -150,9 +150,9 @@
                 src="/assets/images/avatar-8.png"
                 alt="avatar"
             />
-            <p class="text-heading-6 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-sm font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-text text-gray-500">
+            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
+            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
+            <p class="text-xl md:text-2xl text-gray-500">
                 Even factoring differences in body weight between children and adults into account.
             </p>
         </swiper-slide>
