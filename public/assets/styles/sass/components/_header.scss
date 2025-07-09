@@ -1,5 +1,4 @@
 .home-page-4 {
-
     header,
     .sticky-header {
         background-color: var(--green-900);
@@ -12,13 +11,11 @@
     }
 
     .menu-link {
-        color: white
+        color: white;
     }
-
 }
 
 .about-2-page {
-
     header,
     .sticky-header {
         background-color: var(--bg-2);
@@ -26,7 +23,6 @@
 }
 
 .services-1-page {
-
     header,
     .sticky-header {
         background-color: var(--bg-5);
@@ -34,7 +30,6 @@
 }
 
 .faqs-1-page {
-
     .logo,
     .icon-caret,
     .burger-icon {
@@ -42,7 +37,7 @@
     }
 
     .menu-link {
-        color: white
+        color: white;
     }
 
     header,
@@ -68,12 +63,12 @@
         right: 37px;
     }
 
-    &.burger-icon-white>span::before,
-    &.burger-icon-white>span::after {
+    &.burger-icon-white > span::before,
+    &.burger-icon-white > span::after {
         background-color: var(--gray-500);
     }
 
-    &>span {
+    & > span {
         display: block;
         position: absolute;
         left: 0;
@@ -91,21 +86,21 @@
         }
     }
 
-    &>span.burger-icon-top {
+    & > span.burger-icon-top {
         top: 2px;
     }
 
-    &>span.burger-icon-mid {
+    & > span.burger-icon-mid {
         top: 9px;
     }
 
-    &>span.burger-icon-bottom {
+    & > span.burger-icon-bottom {
         bottom: 2px;
     }
 
-
     &.burger-close {
-        filter: invert(8%) sepia(34%) saturate(870%) hue-rotate(181deg) brightness(97%) contrast(98%) !important;
+        filter: invert(8%) sepia(34%) saturate(870%) hue-rotate(181deg) brightness(97%)
+            contrast(98%) !important;
 
         @media screen and (max-width: 1023.98px) {
             position: fixed;
@@ -113,19 +108,17 @@
             top: 20px;
         }
 
-
-
-        >span.burger-icon-top {
+        > span.burger-icon-top {
             display: none;
             opacity: 0;
         }
 
-        >span.burger-icon-mid {
+        > span.burger-icon-mid {
             top: 8px;
             transform: rotate(45deg);
         }
 
-        >span.burger-icon-bottom {
+        > span.burger-icon-bottom {
             bottom: 10px;
             transform: rotate(-45deg);
         }
@@ -153,7 +146,7 @@ header.sticky-header {
     top: 0;
     box-shadow: 0 8px 20px 0 rgb(0 0 0 / 5%);
     z-index: 100;
-    background-color: #fff;
+    background-color: #000 !important;
     animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 

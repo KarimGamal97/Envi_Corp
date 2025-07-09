@@ -3,7 +3,7 @@
         <div class="items-center justify-between md:flex mb-[30px] md:mb-[90px] px-10 md:px-20">
             <div class="mb-8">
                 <h2
-                    class="text-gray-900 font-bold font-chivo mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
+                    class="text-gray-900 font-bold font-poppins mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
                 >
                     Our Happy Customers
                 </h2>

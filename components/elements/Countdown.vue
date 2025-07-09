@@ -1,29 +1,57 @@
 <template>
     <div class="flex items-center justify-center gap-[25px]">
         <div>
-            <div class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]">
-                <p class="text-heading-5 font-bold font-chivo text-green-1000">{{ timeParts.days }}</p>
-                <img class="absolute right-[-28%]" src="/assets/images/icons/icon-colon.svg" alt="colon icon" />
+            <div
+                class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]"
+            >
+                <p class="text-heading-5 font-bold font-poppins text-green-1000">
+                    {{ timeParts.days }}
+                </p>
+                <img
+                    class="absolute right-[-28%]"
+                    src="/assets/images/icons/icon-colon.svg"
+                    alt="colon icon"
+                />
             </div>
             <p class="text-tiny font-semibold text-gray-500 text-center">Days</p>
         </div>
         <div>
-            <div class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]">
-                <p class="text-heading-5 font-bold font-chivo text-green-1000">{{ timeParts.hours }}</p>
-                <img class="absolute right-[-28%]" src="/assets/images/icons/icon-colon.svg" alt="colon icon" />
+            <div
+                class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]"
+            >
+                <p class="text-heading-5 font-bold font-poppins text-green-1000">
+                    {{ timeParts.hours }}
+                </p>
+                <img
+                    class="absolute right-[-28%]"
+                    src="/assets/images/icons/icon-colon.svg"
+                    alt="colon icon"
+                />
             </div>
             <p class="text-tiny font-semibold text-gray-500 text-center">Hours</p>
         </div>
         <div>
-            <div class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]">
-                <p class="text-heading-5 font-bold font-chivo text-green-1000">{{ timeParts.minutes }}</p>
-                <img class="absolute right-[-28%]" src="/assets/images/icons/icon-colon.svg" alt="colon icon" />
+            <div
+                class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]"
+            >
+                <p class="text-heading-5 font-bold font-poppins text-green-1000">
+                    {{ timeParts.minutes }}
+                </p>
+                <img
+                    class="absolute right-[-28%]"
+                    src="/assets/images/icons/icon-colon.svg"
+                    alt="colon icon"
+                />
             </div>
             <p class="text-tiny font-semibold text-gray-500 text-center">Minutes</p>
         </div>
         <div>
-            <div class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]">
-                <p class="text-heading-5 font-bold font-chivo text-green-1000">{{ timeParts.seconds }}</p>
+            <div
+                class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]"
+            >
+                <p class="text-heading-5 font-bold font-poppins text-green-1000">
+                    {{ timeParts.seconds }}
+                </p>
             </div>
             <p class="text-tiny font-semibold text-gray-500 text-center">Seconds</p>
         </div>

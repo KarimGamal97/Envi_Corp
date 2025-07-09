@@ -1,11 +1,11 @@
 <template>
-    <section id="section1" class="w-full min-h-dvh md:h-screen">
+    <section id="section1" class="w-full min-h-dvh md:min-h-[calc(100vh-130px)]">
         <Swiper
             @swiper="onSwiper"
             :modules="modules"
             :slides-per-view="1"
             :space-between="0"
-            :loop="false"
+            :loop="true"
             :pagination="{
                 clickable: false,
                 el: '.swiper-pagination',
@@ -14,16 +14,19 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             }"
-            :autoplay="false"
-            class="mySwiper min-h-dvh md:h-screen w-full relative overflow-hidden"
+            :autoplay="{
+                delay: 5000,
+                disableOnInteraction: false,
+            }"
+            class="mySwiper min-h-dvh md:min-h-[calc(100vh-130px)] w-full relative overflow-hidden"
         >
             <!-- Slide 1 -->
-            <SwiperSlide class="min-h-dvh md:h-screen w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center gap-5 min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-130px)]"
                     >
                         <h2 class="text-3xl md:text-4xl font-semibold text-black md:max-w-[40%]">
                             STP & WTP SYSTEMS Engineered for Efficiency
@@ -33,7 +36,7 @@
                             minimal downtime and maximum performance.
                         </p>
                         <button
-                            class="bg-[#547326] text-clamp rounded-md text-white px-5 py-2 w-fit"
+                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit"
                         >
                             Know More
                         </button>
@@ -42,12 +45,12 @@
             </SwiperSlide>
 
             <!-- Slide 2 -->
-            <SwiperSlide class="min-h-dvh md:h-screen w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col gap-5 justify-center min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col gap-5 justify-center min-h-dvh md:min-h-[calc(100vh-130px)]"
                     >
                         <h2 class="text-3xl md:text-4xl font-semibold text-white md:max-w-[35%]">
                             EIS Tailored for Your Industry
@@ -57,7 +60,7 @@
                             Impact Studies are built to match your sector's needs.
                         </p>
                         <button
-                            class="bg-[#547326] text-clamp rounded-md text-white px-5 py-2 w-fit"
+                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit"
                         >
                             Know More
                         </button>
@@ -66,25 +69,25 @@
             </SwiperSlide>
 
             <!-- Slide 3 -->
-            <SwiperSlide class="min-h-dvh md:h-screen w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:min-h-[calc(100vh-130px)]"
                     >
                         <h2
-                            class="text-3xl md:text-5xl font-semibold mb-10 text-black md:max-w-[25%]"
+                            class="text-3xl md:text-4xl font-semibold mb-10 text-black md:max-w-[25%]"
                         >
                             Solar Streetlight That Saves More Than Just Power
                         </h2>
-                        <p class="text-black text-clamp mb-10 md:max-w-[25%]">
+                        <p class="text-black text-clamp mb-10 md:max-w-[30%]">
                             Introducing our 150W Solar Streetlight Harness the sun to save
                             electricity, cut carbon emissions, and protect the planet — without
                             compromising brightness or reliability.
                         </p>
                         <button
-                            class="bg-[#547326] text-clamp rounded-md text-white px-5 py-2 w-fit"
+                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit"
                         >
                             Know More
                         </button>
@@ -93,12 +96,12 @@
             </SwiperSlide>
 
             <!-- Slide 4 -->
-            <SwiperSlide class="min-h-dvh md:h-screen w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:min-h-[calc(100vh-130px)]"
                     >
                         <h2
                             class="text-3xl md:text-5xl font-semibold mb-10 text-white md:max-w-[30%]"
@@ -115,12 +118,12 @@
             </SwiperSlide>
 
             <!-- Slide 5 -->
-            <SwiperSlide class="min-h-dvh md:h-screen w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:min-h-[calc(100vh-130px)]"
                     >
                         <h2
                             class="text-3xl md:text-5xl font-semibold mb-10 text-black md:max-w-[35%]"
@@ -132,7 +135,7 @@
                             of mind, so you can run your business worry-free.
                         </p>
                         <button
-                            class="bg-[#547326] text-clamp rounded-md text-white px-5 py-2 w-fit"
+                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit"
                         >
                             Know More
                         </button>
@@ -141,12 +144,12 @@
             </SwiperSlide>
 
             <!-- Slide 6 -->
-            <SwiperSlide class="min-h-dvh md:h-screen w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:h-screen bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
                 >
                     <div
-                        class="relative z-10 p-8 flex flex-col justify-center min-h-dvh md:h-screen"
+                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:min-h-[calc(100vh-130px)]"
                     >
                         <h2
                             class="text-3xl md:text-5xl font-semibold mb-5 text-black md:max-w-[35%]"
@@ -159,7 +162,7 @@
                             compliance.
                         </p>
                         <button
-                            class="bg-[#547326] text-clamp rounded-md text-white px-5 py-2 w-fit"
+                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit"
                         >
                             Know More
                         </button>
@@ -198,12 +201,12 @@
     <!-- <section id="section2">
         <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[150px]">
             <span
-                class="font-chivo inline-block bg-bg-2 text-green-900 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-8"
+                class="font-poppins inline-block bg-bg-2 text-green-900 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-8"
                 >Company Overview</span
             >
             <div class="mb-14">
                 <h2
-                    class="text-gray-900 font-bold font-chivo mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
+                    class="text-gray-900 font-bold font-poppins mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
                 >
                     Envi-Comm Corporation
                 </h2>
@@ -217,14 +220,14 @@
                 <div class="rounded-2xl p-[25px] pb-[35px] border border-gray-200">
                     <div class="aspect-[408/275]">
                         <img
-                            class="min-h-dvh md:h-screen w-full object-cover rounded-2xl mb-[30px]"
+                            class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full object-cover rounded-2xl mb-[30px]"
                             src="/assets/images/destination-1.png"
                             alt="Img"
                         />
                     </div>
                     <div class="flex items-center gap-[10px] mb-[11px]"></div>
                     <h4
-                        class="font-bold font-chivo text-[14px] xl:text-heading-5 mb-[15px] text-center"
+                        class="font-bold font-poppins text-[14px] xl:text-heading-5 mb-[15px] text-center"
                     >
                         Application
                     </h4>
@@ -243,7 +246,7 @@
                     </div>
                     <div class="flex items-center gap-[10px] mb-[11px]"></div>
                     <h4
-                        class="font-bold font-chivo text-[14px] xl:text-heading-5 mb-[15px] text-center"
+                        class="font-bold font-poppins text-[14px] xl:text-heading-5 mb-[15px] text-center"
                     >
                         Application
                     </h4>
@@ -262,7 +265,7 @@
                     </div>
                     <div class="flex items-center gap-[10px] mb-[11px]"></div>
                     <h4
-                        class="font-bold font-chivo text-[14px] xl:text-heading-5 mb-[15px] text-center"
+                        class="font-bold font-poppins text-[14px] xl:text-heading-5 mb-[15px] text-center"
                     >
                         Application
                     </h4>
@@ -277,7 +280,7 @@
                     class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 mx-auto tracking-wide text-md w-fit gap-4 md:text-heading-6"
                     to="#"
                     ><span
-                        class="block text-inherit w-full h-full rounded-[50px] text-lg font-chivo font-semibold"
+                        class="block text-inherit w-full h-full rounded-[50px] text-lg font-poppins font-semibold"
                         >Discover More</span
                     ><i>
                         <img
@@ -292,7 +295,7 @@
     <section id="section3">
         <div class="container mt-20 md:mt-[150px]">
             <h2
-                class="text-center text-gray-900 uppercase font-chivo mb-5 text-[35px] leading-[44px] md:text-[46px] lg:text-heading-1 md:mb-[30px]"
+                class="text-center text-gray-900 uppercase font-poppins mb-5 text-[35px] leading-[44px] md:text-[46px] lg:text-heading-1 md:mb-[30px]"
             >
                 What We Do
             </h2>

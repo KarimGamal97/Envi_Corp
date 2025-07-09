@@ -155,7 +155,7 @@ module.exports = {
                 ...typography,
             },
             fontFamily: {
-                chivo: ["Chivo", "sans-serif"],
+                poppins: ["Poppins", "sans-serif"],
             },
             keyframes: {
                 float: {

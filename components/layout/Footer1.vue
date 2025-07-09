@@ -31,7 +31,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5 class="text-heading-5 font-chivo mb-10 text-[18px]">Quick Links</h5>
+                    <h5 class="text-heading-5 font-poppins mb-10 text-[18px]">Quick Links</h5>
                     <ul>
                         <li class="mb-5">
                             <a
@@ -71,7 +71,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h5 class="text-heading-5 font-chivo mb-10 text-[18px]">Resources</h5>
+                    <h5 class="text-heading-5 font-poppins mb-10 text-[18px]">Resources</h5>
                     <ul>
                         <li class="mb-5">
                             <a
@@ -111,7 +111,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h5 class="text-heading-5 font-chivo mb-10 text-[18px]">Connect With Us</h5>
+                    <h5 class="text-heading-5 font-poppins mb-10 text-[18px]">Connect With Us</h5>
                     <ul>
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">

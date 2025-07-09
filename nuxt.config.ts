@@ -27,19 +27,15 @@ export default defineNuxtConfig({
             "@nuxtjs/google-fonts",
             {
                 families: {
-                    Chivo: {
-                        wght: [400, 700, 900],
+                    Poppins: {
+                        wght: [300, 400, 500, 600, 700, 800],
                     },
-                    "Noto+Sans": {
-                        wght: [400, 500, 600, 700, 800],
-                    },
-                    download: true,
-                    inject: true,
                 },
+                display: "swap",
+                download: true,
+                inject: true,
             },
         ],
         "@nuxtjs/tailwindcss",
-        // "swiper"
-        // "vue-youtube-embed"
     ],
 });
