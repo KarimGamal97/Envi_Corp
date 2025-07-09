@@ -1,173 +1,163 @@
 <template>
-  <footer class="mt-[92px] lg:mt-[150px] xl:mt-[200px] mb-[30px]">
-    <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px]">
-      <div class="w-full bg-gray-200 h-[1px] mb-[52px]"></div>
-      <div
-        class="text-gray-600 grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-5 xl:gap-[98px]"
-      >
-        <div>
-          <img
-            src="/assets/images/main-imgs/main-logo-dark.png"
-            class="logo z-50 w-[90px] md:w-[90px] lg:w-[122px] xl:w-[138px]"
-            alt="logo"
-          />
+    <footer class="bg-[#08223B]">
+        <div class="px-[12px] md:px-[36px]">
+            <div
+                class="text-white grid gird-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5 xl:gap-[98px] py-40"
+            >
+                <div class="lg:col-span-2 flex flex-col gap-5">
+                    <img
+                        src="/assets/images/main-imgs/main-logo-light.png"
+                        class="logo z-50 w-[90px] md:w-[90px] lg:w-[122px] xl:w-[138px] mb-5"
+                        alt="logo"
+                    />
+                    <p class="mb-3 text-xl">
+                        Subscribe to our newsletter for the latest updates on features and releases.
+                    </p>
+                    <form class="flex gap-2 w-full">
+                        <input
+                            type="email"
+                            placeholder="Enter your email"
+                            class="flex-1 rounded p-3"
+                        />
+                        <button
+                            type="submit"
+                            class="bg-white text-black rounded py-2 px-4 hover:bg-[#547326] hover:text-white transition-all duration-200"
+                        >
+                            Join
+                        </button>
+                    </form>
+                    <p class="text-md">
+                        By subscribing, you consent to our Privacy Policy and receiving updates.
+                    </p>
+                </div>
+                <div>
+                    <h5 class="text-heading-5 font-chivo mb-10 text-[18px]">Quick Links</h5>
+                    <ul>
+                        <li class="mb-5">
+                            <a
+                                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                href="#"
+                                >About Us</a
+                            >
+                        </li>
+                        <li class="mb-5">
+                            <a
+                                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                href="#"
+                                >Services</a
+                            >
+                        </li>
+                        <li class="mb-5">
+                            <a
+                                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                href="#"
+                                >Contact Us</a
+                            >
+                        </li>
+                        <li class="mb-5">
+                            <a
+                                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                href="#"
+                                >Blog</a
+                            >
+                        </li>
+                        <li class="mb-5">
+                            <a
+                                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                href="#"
+                                >Careers</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-heading-5 font-chivo mb-10 text-[18px]">Resources</h5>
+                    <ul>
+                        <li class="mb-5">
+                            <a
+                                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                href="/faqs"
+                                >FAQs</a
+                            >
+                        </li>
+                        <li class="mb-5">
+                            <a
+                                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                href="/terms-conditions"
+                                >Case Studies</a
+                            >
+                        </li>
+                        <li class="mb-5">
+                            <a
+                                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                href="/privacy-policy"
+                                >White Papers</a
+                            >
+                        </li>
+                        <li class="mb-5">
+                            <a
+                                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                href="/contact"
+                                >Webinars</a
+                            >
+                        </li>
+                        <li class="mb-5">
+                            <a
+                                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                href="/contact"
+                                >Careers</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-heading-5 font-chivo mb-10 text-[18px]">Connect With Us</h5>
+                    <ul>
+                        <li class="mb-5">
+                            <NuxtLink class="flex items-center gap-3" to="#">
+                                <img src="/assets/images/icons/facebook.svg" alt="" />
+                                <span>Facebook</span>
+                            </NuxtLink>
+                        </li>
+                        <li class="mb-5">
+                            <NuxtLink class="flex items-center gap-3" to="#">
+                                <img src="/assets/images/icons/insta.svg" alt="" />
+                                <span>Instagram</span>
+                            </NuxtLink>
+                        </li>
+                        <li class="mb-5">
+                            <NuxtLink class="flex items-center gap-3" to="#">
+                                <img src="/assets/images/icons/X.svg" alt="" />
+                                <span>Twitter</span>
+                            </NuxtLink>
+                        </li>
+                        <li class="mb-5">
+                            <NuxtLink class="flex items-center gap-3" to="#">
+                                <img src="/assets/images/icons/linkedin.svg" alt="" />
+                                <span>Linkedin</span>
+                            </NuxtLink>
+                        </li>
+                        <li class="mb-5">
+                            <NuxtLink class="flex items-center gap-3" to="#">
+                                <img src="/assets/images/icons/youtube.svg" alt="" />
+                                <span>Youtube</span>
+                            </NuxtLink>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div>
-          <h5
-            class="text-heading-5 font-chivo font-bold text-gray-900 mb-5 text-[18px]"
-          >
-            Location
-          </h5>
-          <p class="text-text mb-3">
-            2nd Floor, Aboitiz Corporate Center, Gov. M. Cuenco Ave, Cebu,
-            Philippines, 6000 Cebu City
-          </p>
+        <div
+            class="bg-[#547326] text-black lg:flex lg:items-center lg:justify-between px-[12px] md:px-[36px] py-2"
+        >
+            <div class="md:flex md:items-center md:gap-6">
+                <p class="text-lead">© 2025 Envi-comm. All rights reserved.</p>
+            </div>
+            <div class="flex items-center justify-between md:gap-6">
+                <a class="underline" href="#">Privacy Policy</a
+                ><a class="underline" href="#">Terms of Use</a
+                ><a class="underline" href="#">Cookie Settings</a>
+            </div>
         </div>
-        <div>
-          <h5
-            class="text-heading-5 font-chivo font-bold text-gray-900 mb-5 text-[18px]"
-          >
-            About Us
-          </h5>
-          <ul>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
-                >Mission &amp; Vision</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
-                >Our Team</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
-                >Careers</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
-                >Press &amp; Media</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
-                >Advertising</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="#"
-                >Testimonials</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h5
-            class="text-heading-5 font-chivo font-bold text-gray-900 mb-5 text-[18px]"
-          >
-            Support
-          </h5>
-          <ul>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="/faqs"
-                >FAQs</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="/terms-conditions"
-                >Terms &amp; Conditions</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="/privacy-policy"
-                >Privacy Policy</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
-                href="/contact"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h5
-            class="text-heading-5 font-chivo font-bold text-gray-900 mb-5 text-[18px]"
-          >
-            Contact Us
-          </h5>
-          <ul>
-            <li class="mb-2">
-              <p class="text-text underline">+63 917 177 3171</p>
-              <p class="text-text underline">+032 401-0827</p>
-              <p class="text-text underline">official@envicomm.org</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="w-full bg-gray-200 h-[1px] mb-[46px]"></div>
-      <div class="text-gray-400 lg:flex lg:items-center lg:justify-between">
-        <div class="md:flex md:items-center md:gap-6">
-          <p class="text-lead font-bold">©Envi Official 2025</p>
-          <div class="flex items-center justify-between md:gap-6">
-            <a class="text-text" href="#">Privacy policy</a
-            ><a class="text-text" href="#">Cookies</a
-            ><a class="text-text" href="#">Terms of service</a>
-          </div>
-        </div>
-        <div class="flex items-center justify-center gap-5 mt-5 lg:mt-0">
-          <a
-            class="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1"
-            href="#"
-            ><img
-              class="h-full w-full object-cover"
-              src="/assets/images/icons/icon-facebook-green.svg"
-              alt="facebook icon" /></a
-          ><a
-            class="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1"
-            href="#"
-            ><img
-              class="h-full w-full object-cover"
-              src="/assets/images/icons/icon-instagram-green.svg"
-              alt="instagram icon" /></a
-          ><a
-            class="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1"
-            href="#"
-            ><img
-              class="h-full w-full object-cover"
-              src="/assets/images/icons/icon-twitter-green.svg"
-              alt="twitter icon" /></a
-          ><a
-            class="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1"
-            href="#"
-            ><img
-              class="h-full w-full object-cover"
-              src="/assets/images/icons/icon-linkedin-green.svg"
-              alt="linkedin icon"
-          /></a>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </template>
