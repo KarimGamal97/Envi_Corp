@@ -604,7 +604,6 @@ export default {
                 behavior: "smooth",
             });
 
-            // مدة مناسبة لسكرول ناعم بس مش بطيء قوي
             setTimeout(() => {
                 this.currentSection = index;
                 this.isScrolling = false;
@@ -639,14 +638,10 @@ export default {
 
             const delta = Math.sign(e.deltaY);
 
-            // ✅ السكرول لتحت: ننزل سكشن واحد بس
             if (delta > 0 && this.currentSection < this.sections.length - 1) {
-                e.preventDefault(); // نمنع السكرول العادي
+                e.preventDefault();
                 this.scrollToSection(this.currentSection + 1);
             }
-
-            // ❌ السكرول لفوق: نسيبه عادي بدون أي تدخل
-            // مش هنكتب حاجة هنا
         };
 
         window.addEventListener("wheel", this.handleScroll, { passive: false });

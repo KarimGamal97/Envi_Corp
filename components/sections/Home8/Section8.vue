@@ -1,5 +1,5 @@
 <template>
-    <section id="section8">
+    <section>
         <Swiper
             :modules="modules"
             :slides-per-view="1"
@@ -22,7 +22,7 @@
             <!-- Slide 1 -->
             <SwiperSlide class="min-h-dvh md:h-screen w-full">
                 <div
-                    class="relative py-20 min-h-dvh md:h-screen w-full bg-center bg-cover bg-no-repeat bg-[url('/assets/images/main-imgs/info-01.jpg')]"
+                    class="relative py-10 md:py-0 min-h-dvh md:h-screen w-full bg-center bg-cover bg-no-repeat bg-[url('/assets/images/main-imgs/info-01.jpg')]"
                 >
                     <div class="absolute inset-0 bg-black opacity-30"></div>
                     <div
@@ -57,13 +57,13 @@
             <!-- Slide 2 -->
             <SwiperSlide class="min-h-dvh md:h-screen w-full">
                 <div
-                    class="relative py-20 min-h-dvh md:h-screen w-full bg-center bg-cover bg-no-repeat bg-[url('/assets/images/main-imgs/info-02.jpg')]"
+                    class="relative py-10 md:py-0 min-h-dvh md:h-screen w-full bg-center bg-cover bg-no-repeat bg-[url('/assets/images/main-imgs/info-02.jpg')]"
                 >
                     <div class="absolute inset-0 bg-black opacity-30"></div>
                     <div
                         class="relative z-10 flex flex-col gap-20 justify-center items-center text-white text-center h-full px-6 md:px-10"
                     >
-                        <h2 class="text-3xl md:text-5xl mb-10 md:max-w-[70%]">
+                        <h2 class="text-3xl md:text-5xl md:max-w-[70%]">
                             Unlock the Benefits of Partnering with Envi-comm for Your Business
                         </h2>
                         <div class="w-full md:max-w-[70%]">
