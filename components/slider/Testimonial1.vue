@@ -1,37 +1,11 @@
 <template>
     <swiper
-        :slides-per-view="5"
+        :slides-per-view="1"
         :space-between="0"
         :loop="true"
         :autoplay="{
-            delay: 8000,
+            delay: 3000,
             disableOnInteraction: true,
-        }"
-        :breakpoints="{
-            320: {
-                slidesPerView: 1,
-                //   spaceBetween: 30,
-            },
-            575: {
-                slidesPerView: 2,
-                //   spaceBetween: 30,
-            },
-            767: {
-                slidesPerView: 2,
-                //   spaceBetween: 30,
-            },
-            991: {
-                slidesPerView: 2,
-                //   spaceBetween: 30,
-            },
-            1199: {
-                slidesPerView: 3,
-                //   spaceBetween: 30,
-            },
-            1350: {
-                slidesPerView: 3,
-                //   spaceBetween: 30,
-            },
         }"
         :pagination="{
             el: '.swiper-pagination',
@@ -48,119 +22,79 @@
             class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-2"
         >
             <img
-                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px]"
-                src="/assets/images/avatar-1.png"
+                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px] drop-shadow-md rounded-full"
+                src="/assets/images/main-imgs/logo-01.png"
                 alt="avatar"
             />
-            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-xl md:text-2xl text-gray-500">
-                Even factoring differences in body weight between children and adults into account.
+            <p class="text-heading-6 font-poppins font-bold mb-[6px]">
+                EASTLAND PROPERTY VENTURES, INC
             </p>
-        </swiper-slide>
-        <swiper-slide
-            class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-6"
-        >
+            <p class="text-sm md:text-md font-semibold mb-5 text-gray-700">
+                Proposed 10-Storey Socialized Condominium Development
+            </p>
+            <p class="text-lg md:text-xl text-gray-500 uppercase">
+                "I am very satisfied with the service provided by Envi-comm. The quality of their
+                work is excellent, and both the staff and team leader are highly professional in
+                their respective fields.”Even factoring differences in body weight between children
+                and adults into account.
+            </p>
             <img
-                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px]"
-                src="/assets/images/avatar-2.png"
-                alt="avatar"
+                src="/assets/images/main-imgs/rating.png"
+                alt="rating-stars"
+                class="w-[200px] mt-5"
             />
-            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-xl md:text-2xl text-gray-500">
-                Even factoring differences in body weight between children and adults into account.
-            </p>
-        </swiper-slide>
-        <swiper-slide
-            class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-2"
-        >
-            <img
-                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px]"
-                src="/assets/images/avatar-3.png"
-                alt="avatar"
-            />
-            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-xl md:text-2xl text-gray-500">
-                Even factoring differences in body weight between children and adults into account.
-            </p>
-        </swiper-slide>
-        <swiper-slide
-            class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-6"
-        >
-            <img
-                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px]"
-                src="/assets/images/avatar-4.png"
-                alt="avatar"
-            />
-            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-xl md:text-2xl text-gray-500">
-                Even factoring differences in body weight between children and adults into account.
-            </p>
         </swiper-slide>
         <swiper-slide
             class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-2"
         >
             <img
-                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px]"
-                src="/assets/images/avatar-5.png"
+                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px] drop-shadow-md rounded-full"
+                src="/assets/images/main-imgs/logo-02.png"
                 alt="avatar"
             />
-            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-xl md:text-2xl text-gray-500">
-                Even factoring differences in body weight between children and adults into account.
+            <p class="text-heading-6 font-poppins font-bold mb-[6px]">HAGNAYA BEACH RESORT</p>
+            <p class="text-sm md:text-md font-semibold mb-5 text-gray-700">Beach Resort Project</p>
+            <p class="text-lg md:text-xl text-gray-500 uppercase">
+                “We are very satisfied with your service, and if I'm going to rate it from 1 to 10,
+                it is always 10.”
             </p>
-        </swiper-slide>
-        <swiper-slide
-            class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-6"
-        >
             <img
-                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px]"
-                src="/assets/images/avatar-6.png"
-                alt="avatar"
+                src="/assets/images/main-imgs/rating.png"
+                alt="rating-stars"
+                class="w-[200px] mt-5"
             />
-            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-xl md:text-2xl text-gray-500">
-                Even factoring differences in body weight between children and adults into account.
-            </p>
         </swiper-slide>
         <swiper-slide
             class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-2"
         >
             <img
-                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px]"
-                src="/assets/images/avatar-7.png"
+                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px] drop-shadow-md rounded-full"
+                src="/assets/images/main-imgs/logo-03.png"
                 alt="avatar"
             />
-            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-xl md:text-2xl text-gray-500">
-                Even factoring differences in body weight between children and adults into account.
+            <p class="text-heading-6 font-poppins font-bold mb-[6px]">
+                SHEMBERG-INGREDIENTS GUMS AND CORPORATION
             </p>
-        </swiper-slide>
-        <swiper-slide
-            class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-6"
-        >
+            <p class="text-sm md:text-md font-semibold mb-5 text-gray-700">
+                SHEMBERG-INGREDIENTS GUMS AND CORPORATION
+            </p>
+            <p class="text-lg md:text-xl text-gray-500 uppercase">
+                "So far, I love the service here at Envi-comm Corporation, and I can truly say that
+                their service is excellent."
+            </p>
             <img
-                class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px]"
-                src="/assets/images/avatar-8.png"
-                alt="avatar"
+                src="/assets/images/main-imgs/rating.png"
+                alt="rating-stars"
+                class="w-[200px] mt-5"
             />
-            <p class="text-heading-4 font-poppins font-bold mb-[6px]">Wade Warren</p>
-            <p class="text-lg md:text-xl font-bold mb-5 text-gray-700">Louis Vuitton</p>
-            <p class="text-xl md:text-2xl text-gray-500">
-                Even factoring differences in body weight between children and adults into account.
-            </p>
         </swiper-slide>
     </swiper>
 </template>
 <script>
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css";
+
 export default {
     components: {
         Swiper,
