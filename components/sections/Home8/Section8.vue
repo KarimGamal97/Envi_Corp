@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="section8">
         <Swiper
             :modules="modules"
             :slides-per-view="1"

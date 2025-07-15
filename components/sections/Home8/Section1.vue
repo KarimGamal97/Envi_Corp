@@ -1,5 +1,5 @@
 <template>
-    <section id="section1" class="w-full min-h-dvh md:min-h-[calc(100vh-100px)]">
+    <section id="section1" class="w-full min-h-dvh md:min-h-[calc(100vh-95px)]">
         <Swiper
             @swiper="onSwiper"
             :modules="modules"
@@ -18,15 +18,15 @@
                 delay: 5000,
                 disableOnInteraction: false,
             }"
-            class="mySwiper min-h-dvh md:min-h-[calc(100vh-100px)] w-full relative overflow-hidden"
+            class="mySwiper min-h-dvh md:min-h-[calc(100vh-95px)] w-full relative overflow-hidden"
         >
             <!-- Slide 1 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
+                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
                     >
                         <h2 class="text-3xl md:text-4xl font-semibold text-black md:max-w-[40%]">
                             STP & WTP SYSTEMS Engineered for Efficiency
@@ -45,12 +45,12 @@
             </SwiperSlide>
 
             <!-- Slide 2 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
+                        class="relative z-10 py-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
                     >
                         <h2
                             class="text-3xl md:text-4xl font-semibold text-black md:text-white md:max-w-[35%]"
@@ -71,15 +71,15 @@
             </SwiperSlide>
 
             <!-- Slide 3 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
+                        class="relative z-10 py-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
                     >
                         <h2
-                            class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[25%]"
+                            class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[30%]"
                         >
                             Solar Streetlight That Saves More Than Just Power
                         </h2>
@@ -98,15 +98,15 @@
             </SwiperSlide>
 
             <!-- Slide 4 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
+                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
                     >
                         <h2
-                            class="text-3xl md:text-5xl font-semibold mb-10 text-black md:text-white md:max-w-[30%]"
+                            class="text-3xl md:text-4xl font-semibold mb-10 text-black md:text-white md:max-w-[30%]"
                         >
                             Secure Your DENR Certificate of Tree Planting
                         </h2>
@@ -120,15 +120,15 @@
             </SwiperSlide>
 
             <!-- Slide 5 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
+                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
                     >
                         <h2
-                            class="text-2xl md:text-5xl font-semibold mb-5 text-black md:max-w-[35%]"
+                            class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[35%]"
                         >
                             Compliance Made Simple. Savings Made Easy.
                         </h2>
@@ -146,15 +146,15 @@
             </SwiperSlide>
 
             <!-- Slide 6 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
+                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
                     >
                         <h2
-                            class="text-2xl md:text-5xl font-semibold mb-5 text-black md:max-w-[35%]"
+                            class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[35%]"
                         >
                             Clean Water Starts with Proven Chemistry
                         </h2>
@@ -226,7 +226,7 @@
                 <div class="rounded-2xl p-[25px] pb-[35px] border border-gray-200">
                     <div class="aspect-[408/275]">
                         <img
-                            class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full object-cover rounded-2xl mb-[30px]"
+                            class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full object-cover rounded-2xl mb-[30px]"
                             src="/assets/images/destination-1.png"
                             alt="Img"
                         />
@@ -298,137 +298,252 @@
             </button>
         </div>
     </section> -->
-    <section id="section3">
-        <div class="container mt-20 md:mt-[150px]">
+    <section id="section3" class="py-20">
+        <div class="container">
             <h2
                 class="text-center text-gray-900 uppercase font-poppins mb-5 text-[35px] leading-[44px] md:text-[46px] lg:text-heading-1 md:mb-[30px]"
+                data-aos="fade-up"
             >
                 What We Do
             </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mb-[52px]">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
                 <!-- items 1 -->
-                <div class="relative rounded-lg overflow-hidden h-[180px] group">
-                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                <div class="relative rounded-lg overflow-hidden h-[150px] group" data-aos="fade-up">
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_01.jpg"
                         alt="planning"
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
                         Planning
                     </h3>
                 </div>
                 <!-- items 2 -->
-                <div class="relative rounded-lg overflow-hidden h-[180px] group">
-                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                <div
+                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_02.jpg"
                         alt="planning"
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
                         Permitting
                     </h3>
                 </div>
                 <!-- items 3 -->
-                <div class="relative rounded-lg overflow-hidden h-[180px] group">
-                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                <div class="relative rounded-lg overflow-hidden h-[150px] group" data-aos="fade-up">
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_03.jpg"
                         alt="planning"
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
                         Reporting
                     </h3>
                 </div>
                 <!-- items 4 -->
-                <div class="relative rounded-lg overflow-hidden h-[180px] group">
-                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                <div
+                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_04.jpg"
                         alt="planning"
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">STPs</h3>
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
+                        STPs
+                    </h3>
                 </div>
                 <!-- items 5 -->
-                <div class="relative rounded-lg overflow-hidden h-[180px] group">
-                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                <div
+                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_05.jpg"
                         alt="planning"
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
                         STP Chemicals
                     </h3>
                 </div>
                 <!-- items 6 -->
-                <div class="relative rounded-lg overflow-hidden h-[180px] group">
-                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                <div
+                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_06.jpg"
                         alt="planning"
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
                         Solar
                     </h3>
                 </div>
                 <!-- items 7 -->
-                <div class="relative rounded-lg overflow-hidden h-[180px] group">
-                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                <div
+                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_07.jpg"
                         alt="planning"
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
                         Hauling & Septage
                     </h3>
                 </div>
                 <!-- items 8 -->
-                <div class="relative rounded-lg overflow-hidden h-[180px] group">
-                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                <div
+                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_08.jpg"
                         alt="planning"
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">Saas</h3>
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
+                        Saas
+                    </h3>
                 </div>
                 <!-- items 9 -->
-                <div class="relative rounded-lg overflow-hidden h-[180px] group">
-                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                <div
+                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_09.jpg"
                         alt="planning"
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
                         Training
                     </h3>
                 </div>
                 <!-- items 10 -->
-                <div class="relative rounded-lg overflow-hidden h-[180px] group">
-                    <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
+                <div
+                    class="relative rounded-lg overflow-hidden h-[150px] group opacity-0 hidden md:block"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_10.jpg"
                         alt="planning"
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3 class="text-white underline text-clamp absolute bottom-10 left-10">
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
+                        Planning
+                    </h3>
+                </div>
+                <!-- items 10 -->
+                <div
+                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_10.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
+                        Planning
+                    </h3>
+                </div>
+                <!-- items 10 -->
+                <div
+                    class="relative rounded-lg overflow-hidden h-[150px] group opacity-0 hidden md:block"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_10.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3
+                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
+                    >
                         Planning
                     </h3>
                 </div>
@@ -479,76 +594,70 @@ export default {
                 console.warn("Swiper instance not ready");
             }
         },
+        scrollToSection(index) {
+            this.isScrolling = true;
+            const targetSection = this.sections[index];
+            if (!targetSection) return;
+
+            window.scrollTo({
+                top: targetSection.offsetTop - 60,
+                behavior: "smooth",
+            });
+
+            // مدة مناسبة لسكرول ناعم بس مش بطيء قوي
+            setTimeout(() => {
+                this.currentSection = index;
+                this.isScrolling = false;
+            }, 1600);
+        },
+
+        updateCurrentSection() {
+            const scrollY = window.scrollY + window.innerHeight / 2;
+
+            this.sections.forEach((section, index) => {
+                const top = section.offsetTop;
+                const height = section.offsetHeight;
+
+                if (scrollY >= top && scrollY < top + height) {
+                    this.currentSection = index;
+                }
+            });
+        },
     },
     mounted() {
         this.$nextTick(() => {
             this.swiperInstance = this.$refs.mySwiper.swiper;
         });
+
         // Define the scroll handler function
-        //         this.handleScroll = (event) => {
-        //             if (this.isScrolling) return;
-        //             // Check if the scroll event is happening within the Swiper area
-        //             const swiperElement = event.target.closest(".mySwiper");
-        //             if (swiperElement) {
-        //                 return; // Don't handle scroll if it's within the Swiper
-        //             }
-        //             const delta = Math.sign(event.deltaY);
-        //             if (delta > 0 && this.currentSection < this.sections.length - 1) {
-        //                 // Scroll down
-        //                 this.scrollToSection(this.currentSection + 1);
-        //             } else if (delta < 0 && this.currentSection > 0) {
-        //                 // Scroll up
-        //                 this.scrollToSection(this.currentSection - 1);
-        //             }
-        //         };
-        //         // Initialize variables
-        //         this.sections = document.querySelectorAll("section");
-        //         this.currentSection = 0;
-        //         this.isScrolling = false;
-        //         // Add event listener
-        //         window.addEventListener("wheel", this.handleScroll);
-        //         // Set initial section as active
-        //         const initialSection = document.getElementById("section1");
-        //         if (initialSection) {
-        //             initialSection.classList.add("active");
-        //         }
-        //     },
-        //     beforeUnmount() {
-        //         // Remove the event listener when the component is destroyed
-        //         window.removeEventListener("wheel", this.handleScroll);
-        //     },
-        //     methods: {
-        //         scrollToSection(index) {
-        //             this.isScrolling = true;
-        //             const targetSection = this.sections[index];
-        //             const targetPosition = targetSection.offsetTop;
-        //             const startPosition = window.pageYOffset;
-        //             const distance = targetPosition - startPosition;
-        //             const duration = 1000;
-        //             let startTimestamp = null;
-        //             const scrollStep = (timestamp) => {
-        //                 if (!startTimestamp) startTimestamp = timestamp;
-        //                 const progress = timestamp - startTimestamp;
-        //                 window.scrollTo(
-        //                     0,
-        //                     this.easeInOutCubic(progress, startPosition, distance, duration)
-        //                 );
-        //                 if (progress < duration) {
-        //                     window.requestAnimationFrame(scrollStep);
-        //                 } else {
-        //                     this.currentSection = index;
-        //                     this.isScrolling = false;
-        //                     window.scrollTo(0, targetPosition);
-        //                 }
-        //             };
-        //             window.requestAnimationFrame(scrollStep);
-        //         },
-        //         easeInOutCubic(t, b, c, d) {
-        //             t /= d / 2;
-        //             if (t < 1) return (c / 2) * t * t * t + b;
-        //             t -= 2;
-        //             return (c / 2) * (t * t * t + 2) + b;
-        //         },
+        this.sections = Array.from(document.querySelectorAll("section[id^='section']"));
+        this.currentSection = 0;
+        this.isScrolling = false;
+
+        this.handleScroll = (e) => {
+            if (this.isScrolling) return;
+
+            const delta = Math.sign(e.deltaY);
+
+            // ✅ السكرول لتحت: ننزل سكشن واحد بس
+            if (delta > 0 && this.currentSection < this.sections.length - 1) {
+                e.preventDefault(); // نمنع السكرول العادي
+                this.scrollToSection(this.currentSection + 1);
+            }
+
+            // ❌ السكرول لفوق: نسيبه عادي بدون أي تدخل
+            // مش هنكتب حاجة هنا
+        };
+
+        window.addEventListener("wheel", this.handleScroll, { passive: false });
+
+        // Detect current visible section on load
+        this.updateCurrentSection();
+        window.addEventListener("scroll", this.updateCurrentSection);
+    },
+    beforeUnmount() {
+        window.removeEventListener("wheel", this.handleScroll);
+        window.removeEventListener("scroll", this.updateCurrentSection);
     },
 };
 </script>
