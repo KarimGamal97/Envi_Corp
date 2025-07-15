@@ -12,11 +12,24 @@
                     src="/assets/images/main-imgs/main-logo-light.png"
                     alt="logo image"
             /></NuxtLink>
+            <ul class="flex items-center gap-5 md:hidden mr-10">
+                <li class="flex items-center group">
+                    <NuxtLink class="menu-link mr-[7px]" to="/resources">
+                        <img src="/assets/images/icons/contact.svg" alt="contact" class="w-[50x]" />
+                    </NuxtLink>
+                </li>
+                <li class="flex items-center group">
+                    <NuxtLink class="menu-link mr-[7px]" to="/resources">
+                        <img src="/assets/images/icons/search.svg" alt="search" class="w-[50x]" />
+                    </NuxtLink>
+                </li>
+            </ul>
             <nav
                 class="z-50 absolute hidden top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:block"
             >
                 <LayoutMenu />
             </nav>
+
             <!-- <div class="hidden xl:block">
                 <button type="button">
                     <NuxtLink

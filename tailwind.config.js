@@ -128,20 +128,6 @@ const typography = {
 module.exports = {
     content: ["src/views/*.pug", "dist/*.html"],
     theme: {
-        container: {
-            center: true,
-            padding: {
-                DEFAULT: "1rem",
-                sm: "1.5rem",
-                lg: "2rem",
-            },
-            screens: {
-                sm: "100%",
-                md: "80%",
-                lg: "80%",
-                xl: "80%",
-            },
-        },
         extend: {
             backgroundImage: {},
             backgroundSize: {},

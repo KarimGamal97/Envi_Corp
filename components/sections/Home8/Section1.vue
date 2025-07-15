@@ -1,5 +1,5 @@
 <template>
-    <section id="section1" class="w-full min-h-dvh md:min-h-[calc(100vh-130px)]">
+    <section id="section1" class="w-full min-h-dvh md:min-h-[calc(100vh-100px)]">
         <Swiper
             @swiper="onSwiper"
             :modules="modules"
@@ -18,15 +18,15 @@
                 delay: 5000,
                 disableOnInteraction: false,
             }"
-            class="mySwiper min-h-dvh md:min-h-[calc(100vh-130px)] w-full relative overflow-hidden"
+            class="mySwiper min-h-dvh md:min-h-[calc(100vh-100px)] w-full relative overflow-hidden"
         >
             <!-- Slide 1 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-130px)]"
+                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
                     >
                         <h2 class="text-3xl md:text-4xl font-semibold text-black md:max-w-[40%]">
                             STP & WTP SYSTEMS Engineered for Efficiency
@@ -36,7 +36,7 @@
                             minimal downtime and maximum performance.
                         </p>
                         <button
-                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit"
+                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                         >
                             Know More
                         </button>
@@ -45,22 +45,24 @@
             </SwiperSlide>
 
             <!-- Slide 2 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col gap-5 justify-center min-h-dvh md:min-h-[calc(100vh-130px)]"
+                        class="relative z-10 py-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
                     >
-                        <h2 class="text-3xl md:text-4xl font-semibold text-white md:max-w-[35%]">
+                        <h2
+                            class="text-3xl md:text-4xl font-semibold text-black md:text-white md:max-w-[35%]"
+                        >
                             EIS Tailored for Your Industry
                         </h2>
-                        <p class="text-clamp text-white md:max-w-[25%]">
+                        <p class="text-clamp text-black md:text-white md:max-w-[25%]">
                             Whether infrastructure, energy, or development — our Environmental
                             Impact Studies are built to match your sector's needs.
                         </p>
                         <button
-                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit"
+                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                         >
                             Know More
                         </button>
@@ -69,25 +71,25 @@
             </SwiperSlide>
 
             <!-- Slide 3 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:min-h-[calc(100vh-130px)]"
+                        class="relative z-10 py-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
                     >
                         <h2
-                            class="text-3xl md:text-4xl font-semibold mb-10 text-black md:max-w-[25%]"
+                            class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[25%]"
                         >
                             Solar Streetlight That Saves More Than Just Power
                         </h2>
-                        <p class="text-black text-clamp mb-10 md:max-w-[30%]">
+                        <p class="text-black text-clamp mb-5 md:max-w-[30%]">
                             Introducing our 150W Solar Streetlight Harness the sun to save
                             electricity, cut carbon emissions, and protect the planet — without
                             compromising brightness or reliability.
                         </p>
                         <button
-                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit"
+                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                         >
                             Know More
                         </button>
@@ -96,20 +98,20 @@
             </SwiperSlide>
 
             <!-- Slide 4 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:min-h-[calc(100vh-130px)]"
+                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
                     >
                         <h2
-                            class="text-3xl md:text-5xl font-semibold mb-10 text-white md:max-w-[30%]"
+                            class="text-3xl md:text-5xl font-semibold mb-10 text-black md:text-white md:max-w-[30%]"
                         >
                             Secure Your DENR Certificate of Tree Planting
                         </h2>
                         <button
-                            class="text-clamp bg-transparent border-2 border-white rounded-md text-white px-5 py-2 w-fit"
+                            class="text-clamp bg-transparent border-2 border-black md:border-white rounded-md text-black md:text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                         >
                             Know More
                         </button>
@@ -118,24 +120,24 @@
             </SwiperSlide>
 
             <!-- Slide 5 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:min-h-[calc(100vh-130px)]"
+                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
                     >
                         <h2
-                            class="text-3xl md:text-5xl font-semibold mb-10 text-black md:max-w-[35%]"
+                            class="text-2xl md:text-5xl font-semibold mb-5 text-black md:max-w-[35%]"
                         >
                             Compliance Made Simple. Savings Made Easy.
                         </h2>
-                        <p class="text-black text-clamp mb-10 md:max-w-[25%]">
+                        <p class="text-black text-clamp mb-5 md:max-w-[25%]">
                             Envi-comm’s Retainership Program gives you continuous support and peace
                             of mind, so you can run your business worry-free.
                         </p>
                         <button
-                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit"
+                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                         >
                             Know More
                         </button>
@@ -144,15 +146,15 @@
             </SwiperSlide>
 
             <!-- Slide 6 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full">
+            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-130px)] bg-cover bg-left md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
+                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-100px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
                 >
                     <div
-                        class="relative z-10 px-5 md:px-20 flex flex-col justify-center min-h-dvh md:min-h-[calc(100vh-130px)]"
+                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-100px)]"
                     >
                         <h2
-                            class="text-3xl md:text-5xl font-semibold mb-5 text-black md:max-w-[35%]"
+                            class="text-2xl md:text-5xl font-semibold mb-5 text-black md:max-w-[35%]"
                         >
                             Clean Water Starts with Proven Chemistry
                         </h2>
@@ -162,7 +164,7 @@
                             compliance.
                         </p>
                         <button
-                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit"
+                            class="bg-[#547326] border-2 border-white text-clamp rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                         >
                             Know More
                         </button>
@@ -181,20 +183,24 @@
         </Swiper>
 
         <!-- Slide titles under the slider -->
-        <div
-            class="flex flex-col md:flex-row justify-between gap-3 bg-[#1C1C1C] px-10 md:px-20 py-3"
-        >
-            <button
-                v-for="(title, index) in slideTitles"
-                :key="index"
-                @click="goToSlide(index)"
-                :class="[
-                    'text-clamp transition-all duration-200 uppercase',
-                    currentSlideIndex === index ? 'font-semibold text-white' : 'text-gray-200',
-                ]"
-            >
-                {{ title }}
-            </button>
+        <div class="bg-[#1C1C1C] py-2">
+            <div class="container">
+                <div class="flex flex-col md:flex-row justify-between gap-3">
+                    <button
+                        v-for="(title, index) in slideTitles"
+                        :key="index"
+                        @click="goToSlide(index)"
+                        :class="[
+                            'text-sm md:text-md 3xl:text-lg transition-all duration-200 uppercase hover:underline',
+                            currentSlideIndex === index
+                                ? 'font-semibold text-white'
+                                : 'text-gray-200',
+                        ]"
+                    >
+                        {{ title }}
+                    </button>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -220,7 +226,7 @@
                 <div class="rounded-2xl p-[25px] pb-[35px] border border-gray-200">
                     <div class="aspect-[408/275]">
                         <img
-                            class="min-h-dvh md:min-h-[calc(100vh-130px)] w-full object-cover rounded-2xl mb-[30px]"
+                            class="min-h-dvh md:min-h-[calc(100vh-100px)] w-full object-cover rounded-2xl mb-[30px]"
                             src="/assets/images/destination-1.png"
                             alt="Img"
                         />
@@ -448,12 +454,12 @@ export default {
             swiperInstance: null,
             currentSlideIndex: 0,
             slideTitles: [
-                "Get STP & WTP Solutions",
-                "Begin EIS Process",
-                "Go Solar Today",
-                "Avail Tree Planting Certificate",
-                "Claim Your Retainership Plan",
-                "Request Custom Chemical Solutions",
+                "STP / WTP",
+                "ECC: EIS",
+                "SOLAR",
+                "ECC: TREE PLANTING",
+                "ECC: IEE",
+                "CHEMICALS",
             ],
             modules: [Navigation, Pagination, Autoplay],
         };
@@ -558,6 +564,13 @@ export default {
     height: 28px;
     margin-top: -25px;
     top: 90%;
+    transition: all 0.3s ease-in-out;
+}
+
+.mySwiper .swiper-button-next:hover,
+.mySwiper .swiper-button-prev:hover {
+    background-color: #ffffff;
+    color: #547326;
 }
 
 .mySwiper .swiper-button-prev {
