@@ -39,6 +39,7 @@
                 </div>
             </div>
             <SliderTestimonial1 />
+            <SectionsHome8Section10 />
         </div>
     </section>
 </template>
