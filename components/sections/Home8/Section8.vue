@@ -28,13 +28,17 @@
                     <div
                         class="relative z-10 flex flex-col gap-20 justify-center items-center text-white text-center h-full px-6 md:px-10"
                     >
-                        <h2 class="text-3xl md:text-5xl mb-10 md:max-w-[70%]">
+                        <h2 class="text-3xl md:text-5xl mb-10 md:max-w-[70%]" data-aos="fade-up">
                             Unlock the Benefits of Partnering with Envi-comm for Your Business
                         </h2>
                         <div
                             class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full md:max-w-[50%] justify-items-center"
                         >
-                            <div class="max-w-[450px] bg-black/50 p-4">
+                            <div
+                                class="max-w-[450px] bg-black/50 p-4"
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
                                 <h3 class="text-3xl mb-2">MISSION</h3>
                                 <p class="text-xl md:text-2xl">
                                     We strive to deliver unparalleled service across different
@@ -42,7 +46,11 @@
                                     our Customer’s standards and expectations
                                 </p>
                             </div>
-                            <div class="max-w-[450px] bg-black/50 p-4">
+                            <div
+                                class="max-w-[450px] bg-black/50 p-4"
+                                data-aos="fade-up"
+                                data-aos-delay="600"
+                            >
                                 <h3 class="text-3xl mb-2">VISION</h3>
                                 <p class="text-xl md:text-2xl">
                                     We aim to be the national leader in providing reliable
@@ -63,13 +71,17 @@
                     <div
                         class="relative z-10 flex flex-col gap-20 justify-center items-center text-white text-center h-full px-6 md:px-10"
                     >
-                        <h2 class="text-3xl md:text-5xl md:max-w-[70%]">
+                        <h2 class="text-3xl md:text-5xl md:max-w-[70%]" data-aos="fade-up">
                             Unlock the Benefits of Partnering with Envi-comm for Your Business
                         </h2>
                         <div class="w-full md:max-w-[70%]">
                             <h3 class="text-3xl mb-6 uppercase">Core Values</h3>
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-5 justify-items-center">
-                                <div class="max-w-[450px] bg-black/50 p-4">
+                                <div
+                                    class="max-w-[450px] bg-black/50 p-4"
+                                    data-aos="fade-up"
+                                    data-aos-delay="300"
+                                >
                                     <h4 class="text-2xl md:text-3xl mb-2 uppercase">Integrity</h4>
                                     <p class="text-xl md:text-2xl">
                                         We value our relationships with co-workers, clients, and
@@ -78,7 +90,11 @@
                                         utmost importance.
                                     </p>
                                 </div>
-                                <div class="max-w-[450px] bg-black/50 p-4">
+                                <div
+                                    class="max-w-[450px] bg-black/50 p-4"
+                                    data-aos="fade-up"
+                                    data-aos-delay="600"
+                                >
                                     <h4 class="text-2xl md:text-3xl mb-2 uppercase">
                                         Professionalism
                                     </h4>
@@ -88,7 +104,11 @@
                                         according to the highest ethics and proficiency standards
                                     </p>
                                 </div>
-                                <div class="max-w-[450px] bg-black/50 p-4">
+                                <div
+                                    class="max-w-[450px] bg-black/50 p-4"
+                                    data-aos="fade-up"
+                                    data-aos-delay="900"
+                                >
                                     <h4 class="text-2xl md:text-3xl mb-2 uppercase">
                                         Unparalleled Service
                                     </h4>
@@ -157,6 +177,6 @@ export default {
     opacity: 1;
 }
 .mySwiper .swiper-pagination-bullet-active {
-    background: #ffffff;
+    background: #547326 !important;
 }
 </style>
