@@ -176,7 +176,7 @@ export default {
     background: rgba(255, 255, 255, 0.5);
     opacity: 1;
 }
-.mySwiper .swiper-pagination-bullet-active {
+:deep(.mySwiper .swiper-pagination-bullet-active) {
     background: #547326 !important;
 }
 </style>

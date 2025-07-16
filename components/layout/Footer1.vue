@@ -2,9 +2,9 @@
     <footer class="bg-[#08223B]">
         <div class="container">
             <div
-                class="text-white grid gird-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5 xl:gap-[98px] py-20 md:py-40"
+                class="text-white grid gird-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-5 xl:gap-[98px] py-10 md:py-40"
             >
-                <div class="lg:col-span-2 flex flex-col gap-5">
+                <div class="col-span-2 flex flex-col gap-5">
                     <img
                         src="/assets/images/main-imgs/main-logo-light.png"
                         class="logo z-50 w-[40%] mb-5"
@@ -110,48 +110,54 @@
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <h5 class="text-lg font-poppins mb-10 text-[18px]">Connect With Us</h5>
-                    <ul>
+                <div class="col-span-2 md:col-span-1">
+                    <h5
+                        class="text-lg font-poppins mb-8 md:mb-10 text-[18px] text-center md:text-left"
+                    >
+                        Connect With Us
+                    </h5>
+                    <ul class="flex md:flex-col justify-center gap-5 md:gap-0">
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">
                                 <img src="/assets/images/icons/facebook.svg" alt="" />
-                                <span class="text-md md:text-lg">Facebook</span>
+                                <span class="text-md md:text-lg hidden md:block">Facebook</span>
                             </NuxtLink>
                         </li>
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">
                                 <img src="/assets/images/icons/insta.svg" alt="" />
-                                <span class="text-md md:text-lg">Instagram</span>
+                                <span class="text-md md:text-lg hidden md:block">Instagram</span>
                             </NuxtLink>
                         </li>
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">
                                 <img src="/assets/images/icons/X.svg" alt="" />
-                                <span class="text-md md:text-lg">Twitter</span>
+                                <span class="text-md md:text-lg hidden md:block">Twitter</span>
                             </NuxtLink>
                         </li>
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">
                                 <img src="/assets/images/icons/linkedin.svg" alt="" />
-                                <span class="text-md md:text-lg">Linkedin</span>
+                                <span class="text-md md:text-lg hidden md:block">Linkedin</span>
                             </NuxtLink>
                         </li>
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">
                                 <img src="/assets/images/icons/youtube.svg" alt="" />
-                                <span class="text-md md:text-lg">Youtube</span>
+                                <span class="text-md md:text-lg hidden md:block">Youtube</span>
                             </NuxtLink>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="bg-[#547326] text-black lg:flex lg:items-center lg:justify-between py-1">
+        <div
+            class="bg-[#547326] text-black lg:flex lg:items-center lg:justify-between py-1 text-center"
+        >
             <div class="container">
                 <div class="md:flex md:items-center md:justify-between md:gap-6">
                     <p class="text-md md:text-lg">© 2025 Envi-comm. All rights reserved.</p>
-                    <div class="flex items-center justify-between md:gap-6">
+                    <div class="flex items-center justify-center md:justify-between gap-5">
                         <a class="underline text-md md:text-lg" href="#">Privacy Policy</a
                         ><a class="underline text-md md:text-lg" href="#">Terms of Use</a
                         ><a class="underline text-md md:text-lg" href="#">Cookie Settings</a>
