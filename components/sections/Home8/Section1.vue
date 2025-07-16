@@ -1,5 +1,5 @@
 <template>
-    <section id="section1" class="w-full min-h-dvh md:min-h-[calc(100vh-95px)]">
+    <section id="section1" class="w-full min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)]">
         <Swiper
             @swiper="onSwiper"
             :modules="modules"
@@ -18,15 +18,15 @@
                 delay: 5000,
                 disableOnInteraction: false,
             }"
-            class="mySwiper min-h-dvh md:min-h-[calc(100vh-95px)] w-full relative overflow-hidden"
+            class="mySwiper min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full relative overflow-hidden"
         >
             <!-- Slide 1 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
+            <SwiperSlide class="min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
+                    class="relative w-full min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-01-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
+                        class="relative z-10 pb-5 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)]"
                     >
                         <h2 class="text-3xl md:text-4xl font-semibold text-black md:max-w-[40%]">
                             STP & WTP SYSTEMS Engineered for Efficiency
@@ -45,12 +45,12 @@
             </SwiperSlide>
 
             <!-- Slide 2 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
+            <SwiperSlide class="min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
+                    class="relative w-full min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-02-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-02.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
+                        class="relative z-10 py-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)]"
                     >
                         <h2
                             class="text-3xl md:text-4xl font-semibold text-black md:text-white md:max-w-[35%]"
@@ -71,12 +71,12 @@
             </SwiperSlide>
 
             <!-- Slide 3 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
+            <SwiperSlide class="min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
+                    class="relative w-full min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-03-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-03.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
+                        class="relative z-10 pb-5 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center md:gap-5 min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)]"
                     >
                         <h2
                             class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[30%]"
@@ -98,12 +98,12 @@
             </SwiperSlide>
 
             <!-- Slide 4 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
+            <SwiperSlide class="min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
+                    class="relative w-full min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-04-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-04.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
+                        class="relative z-10 pb-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)]"
                     >
                         <h2
                             class="text-3xl md:text-4xl font-semibold mb-10 text-black md:text-white md:max-w-[30%]"
@@ -120,12 +120,12 @@
             </SwiperSlide>
 
             <!-- Slide 5 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
+            <SwiperSlide class="min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
+                    class="relative w-full min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-05-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-05.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
+                        class="relative z-10 pb-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center md:gap-5 min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)]"
                     >
                         <h2
                             class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[35%]"
@@ -146,12 +146,12 @@
             </SwiperSlide>
 
             <!-- Slide 6 -->
-            <SwiperSlide class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full">
+            <SwiperSlide class="min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full">
                 <div
-                    class="relative w-full min-h-dvh md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
+                    class="relative w-full min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat bg-[url('/assets/images/main-imgs/slider-06-phone.jpg')] md:bg-[url('/assets/images/main-imgs/slider-06.jpg')]"
                 >
                     <div
-                        class="relative z-10 py-20 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center gap-5 min-h-dvh md:min-h-[calc(100vh-95px)]"
+                        class="relative z-10 pb-10 px-5 md:px-20 flex flex-col justify-end text-center md:text-start md:justify-center md:gap-5 min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)]"
                     >
                         <h2
                             class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[35%]"
@@ -185,13 +185,13 @@
         <!-- Slide titles under the slider -->
         <div class="bg-[#1C1C1C] py-2">
             <div class="container">
-                <div class="flex flex-col md:flex-row justify-between gap-3">
+                <div class="flex justify-between gap-1 md:gap-3">
                     <button
                         v-for="(title, index) in slideTitles"
                         :key="index"
                         @click="goToSlide(index)"
                         :class="[
-                            'text-sm md:text-md 3xl:text-lg transition-all duration-200 uppercase hover:underline',
+                            'text-[10px] md:text-md 3xl:text-lg transition-all duration-200 uppercase hover:underline',
                             currentSlideIndex === index
                                 ? 'font-semibold text-white'
                                 : 'text-gray-200',
@@ -226,7 +226,7 @@
                 <div class="rounded-2xl p-[25px] pb-[35px] border border-gray-200">
                     <div class="aspect-[408/275]">
                         <img
-                            class="min-h-dvh md:min-h-[calc(100vh-95px)] w-full object-cover rounded-2xl mb-[30px]"
+                            class="min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full object-cover rounded-2xl mb-[30px]"
                             src="/assets/images/destination-1.png"
                             alt="Img"
                         />
@@ -245,7 +245,7 @@
                 <div class="rounded-2xl p-[25px] pb-[35px] border border-gray-200">
                     <div class="aspect-[408/275]">
                         <img
-                            class="min-h-dvh md:h-screen w-full object-cover rounded-2xl mb-[30px]"
+                            class="min-h-[calc(100dvh-85px)] md:h-screen w-full object-cover rounded-2xl mb-[30px]"
                             src="/assets/images/destination-1.png"
                             alt="Img"
                         />
