@@ -1,6 +1,6 @@
 <template>
     <footer class="bg-[#08223B]">
-        <div class="px-10 md:px-40">
+        <div class="container">
             <div
                 class="text-white grid gird-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5 xl:gap-[98px] py-20 md:py-40"
             >
@@ -31,39 +31,39 @@
                     </p>
                 </div>
                 <div>
-                    <h5 class="text-heading-4 font-poppins mb-10">Quick Links</h5>
+                    <h5 class="text-lg md:text-xl font-poppins mb-10">Quick Links</h5>
                     <ul>
                         <li class="mb-5">
                             <a
-                                class="text-clamp transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                class="text-md md:text-lg transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
                                 href="#"
                                 >About Us</a
                             >
                         </li>
                         <li class="mb-5">
                             <a
-                                class="text-clamp transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                class="text-md md:text-lg transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
                                 href="#"
                                 >Services</a
                             >
                         </li>
                         <li class="mb-5">
                             <a
-                                class="text-clamp transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                class="text-md md:text-lg transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
                                 href="#"
                                 >Contact Us</a
                             >
                         </li>
                         <li class="mb-5">
                             <a
-                                class="text-clamp transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                class="text-md md:text-lg transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
                                 href="#"
                                 >Blog</a
                             >
                         </li>
                         <li class="mb-5">
                             <a
-                                class="text-clamp transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                class="text-md md:text-lg transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
                                 href="#"
                                 >Careers</a
                             >
@@ -71,39 +71,39 @@
                     </ul>
                 </div>
                 <div>
-                    <h5 class="text-heading-4 font-poppins mb-10 text-[18px]">Resources</h5>
+                    <h5 class="text-lg md:text-xl font-poppins mb-10 text-[18px]">Resources</h5>
                     <ul>
                         <li class="mb-5">
                             <a
-                                class="text-clamp transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                class="text-md md:text-lg transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
                                 href="/faqs"
                                 >FAQs</a
                             >
                         </li>
                         <li class="mb-5">
                             <a
-                                class="text-clamp transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                class="text-md md:text-lg transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
                                 href="/terms-conditions"
                                 >Case Studies</a
                             >
                         </li>
                         <li class="mb-5">
                             <a
-                                class="text-clamp transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                class="text-md md:text-lg transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
                                 href="/privacy-policy"
                                 >White Papers</a
                             >
                         </li>
                         <li class="mb-5">
                             <a
-                                class="text-clamp transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                class="text-md md:text-lg transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
                                 href="/contact"
                                 >Webinars</a
                             >
                         </li>
                         <li class="mb-5">
                             <a
-                                class="text-clamp transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
+                                class="text-md md:text-lg transition-all duration-200 hover:text-green-900 hover:pl-[3px]"
                                 href="/contact"
                                 >Careers</a
                             >
@@ -111,52 +111,52 @@
                     </ul>
                 </div>
                 <div>
-                    <h5 class="text-heading-4 font-poppins mb-10 text-[18px]">Connect With Us</h5>
+                    <h5 class="text-lg font-poppins mb-10 text-[18px]">Connect With Us</h5>
                     <ul>
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">
                                 <img src="/assets/images/icons/facebook.svg" alt="" />
-                                <span class="text-clamp">Facebook</span>
+                                <span class="text-md md:text-lg">Facebook</span>
                             </NuxtLink>
                         </li>
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">
                                 <img src="/assets/images/icons/insta.svg" alt="" />
-                                <span class="text-clamp">Instagram</span>
+                                <span class="text-md md:text-lg">Instagram</span>
                             </NuxtLink>
                         </li>
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">
                                 <img src="/assets/images/icons/X.svg" alt="" />
-                                <span class="text-clamp">Twitter</span>
+                                <span class="text-md md:text-lg">Twitter</span>
                             </NuxtLink>
                         </li>
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">
                                 <img src="/assets/images/icons/linkedin.svg" alt="" />
-                                <span class="text-clamp">Linkedin</span>
+                                <span class="text-md md:text-lg">Linkedin</span>
                             </NuxtLink>
                         </li>
                         <li class="mb-5">
                             <NuxtLink class="flex items-center gap-3" to="#">
                                 <img src="/assets/images/icons/youtube.svg" alt="" />
-                                <span class="text-clamp">Youtube</span>
+                                <span class="text-md md:text-lg">Youtube</span>
                             </NuxtLink>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div
-            class="bg-[#547326] text-black lg:flex lg:items-center lg:justify-between px-[12px] md:px-[36px] py-2"
-        >
-            <div class="md:flex md:items-center md:gap-6">
-                <p class="text-clamp">© 2025 Envi-comm. All rights reserved.</p>
-            </div>
-            <div class="flex items-center justify-between md:gap-6">
-                <a class="underline text-clamp" href="#">Privacy Policy</a
-                ><a class="underline text-clamp" href="#">Terms of Use</a
-                ><a class="underline text-clamp" href="#">Cookie Settings</a>
+        <div class="bg-[#547326] text-black lg:flex lg:items-center lg:justify-between py-1">
+            <div class="container">
+                <div class="md:flex md:items-center md:justify-between md:gap-6">
+                    <p class="text-md md:text-lg">© 2025 Envi-comm. All rights reserved.</p>
+                    <div class="flex items-center justify-between md:gap-6">
+                        <a class="underline text-md md:text-lg" href="#">Privacy Policy</a
+                        ><a class="underline text-md md:text-lg" href="#">Terms of Use</a
+                        ><a class="underline text-md md:text-lg" href="#">Cookie Settings</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>

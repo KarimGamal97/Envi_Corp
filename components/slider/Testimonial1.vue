@@ -22,6 +22,18 @@
             class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-2"
         >
             <img
+                src="/assets/images/main-imgs/rating.png"
+                alt="rating-stars"
+                class="w-[200px] mb-5"
+            />
+
+            <p class="text-lg md:text-xl text-gray-500 uppercase mb-5">
+                "I am very satisfied with the service provided by Envi-comm. The quality of their
+                work is excellent, and both the staff and team leader are highly professional in
+                their respective fields.”Even factoring differences in body weight between children
+                and adults into account.
+            </p>
+            <img
                 class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px] drop-shadow-md rounded-full"
                 src="/assets/images/main-imgs/logo-01.png"
                 alt="avatar"
@@ -29,44 +41,43 @@
             <p class="text-heading-6 font-poppins font-bold mb-[6px]">
                 EASTLAND PROPERTY VENTURES, INC
             </p>
-            <p class="text-sm md:text-md font-semibold mb-5 text-gray-700">
+            <p class="text-sm md:text-md font-semibold text-gray-700">
                 Proposed 10-Storey Socialized Condominium Development
             </p>
-            <p class="text-lg md:text-xl text-gray-500 uppercase">
-                "I am very satisfied with the service provided by Envi-comm. The quality of their
-                work is excellent, and both the staff and team leader are highly professional in
-                their respective fields.”Even factoring differences in body weight between children
-                and adults into account.
-            </p>
-            <img
-                src="/assets/images/main-imgs/rating.png"
-                alt="rating-stars"
-                class="w-[200px] mt-5"
-            />
         </swiper-slide>
         <swiper-slide
             class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-2"
         >
+            <img
+                src="/assets/images/main-imgs/rating.png"
+                alt="rating-stars"
+                class="w-[200px] mb-5"
+            />
+
+            <p class="text-lg md:text-xl text-gray-500 uppercase mb-5">
+                “We are very satisfied with your service, and if I'm going to rate it from 1 to 10,
+                it is always 10.”
+            </p>
             <img
                 class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px] drop-shadow-md rounded-full"
                 src="/assets/images/main-imgs/logo-02.png"
                 alt="avatar"
             />
             <p class="text-heading-6 font-poppins font-bold mb-[6px]">HAGNAYA BEACH RESORT</p>
-            <p class="text-sm md:text-md font-semibold mb-5 text-gray-700">Beach Resort Project</p>
-            <p class="text-lg md:text-xl text-gray-500 uppercase">
-                “We are very satisfied with your service, and if I'm going to rate it from 1 to 10,
-                it is always 10.”
-            </p>
-            <img
-                src="/assets/images/main-imgs/rating.png"
-                alt="rating-stars"
-                class="w-[200px] mt-5"
-            />
+            <p class="text-sm md:text-md font-semibold text-gray-700">Beach Resort Project</p>
         </swiper-slide>
         <swiper-slide
             class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-2"
         >
+            <img
+                src="/assets/images/main-imgs/rating.png"
+                alt="rating-stars"
+                class="w-[200px] mb-5"
+            />
+            <p class="text-lg md:text-xl text-gray-500 uppercase mb-5">
+                "So far, I love the service here at Envi-comm Corporation, and I can truly say that
+                their service is excellent."
+            </p>
             <img
                 class="h-full w-full object-cover max-w-[55px] max-h-[55px] mb-[22px] drop-shadow-md rounded-full"
                 src="/assets/images/main-imgs/logo-03.png"
@@ -75,18 +86,9 @@
             <p class="text-heading-6 font-poppins font-bold mb-[6px]">
                 SHEMBERG-INGREDIENTS GUMS AND CORPORATION
             </p>
-            <p class="text-sm md:text-md font-semibold mb-5 text-gray-700">
+            <p class="text-sm md:text-md font-semibold text-gray-700">
                 SHEMBERG-INGREDIENTS GUMS AND CORPORATION
             </p>
-            <p class="text-lg md:text-xl text-gray-500 uppercase">
-                "So far, I love the service here at Envi-comm Corporation, and I can truly say that
-                their service is excellent."
-            </p>
-            <img
-                src="/assets/images/main-imgs/rating.png"
-                alt="rating-stars"
-                class="w-[200px] mt-5"
-            />
         </swiper-slide>
     </swiper>
 </template>
