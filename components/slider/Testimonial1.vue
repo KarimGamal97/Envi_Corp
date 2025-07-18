@@ -1,7 +1,7 @@
 <template>
     <swiper
         :slides-per-view="1"
-        :space-between="0"
+        :space-between="10"
         :loop="true"
         :autoplay="{
             delay: 3000,
@@ -16,10 +16,10 @@
             prevEl: '.tap1',
         }"
         :modules="modules"
-        class="feedback-list ml-[-15px]"
+        class="feedback-list mx-5"
     >
         <swiper-slide
-            class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-2"
+            class="p-10 flex flex-col justify-center border-8 transition-all duration-300 hover:translate-y-[-2px] mt-[2px] border-bg-2"
         >
             <img
                 src="/assets/images/main-imgs/rating.png"
@@ -46,7 +46,7 @@
             </p>
         </swiper-slide>
         <swiper-slide
-            class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-2"
+            class="p-10 flex flex-col justify-center border-8 transition-all duration-300 hover:translate-y-[-2px] mt-[2px] border-bg-2"
         >
             <img
                 src="/assets/images/main-imgs/rating.png"
@@ -67,7 +67,7 @@
             <p class="text-sm md:text-md font-semibold text-gray-700">Beach Resort Project</p>
         </swiper-slide>
         <swiper-slide
-            class="p-10 transition-all duration-300 border-[10px] mx-[15px] hover:translate-y-[-2px] mt-[2px] border-bg-2"
+            class="p-10 flex flex-col justify-center border-8 transition-all duration-300 hover:translate-y-[-2px] mt-[2px] border-bg-2"
         >
             <img
                 src="/assets/images/main-imgs/rating.png"
@@ -109,3 +109,15 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+:deep(.swiper-slide) {
+    height: 700px !important;
+}
+
+@media (min-width: 1024px) {
+    :deep(.swiper-slide) {
+        height: 400px !important;
+    }
+}
+</style>

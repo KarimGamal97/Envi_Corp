@@ -12,7 +12,7 @@
                     src="/assets/images/main-imgs/main-logo-light.png"
                     alt="logo image"
             /></NuxtLink>
-            <ul class="flex items-center gap-5 md:hidden mr-10">
+            <ul class="flex items-center gap-5 md:hidden mr-[50px]">
                 <li class="flex items-center group">
                     <NuxtLink class="menu-link mr-[7px]" to="/resources">
                         <img src="/assets/images/icons/contact.svg" alt="contact" class="w-[50x]" />

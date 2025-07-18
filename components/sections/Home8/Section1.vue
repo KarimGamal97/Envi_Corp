@@ -35,7 +35,7 @@
                                 alt=""
                             />
                         </div>
-                        <div class="flex flex-col gap-10 py-10 px-5">
+                        <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
                                 class="text-3xl md:text-4xl font-semibold text-black md:max-w-[40%]"
                             >
@@ -70,7 +70,7 @@
                                 alt=""
                             />
                         </div>
-                        <div class="flex flex-col gap-10 py-10 px-5">
+                        <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
                                 class="text-3xl md:text-4xl font-semibold text-black md:text-white md:max-w-[35%]"
                             >
@@ -105,7 +105,7 @@
                                 alt=""
                             />
                         </div>
-                        <div class="flex flex-col gap-10 py-10 px-5">
+                        <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
                                 class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[30%]"
                             >
@@ -141,7 +141,7 @@
                                 alt=""
                             />
                         </div>
-                        <div class="flex flex-col gap-10 py-10 px-5">
+                        <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
                                 class="text-3xl md:text-4xl font-semibold mb-10 text-black md:text-white md:max-w-[30%]"
                             >
@@ -172,7 +172,7 @@
                                 alt=""
                             />
                         </div>
-                        <div class="flex flex-col gap-10 py-10 px-5">
+                        <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
                                 class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[35%]"
                             >
@@ -207,7 +207,7 @@
                                 alt=""
                             />
                         </div>
-                        <div class="flex flex-col gap-10 py-10 px-5">
+                        <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
                                 class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[35%]"
                             >
