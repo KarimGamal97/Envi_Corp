@@ -129,6 +129,9 @@ module.exports = {
     content: ["src/views/*.pug", "dist/*.html"],
     theme: {
         extend: {
+            screens: {
+                md: "1024px",
+            },
             backgroundImage: {},
             backgroundSize: {},
             colors: {
