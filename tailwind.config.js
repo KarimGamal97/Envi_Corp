@@ -131,8 +131,7 @@ module.exports = {
         extend: {
             screens: {
                 md: "1024px",
-                "3xl": "1920px", // لو عايزة تبدأ من Full HD
-                "4k": "3840px", // ده البريكبوينت لشاشات 4K
+                "4k": "3840px",
             },
             backgroundImage: {},
             backgroundSize: {},
