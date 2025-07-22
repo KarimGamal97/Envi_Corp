@@ -1,23 +1,23 @@
 <template>
     <section>
         <div class="px-[12px] md:px-[36px] xl:px-0 py-10 md:py-20">
-            <div class="items-center justify-between md:flex mb-[30px] md:mb-[90px] px-10 md:px-20">
-                <div class="mb-8">
+            <div class="mb-[30px] md:mb-[90px] px-10 md:px-20">
+                <div class="mb-8 text-center">
                     <h2
-                        class="text-gray-900 font-bold font-poppins mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
+                        class="text-gray-900 uppercase font-poppins mb-5 text-[26px] leading-[44px] md:text-[46px] lg:text-heading-1 md:mb-5"
                         data-aos="fade-up"
                     >
                         Our Happy Customers
                     </h2>
                     <p
-                        class="text-quote md:text-lead-lg text-gray-600"
+                        class="text-black text-md md:text-xl mb-5"
                         data-aos="fade-up"
                         data-aos-delay="300"
                     >
                         Know about our clients, we are a woldwide corporate brand
                     </p>
                 </div>
-                <div class="flex items-center gap-5" data-aos="fade-up" data-aos-delay="600">
+                <!-- <div class="flex items-center gap-5" data-aos="fade-up" data-aos-delay="600">
                     <div
                         class="tap1 place-items-center border border-gray-200 bg-gray-100 rounded-full cursor-pointer group transition-colors duration-200 w-[48px] xl:w-[64px] h-[48px] xl:h-[64px] hover:bg-[#547326] feedback-prev grid"
                     >
@@ -36,7 +36,7 @@
                             alt="control icon button"
                         />
                     </div>
-                </div>
+                </div> -->
             </div>
             <SliderTestimonial1 />
             <SectionsHome8Section10 />

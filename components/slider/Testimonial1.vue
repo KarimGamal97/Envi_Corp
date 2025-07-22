@@ -1,6 +1,6 @@
 <template>
     <swiper
-        :slides-per-view="1"
+        :slides-per-view="2"
         :space-between="10"
         :loop="true"
         :autoplay="{
@@ -15,6 +15,24 @@
             nextEl: '.tan1',
             prevEl: '.tap1',
         }"
+        :breakpoints="{
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+        }"
         :modules="modules"
         class="feedback-list mx-5"
     >
@@ -27,7 +45,7 @@
                 class="w-[200px] mb-5"
             />
 
-            <p class="text-lg md:text-xl text-gray-500 uppercase mb-5">
+            <p class="text-lg md:text-xl text-black uppercase mb-5">
                 "I am very satisfied with the service provided by Envi-comm. The quality of their
                 work is excellent, and both the staff and team leader are highly professional in
                 their respective fields.”Even factoring differences in body weight between children
@@ -54,7 +72,7 @@
                 class="w-[200px] mb-5"
             />
 
-            <p class="text-lg md:text-xl text-gray-500 uppercase mb-5">
+            <p class="text-lg md:text-xl text-black uppercase mb-5">
                 “We are very satisfied with your service, and if I'm going to rate it from 1 to 10,
                 it is always 10.”
             </p>
@@ -74,7 +92,7 @@
                 alt="rating-stars"
                 class="w-[200px] mb-5"
             />
-            <p class="text-lg md:text-xl text-gray-500 uppercase mb-5">
+            <p class="text-lg md:text-xl text-black uppercase mb-5">
                 "So far, I love the service here at Envi-comm Corporation, and I can truly say that
                 their service is excellent."
             </p>
