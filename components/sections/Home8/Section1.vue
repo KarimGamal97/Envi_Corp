@@ -37,16 +37,16 @@
                         </div>
                         <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
-                                class="text-3xl md:text-4xl font-semibold text-black md:max-w-[40%]"
+                                class="text-3xl md:text-4xl 4k:text-5xl font-semibold text-black md:max-w-[40%]"
                             >
                                 STP & WTP SYSTEMS Engineered for Efficiency
                             </h2>
-                            <p class="text-black text-xl md:text-2xl md:max-w-[25%]">
+                            <p class="text-black text-xl md:text-2xl 4k:text-3xl md:max-w-[25%]">
                                 One-stop solutions for effective wastewater and water treatment with
                                 minimal downtime and maximum performance.
                             </p>
                             <button
-                                class="bg-[#547326] border-2 border-white text-xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
+                                class="bg-[#547326] border-2 border-white text-xl 4k:text-3xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                             >
                                 Know More
                             </button>
@@ -72,16 +72,18 @@
                         </div>
                         <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
-                                class="text-3xl md:text-4xl font-semibold text-black md:text-white md:max-w-[35%]"
+                                class="text-3xl md:text-4xl 4k:text-5xl font-semibold text-black md:text-white md:max-w-[35%]"
                             >
                                 EIS Tailored for Your Industry
                             </h2>
-                            <p class="text-xl md:text-2xl text-black md:text-white md:max-w-[25%]">
+                            <p
+                                class="text-xl md:text-2xl 4k:text-3xl text-black md:text-white md:max-w-[25%]"
+                            >
                                 Whether infrastructure, energy, or development — our Environmental
                                 Impact Studies are built to match your sector's needs.
                             </p>
                             <button
-                                class="bg-[#547326] border-2 border-white text-xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
+                                class="bg-[#547326] border-2 border-white text-xl 4k:text-3xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                             >
                                 Know More
                             </button>
@@ -107,17 +109,19 @@
                         </div>
                         <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
-                                class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[30%]"
+                                class="text-2xl md:text-4xl 4k:text-5xl font-semibold mb-5 text-black md:max-w-[30%]"
                             >
                                 Solar Streetlight That Saves More Than Just Power
                             </h2>
-                            <p class="text-black text-xl md:text-2xl mb-5 md:max-w-[30%]">
+                            <p
+                                class="text-black text-xl md:text-2xl 4k:text-3xl mb-5 md:max-w-[30%]"
+                            >
                                 Introducing our 150W Solar Streetlight Harness the sun to save
                                 electricity, cut carbon emissions, and protect the planet — without
                                 compromising brightness or reliability.
                             </p>
                             <button
-                                class="bg-[#547326] border-2 border-white text-xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
+                                class="bg-[#547326] border-2 border-white text-xl 4k:text-3xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                             >
                                 Know More
                             </button>
@@ -143,12 +147,19 @@
                         </div>
                         <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
-                                class="text-3xl md:text-4xl font-semibold mb-10 text-black md:text-white md:max-w-[30%]"
+                                class="text-3xl md:text-4xl 4k:text-5xl font-semibold mb-5 text-black md:text-white md:max-w-[30%]"
                             >
                                 Secure Your DENR Certificate of Tree Planting
                             </h2>
+                            <p
+                                class="text-xl md:text-2xl 4k:text-3xl text-black mb-5 md:text-white md:max-w-[25%]"
+                            >
+                                Partner with us for effortless ECC compliance through our tree
+                                planting initiative, fulfilling your environmental responsibility
+                                with ease.
+                            </p>
                             <button
-                                class="text-xl bg-transparent border-2 border-black md:border-white rounded-md text-black md:text-white px-5 py-2 w-fit mx-auto block md:mx-0"
+                                class="text-xl 4k:text-3xl bg-transparent border-2 border-black md:border-white rounded-md text-black md:text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                             >
                                 Know More
                             </button>
@@ -174,16 +185,18 @@
                         </div>
                         <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
-                                class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[35%]"
+                                class="text-2xl md:text-4xl 4k:text-5xl font-semibold mb-5 text-black md:max-w-[35%]"
                             >
                                 Compliance Made Simple. Savings Made Easy.
                             </h2>
-                            <p class="text-black text-xl md:text-2xl mb-5 md:max-w-[25%]">
+                            <p
+                                class="text-black text-xl md:text-2xl 4k:text-3xl mb-5 md:max-w-[25%]"
+                            >
                                 Envi-comm’s Retainership Program gives you continuous support and
                                 peace of mind, so you can run your business worry-free.
                             </p>
                             <button
-                                class="bg-[#547326] border-2 border-white text-xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
+                                class="bg-[#547326] border-2 border-white text-xl 4k:text-3xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                             >
                                 Know More
                             </button>
@@ -209,17 +222,19 @@
                         </div>
                         <div class="flex flex-col gap-5 py-10 px-5">
                             <h2
-                                class="text-2xl md:text-4xl font-semibold mb-5 text-black md:max-w-[35%]"
+                                class="text-2xl md:text-4xl 4k:text-5xl font-semibold mb-5 text-black md:max-w-[35%]"
                             >
                                 Clean Water Starts with Proven Chemistry
                             </h2>
-                            <p class="text-black text-xl md:text-2x mb-5 md:max-w-[25%]">
+                            <p
+                                class="text-black text-xl md:text-2xl 4k:text-3xl mb-5 md:max-w-[25%]"
+                            >
                                 Envi-comm Corporation provides high-performance chemical solutions
                                 tailored for optimal sludge control, odor management, and regulatory
                                 compliance.
                             </p>
                             <button
-                                class="bg-[#547326] border-2 border-white text-xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
+                                class="bg-[#547326] border-2 border-white text-xl 4k:text-3xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
                             >
                                 Know More
                             </button>
