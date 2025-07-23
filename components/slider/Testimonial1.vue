@@ -34,7 +34,7 @@
             },
         }"
         :modules="modules"
-        class="mx-5"
+        class="feedback-list"
     >
         <swiper-slide
             class="p-10 flex flex-col justify-center border-8 transition-all duration-300 hover:translate-y-[-2px] mt-[2px] border-bg-2"
@@ -131,6 +131,9 @@ export default {
 <style scoped>
 :deep(.swiper-slide) {
     height: 700px !important;
+}
+.feedback-list {
+    margin-inline: 30px !important;
 }
 
 @media (min-width: 1024px) {

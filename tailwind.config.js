@@ -127,6 +127,7 @@ const typography = {
 
 module.exports = {
     content: ["src/views/*.pug", "dist/*.html"],
+    safelist: ["mx-5"],
     theme: {
         extend: {
             screens: {
