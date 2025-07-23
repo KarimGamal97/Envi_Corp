@@ -34,7 +34,7 @@
             },
         }"
         :modules="modules"
-        class="feedback-list mx-5"
+        class="mx-5"
     >
         <swiper-slide
             class="p-10 flex flex-col justify-center border-8 transition-all duration-300 hover:translate-y-[-2px] mt-[2px] border-bg-2"
