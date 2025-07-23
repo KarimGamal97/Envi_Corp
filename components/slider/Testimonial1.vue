@@ -131,14 +131,22 @@ export default {
 <style scoped>
 :deep(.swiper-slide) {
     height: 700px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
 }
 .feedback-list {
-    margin-inline: 30px !important;
+    margin-inline: 10px !important;
 }
 
 @media (min-width: 1024px) {
     :deep(.swiper-slide) {
         height: 400px !important;
+    }
+    .feedback-list {
+        margin-inline: 30px !important;
     }
 }
 </style>
