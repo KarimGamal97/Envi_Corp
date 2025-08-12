@@ -20,39 +20,6 @@
             }"
             class="mySwiper min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full relative overflow-hidden"
         >
-            <!-- Slide 1 -->
-            <SwiperSlide class="min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full">
-                <div
-                    class="relative w-full min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat md:bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
-                >
-                    <div
-                        class="relative z-10 md:py-5 md:px-20 flex flex-col text-center md:text-start md:justify-center gap-5 min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)]"
-                    >
-                        <div class="md:hidden w-full">
-                            <img
-                                src="/assets/images/main-imgs/slider-01-phone.jpg"
-                                class="w-full"
-                                alt=""
-                            />
-                        </div>
-                        <div class="flex flex-col gap-5 py-10 px-5">
-                            <h2 class="text-3xl md:text-5xl font-regular text-black md:max-w-[40%]">
-                                STP & WTP SYSTEMS Engineered for Efficiency
-                            </h2>
-                            <p class="text-black text-xl 4k:text-3xl md:max-w-[25%]">
-                                One-stop solutions for effective wastewater and water treatment with
-                                minimal downtime and maximum performance.
-                            </p>
-                            <button
-                                class="bg-[#547326] border-2 border-white text-xl 4k:text-3xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
-                            >
-                                Know More
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </SwiperSlide>
-
             <!-- Slide 2 -->
             <SwiperSlide class="min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full">
                 <div
@@ -77,6 +44,38 @@
                             <p class="text-xl 4k:text-3xl text-black md:text-white md:max-w-[25%]">
                                 Whether infrastructure, energy, or development — our Environmental
                                 Impact Studies are built to match your sector's needs.
+                            </p>
+                            <button
+                                class="bg-[#547326] border-2 border-white text-xl 4k:text-3xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
+                            >
+                                Know More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </SwiperSlide>
+            <!-- Slide 1 -->
+            <SwiperSlide class="min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] w-full">
+                <div
+                    class="relative w-full min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)] bg-contain bg-top md:bg-cover md:bg-center bg-no-repeat md:bg-[url('/assets/images/main-imgs/slider-01.jpg')]"
+                >
+                    <div
+                        class="relative z-10 md:py-5 md:px-20 flex flex-col text-center md:text-start md:justify-center gap-5 min-h-[calc(100dvh-85px)] md:min-h-[calc(100vh-95px)]"
+                    >
+                        <div class="md:hidden w-full">
+                            <img
+                                src="/assets/images/main-imgs/slider-01-phone.jpg"
+                                class="w-full"
+                                alt=""
+                            />
+                        </div>
+                        <div class="flex flex-col gap-5 py-10 px-5">
+                            <h2 class="text-3xl md:text-5xl font-regular text-black md:max-w-[40%]">
+                                STP & WTP SYSTEMS Engineered for Efficiency
+                            </h2>
+                            <p class="text-black text-xl 4k:text-3xl md:max-w-[25%]">
+                                One-stop solutions for effective wastewater and water treatment with
+                                minimal downtime and maximum performance.
                             </p>
                             <button
                                 class="bg-[#547326] border-2 border-white text-xl 4k:text-3xl rounded-md text-white px-5 py-2 w-fit mx-auto block md:mx-0"
@@ -369,9 +368,12 @@
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
                 <!-- items 1 -->
-                <div class="relative rounded-lg overflow-hidden h-[150px] group" data-aos="fade-up">
+                <div
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
+                    data-aos="fade-up"
+                >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_01.jpg"
@@ -379,20 +381,18 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        Planning
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">
+                        DENR: Application & Permitting
                     </h3>
                 </div>
                 <!-- items 2 -->
                 <div
-                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
                     data-aos-delay="300"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_02.jpg"
@@ -400,16 +400,15 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        Permitting
-                    </h3>
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">DENR: Reporting</h3>
                 </div>
                 <!-- items 3 -->
-                <div class="relative rounded-lg overflow-hidden h-[150px] group" data-aos="fade-up">
+                <div
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
+                    data-aos="fade-up"
+                >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_03.jpg"
@@ -417,20 +416,18 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        Reporting
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">
+                        DENR: Mapping & Planning
                     </h3>
                 </div>
                 <!-- items 4 -->
                 <div
-                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
                     data-aos-delay="600"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_04.jpg"
@@ -438,20 +435,16 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        STPs
-                    </h3>
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">STPs & WTPs</h3>
                 </div>
                 <!-- items 5 -->
                 <div
-                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
                     data-aos-delay="300"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_05.jpg"
@@ -459,20 +452,18 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        STP Chemicals
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">
+                        Chemical: STP & RO
                     </h3>
                 </div>
                 <!-- items 6 -->
                 <div
-                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
                     data-aos-delay="600"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_06.jpg"
@@ -480,20 +471,18 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        Solar
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">
+                        Renewable Energy Product & Technology
                     </h3>
                 </div>
                 <!-- items 7 -->
                 <div
-                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
                     data-aos-delay="600"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_07.jpg"
@@ -501,20 +490,18 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">
                         Hauling & Septage
                     </h3>
                 </div>
                 <!-- items 8 -->
                 <div
-                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
                     data-aos-delay="600"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_08.jpg"
@@ -522,20 +509,18 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        Saas
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">
+                        Saas Development
                     </h3>
                 </div>
                 <!-- items 9 -->
                 <div
-                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
                     data-aos-delay="600"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_09.jpg"
@@ -543,39 +528,16 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        Training
-                    </h3>
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">PCO Academy</h3>
                 </div>
                 <!-- items 10 -->
                 <div
-                    class="relative rounded-lg overflow-hidden h-[150px] group opacity-0 hidden md:block"
-                >
-                    <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
-                    ></div>
-                    <img
-                        src="/assets/images/main-imgs/what_we_do_10.jpg"
-                        alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
-                        loading="lazy"
-                    />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        Planning
-                    </h3>
-                </div>
-                <!-- items 10 -->
-                <div
-                    class="relative rounded-lg overflow-hidden h-[150px] group"
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
                     data-aos-delay="600"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_10.jpg"
@@ -583,18 +545,37 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        Planning
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">
+                        Specialized Data Collection: Air Quality
                     </h3>
                 </div>
-                <!-- items 10 -->
+                <!-- items 11 -->
                 <div
-                    class="relative rounded-lg overflow-hidden h-[150px] group opacity-0 hidden md:block"
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/what_we_do_11.jpg"
+                        alt="planning"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        loading="lazy"
+                    />
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">
+                        DENR: Professional & Specialized Authority
+                    </h3>
+                </div>
+                <!-- items 12 -->
+                <div
+                    class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                >
+                    <div
+                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
                     ></div>
                     <img
                         src="/assets/images/main-imgs/what_we_do_10.jpg"
@@ -602,10 +583,8 @@
                         class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
                         loading="lazy"
                     />
-                    <h3
-                        class="text-white border-b-[1.5px] border-white pb-1 text-clamp absolute bottom-10 left-10"
-                    >
-                        Planning
+                    <h3 class="text-white underline pb-1 text-xl z-20 relative">
+                        Autoclave and Pyrolysis Technology
                     </h3>
                 </div>
             </div>
@@ -630,8 +609,8 @@ export default {
             swiperInstance: null,
             currentSlideIndex: 0,
             slideTitles: [
-                "STP / WTP",
                 "ECC: EIS",
+                "STP / WTP",
                 "SOLAR",
                 "ECC: TREE PLANTING",
                 "ECC: IEE",

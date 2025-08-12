@@ -1,6 +1,7 @@
 <template>
     <div>
         <SectionsHome8Section1 />
+        <SectionsHome8Section11 />
         <!-- <SectionsHome8Section4 /> -->
         <!-- <SectionsHome8Section5 /> -->
         <SectionsHome8Section8 />

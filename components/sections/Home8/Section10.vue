@@ -1,109 +1,126 @@
 <template>
     <section class="pt-20">
         <div class="container">
-            <div class="inline-block pb-5 mb-[50px] border-b-[1px] border-gray-300 md:max-w-[70%]">
+            <div class="mb-[50px] text-center">
                 <h3
-                    class="font-semibold font-poppins text-[20px] md:text-heading-3 mb-3"
+                    class="font-poppins text-[20px] md:text-heading-3 mb-3 uppercase"
                     data-aos="fade-up"
                 >
-                    Trusted By over 20+ clients.
+                    Trusted By over 300+ clients.
                 </h3>
-                <p
-                    class="text-md md:text-lg font-poppins text-gray-600"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                >
+                <p class="text-md md:text-lg font-poppins" data-aos="fade-up" data-aos-delay="300">
                     Our clients are our top priority, and we are committed to providing them with
                     the best possible experience.
                 </p>
             </div>
 
             <div
-                class="grid grid-cols-2 md:grid-cols-4 gap-5"
+                class="grid grid-cols-2 md:grid-cols-5 gap-5"
                 data-aos="fade-up"
                 data-aos-delay="600"
             >
-                <div class="bg-gray-100 p-5 rounded-lg overflow-hidden group">
+                <div class="overflow-hidden group">
                     <img
-                        class="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
-                        src="/assets/images/main-imgs/logo-placeholder.png"
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/Mactan–Cebu_International_Airport_horizontal_logo.png"
                         alt="Img"
                     />
                 </div>
-                <div
-                    class="bg-gray-100 p-5 rounded-lg overflow-hidden group"
-                    data-aos="fade-up"
-                    data-aos-delay="700"
-                >
+                <div class="overflow-hidden group">
                     <img
-                        class="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
-                        src="/assets/images/main-imgs/logo-placeholder.png"
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/nautilus shipyard & repair inc.jpg"
                         alt="Img"
                     />
                 </div>
-                <div
-                    class="bg-gray-100 p-5 rounded-lg overflow-hidden group"
-                    data-aos="fade-up"
-                    data-aos-delay="800"
-                >
+                <div class="overflow-hidden flex items-center group">
                     <img
-                        class="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
-                        src="/assets/images/main-imgs/logo-placeholder.png"
+                        class="h-[60%] w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/Lite_ferries_logo.png"
                         alt="Img"
                     />
                 </div>
-                <div
-                    class="bg-gray-100 p-5 rounded-lg overflow-hidden group"
-                    data-aos="fade-up"
-                    data-aos-delay="900"
-                >
+                <div class="overflow-hidden flex items-center group">
                     <img
-                        class="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
-                        src="/assets/images/main-imgs/logo-placeholder.png"
+                        class="h-[70%] w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/[CITYPNG.COM]HD Hyundai Logo Transparent Background - 2000x2000.png"
                         alt="Img"
                     />
                 </div>
-                <div
-                    class="bg-gray-100 p-5 rounded-lg overflow-hidden group"
-                    data-aos="fade-up"
-                    data-aos-delay="1000"
-                >
+                <div class="overflow-hidden flex items-center group">
                     <img
-                        class="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
-                        src="/assets/images/main-imgs/logo-placeholder.png"
+                        class="h-[70%] w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/fortune_shipworks_logo.png"
                         alt="Img"
                     />
                 </div>
-                <div
-                    class="bg-gray-100 p-5 rounded-lg overflow-hidden group"
-                    data-aos="fade-up"
-                    data-aos-delay="1100"
-                >
+                <div class="overflow-hidden flex items-center group">
                     <img
-                        class="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
-                        src="/assets/images/main-imgs/logo-placeholder.png"
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/ABOITIZLAND-logo-logo.webp"
                         alt="Img"
                     />
                 </div>
-                <div
-                    class="bg-gray-100 p-5 rounded-lg overflow-hidden group"
-                    data-aos="fade-up"
-                    data-aos-delay="1200"
-                >
+                <div class="overflow-hidden flex items-center group">
                     <img
-                        class="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
-                        src="/assets/images/main-imgs/logo-placeholder.png"
+                        class="h-[70%] w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/Fifth AVenue property development.png"
                         alt="Img"
                     />
                 </div>
-                <div
-                    class="bg-gray-100 p-5 rounded-lg overflow-hidden group"
-                    data-aos="fade-up"
-                    data-aos-delay="1300"
-                >
+                <div class="overflow-hidden flex items-center group">
                     <img
-                        class="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
-                        src="/assets/images/main-imgs/logo-placeholder.png"
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/Filinvest_Land_Inc_logo (1).png"
+                        alt="Img"
+                    />
+                </div>
+                <div class="overflow-hidden flex items-center group">
+                    <img
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/Bank_of_the_Philippine_Islands_logo.svg.png"
+                        alt="Img"
+                    />
+                </div>
+                <div class="overflow-hidden flex items-center group">
+                    <img
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/Metropolitan_Bank_and_Trust_Company.png"
+                        alt="Img"
+                    />
+                </div>
+                <div class="overflow-hidden flex items-center group">
+                    <img
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/jpark-logo.png"
+                        alt="Img"
+                    />
+                </div>
+                <div class="overflow-hidden flex items-center group">
+                    <img
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/Plantation_logo.png"
+                        alt="Img"
+                    />
+                </div>
+                <div class="overflow-hidden flex items-center group">
+                    <img
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/Lantaw.png"
+                        alt="Img"
+                    />
+                </div>
+                <div class="overflow-hidden flex items-center group">
+                    <img
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/Belcris Foods Inc.png"
+                        alt="Img"
+                    />
+                </div>
+                <div class="overflow-hidden flex items-center group">
+                    <img
+                        class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
+                        src="/assets/images/main-imgs/clients/Panasonic_logo_(Blue).png"
                         alt="Img"
                     />
                 </div>
