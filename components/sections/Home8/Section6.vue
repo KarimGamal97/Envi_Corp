@@ -10,7 +10,7 @@
                         Our Happy Customers
                     </h2>
                     <p
-                        class="text-black text-md md:text-xl mb-5"
+                        class="text-black text-md md:text-xl 4k:text-2xl mb-5"
                         data-aos="fade-up"
                         data-aos-delay="300"
                     >

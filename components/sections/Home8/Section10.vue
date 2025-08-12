@@ -8,7 +8,11 @@
                 >
                     Trusted By over 300+ clients.
                 </h3>
-                <p class="text-md md:text-lg font-poppins" data-aos="fade-up" data-aos-delay="300">
+                <p
+                    class="text-md md:text-lg 4k:text-2xl font-poppins"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                >
                     Our clients are our top priority, and we are committed to providing them with
                     the best possible experience.
                 </p>
