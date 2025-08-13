@@ -368,225 +368,335 @@
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
                 <!-- items 1 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_01.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">
                         DENR: Application & Permitting
                     </h3>
-                </div>
+                </NuxtLink>
                 <!-- items 2 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
-                    data-aos-delay="300"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_02.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">DENR: Reporting</h3>
-                </div>
+                </NuxtLink>
                 <!-- items 3 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_03.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">
                         DENR: Mapping & Planning
                     </h3>
-                </div>
+                </NuxtLink>
                 <!-- items 4 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
-                    data-aos-delay="600"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_04.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">STPs & WTPs</h3>
-                </div>
+                </NuxtLink>
                 <!-- items 5 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
-                    data-aos-delay="300"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_05.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">
                         Chemical: STP & RO
                     </h3>
-                </div>
+                </NuxtLink>
                 <!-- items 6 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
-                    data-aos-delay="600"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_06.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">
                         Renewable Energy Product & Technology
                     </h3>
-                </div>
+                </NuxtLink>
                 <!-- items 7 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
-                    data-aos-delay="600"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_07.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">
                         Hauling & Septage
                     </h3>
-                </div>
+                </NuxtLink>
                 <!-- items 8 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
-                    data-aos-delay="600"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_08.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">
                         Saas Development
                     </h3>
-                </div>
+                </NuxtLink>
                 <!-- items 9 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
-                    data-aos-delay="600"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_09.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">PCO Academy</h3>
-                </div>
+                </NuxtLink>
                 <!-- items 10 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
-                    data-aos-delay="600"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_10.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">
                         Specialized Data Collection: Air Quality
                     </h3>
-                </div>
+                </NuxtLink>
                 <!-- items 11 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
-                    data-aos-delay="600"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_11.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">
                         DENR: Professional & Specialized Authority
                     </h3>
-                </div>
+                </NuxtLink>
                 <!-- items 12 -->
-                <div
+                <NuxtLink
                     class="relative rounded-lg overflow-hidden h-[140px] group flex justify-start items-end p-10"
                     data-aos="fade-up"
-                    data-aos-delay="600"
+                    to="/services"
                 >
                     <div
-                        class="absolute inset-0 bg-black/40 group-hover:bg-[#547326]/40 transition-all duration-300 w-full h-full"
+                        class="absolute inset-0 bg-black/40 transition-all duration-300 w-full h-full z-10"
                     ></div>
+                    <div
+                        class="absolute inset-0 bg-[#86B93F]/50 opacity-0 group-hover:opacity-100 group-active:opacity-0 transition-all duration-300 w-full h-full z-20"
+                    ></div>
+                    <img
+                        src="/assets/images/main-imgs/service-hover.jpg"
+                        alt="planning"
+                        class="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
+                        loading="lazy"
+                    />
                     <img
                         src="/assets/images/main-imgs/what_we_do_10.jpg"
                         alt="planning"
-                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center group-hover:scale-110 transition-all duration-300"
+                        class="absolute inset-0 z-[-1] w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
                     />
                     <h3 class="text-white underline pb-1 text-xl z-20 relative">
                         Autoclave and Pyrolysis Technology
                     </h3>
-                </div>
+                </NuxtLink>
             </div>
         </div>
     </section>
@@ -617,6 +727,7 @@ export default {
                 "CHEMICALS",
             ],
             modules: [Navigation, Pagination, Autoplay],
+            isActive: false,
         };
     },
     methods: {
@@ -758,5 +869,9 @@ export default {
     width: 100%;
     height: 100%;
     position: relative;
+}
+
+.active-overlay:active .overlay {
+    display: block !important;
 }
 </style>
