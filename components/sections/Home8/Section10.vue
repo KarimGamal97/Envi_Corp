@@ -28,6 +28,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/Mactan–Cebu_International_Airport_horizontal_logo.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden group">
@@ -35,6 +36,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/nautilus shipyard & repair inc.jpg"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -42,6 +44,7 @@
                         class="h-[60%] w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/Lite_ferries_logo.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -49,6 +52,7 @@
                         class="h-[70%] w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/[CITYPNG.COM]HD Hyundai Logo Transparent Background - 2000x2000.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -56,6 +60,7 @@
                         class="h-[70%] w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/fortune_shipworks_logo.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -63,6 +68,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/ABOITIZLAND-logo-logo.webp"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -70,6 +76,7 @@
                         class="h-[70%] w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/Fifth AVenue property development.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -77,6 +84,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/Filinvest_Land_Inc_logo (1).png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -84,6 +92,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/Bank_of_the_Philippine_Islands_logo.svg.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -91,6 +100,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/Metropolitan_Bank_and_Trust_Company.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -98,6 +108,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/jpark-logo.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -105,6 +116,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/Plantation_logo.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -112,6 +124,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/Lantaw.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -119,6 +132,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/Belcris Foods Inc.png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
                 <div class="overflow-hidden flex items-center group">
@@ -126,6 +140,7 @@
                         class="h-full w-full object-contain group-hover:scale-110 transition-all duration-300"
                         src="/assets/images/main-imgs/clients/Panasonic_logo_(Blue).png"
                         alt="Img"
+                        loading="lazy"
                     />
                 </div>
             </div>
