@@ -12,6 +12,7 @@
 </template>
 <script setup>
 useHead({
+    title: "Envi-Comm Corporation",
     bodyAttrs: {
         class: "overflow-x-hidden w-screen relative home-page",
     },

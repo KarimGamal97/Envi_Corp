@@ -2,7 +2,7 @@
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[133px]">
         <div class="text-center mb-[30px] md:mb-[90px]">
             <h2
-                class="font-bold font-poppins mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
+                class="font-bold mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
             >
                 Discover powerful features to boost your productivity
             </h2>
@@ -15,9 +15,7 @@
             <div
                 class="text-center rounded-2xl p-5 max-h-[300px] md:max-h-[450px] lg:max-h-[380px] xl:max-h-[455px] md:p-14 mb-[150px] md:mb-[300px] lg:mb-0 transition-all duration-300 hover:translate-y-[-3px] bg-bg-2"
             >
-                <h3
-                    class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[18px]"
-                >
+                <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[18px]">
                     Cross-Platform
                 </h3>
                 <p class="text-md text-gray-600 mb-[22px] lg:mx-16">
@@ -33,9 +31,7 @@
             <div
                 class="text-center rounded-2xl p-5 max-h-[300px] md:max-h-[450px] lg:max-h-[380px] xl:max-h-[455px] md:p-14 mb-[150px] md:mb-[300px] lg:mb-0 transition-all duration-300 hover:translate-y-[-3px] bg-bg-6"
             >
-                <h3
-                    class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[18px]"
-                >
+                <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[18px]">
                     Extremely Flexible
                 </h3>
                 <p class="text-md text-gray-600 mb-[22px] lg:mx-16">
@@ -61,9 +57,7 @@
                 <p class="text-capitalized text-gray-500 uppercase tracking-[2px] mb-[15px]">
                     Contact us
                 </p>
-                <h2
-                    class="font-bold font-poppins text-[25px] leading-[30px] md:text-heading-3 mb-[22px]"
-                >
+                <h2 class="font-bold text-[25px] leading-[30px] md:text-heading-3 mb-[22px]">
                     Have an project in mind?
                 </h2>
                 <p class="text-text text-gray-600 mb-[30px] md:mb-[60px]">
@@ -78,7 +72,7 @@
                             <i>
                                 <img src="/assets/images/icons/icon-home-fill.svg" alt="home icon"
                             /></i>
-                            <p class="text-heading-6 font-bold font-poppins">Envi-Comm</p>
+                            <p class="text-heading-6 font-bold">Envi-Comm</p>
                         </div>
                         <p class="text-text text-gray-600">4517 Washington Ave.</p>
                         <p class="text-text text-gray-600 mb-[10px] md:mb-[16px]">
@@ -90,24 +84,24 @@
                     <form class="flex-1" action="/">
                         <div class="flex flex-col gap-6 mb-6 lg:flex-row xl:gap-[30px]">
                             <input
-                                class="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md placeholder:font-poppins py-5 px-[30px]"
+                                class="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md placeholder: py-5 px-[30px]"
                                 type="text"
                                 placeholder="Enter your name"
                             />
                             <input
-                                class="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md placeholder:font-poppins py-5 px-[30px]"
+                                class="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md placeholder: py-5 px-[30px]"
                                 type="text"
                                 placeholder="Company (optional)"
                             />
                         </div>
                         <div class="flex flex-col gap-6 mb-6 lg:flex-row xl:gap-[30px]">
                             <input
-                                class="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md placeholder:font-poppins py-5 px-[30px]"
+                                class="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md placeholder: py-5 px-[30px]"
                                 type="text"
                                 placeholder="Your email"
                             />
                             <input
-                                class="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md placeholder:font-poppins py-5 px-[30px]"
+                                class="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md placeholder: py-5 px-[30px]"
                                 type="text"
                                 placeholder="Phone number"
                             />
@@ -121,7 +115,7 @@
                         ></textarea>
                         <div class="flex flex-col gap-5">
                             <button
-                                class="flex items-center transition-colors duration-200 px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] font-poppins font-semibold text-md md:text-lg text-white bg-gray-900 w-fit"
+                                class="flex items-center transition-colors duration-200 px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] font-semibold text-md md:text-lg text-white bg-gray-900 w-fit"
                                 type="submit"
                             >
                                 Send Message<i>
@@ -147,9 +141,7 @@
                 <p class="text-capitalized uppercase text-gray-500 tracking-[2px] mb-[13px]">
                     newsletter
                 </p>
-                <h4
-                    class="font-bold font-poppins text-[28px] leading-[32px] md:text-heading-2 mb-[20px]"
-                >
+                <h4 class="font-bold text-[28px] leading-[32px] md:text-heading-2 mb-[20px]">
                     Subscribe our newsletter
                 </h4>
                 <p class="text-text text-gray-500">

@@ -3,7 +3,7 @@
         <div class="flex-1 mb-[40px]">
             <div class="mb-[22px]">
                 <h2
-                    class="text-gray-900 font-bold font-poppins mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
+                    class="text-gray-900 font-bold mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
                 >
                     Frequently asked questions
                 </h2>
@@ -21,7 +21,7 @@
                             src="/assets/images/icons/icon-leaf.svg"
                             alt="leaf icon"
                         />
-                        <h4 class="text-heading-6 font-poppins font-bold">Boost your sale</h4>
+                        <h4 class="text-heading-6 font-bold">Boost your sale</h4>
                     </div>
                     <p class="text-excerpt text-gray-600">
                         The latest design trends meet hand-crafted templates.
@@ -34,9 +34,7 @@
                             src="/assets/images/icons/icon-leaf.svg"
                             alt="leaf icon"
                         />
-                        <h4 class="text-heading-6 font-poppins font-bold">
-                            Introducing New Features
-                        </h4>
+                        <h4 class="text-heading-6 font-bold">Introducing New Features</h4>
                     </div>
                     <p class="text-excerpt text-gray-600">
                         The latest design trends meet hand-crafted templates.
@@ -49,7 +47,7 @@
                         class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 w-fit"
                         to="#"
                         ><span
-                            class="block text-inherit w-full h-full rounded-[50px] text-lg font-poppins font-semibold"
+                            class="block text-inherit w-full h-full rounded-[50px] text-lg font-semibold"
                             >Contact Us</span
                         ><i>
                             <img
@@ -64,11 +62,11 @@
             <div class="relative accordion-item mb-5">
                 <details>
                     <summary class="flex justify-between py-5 items-center gap-5 px-[30px]">
-                        <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5">
+                        <h4 class="font-bold text-[14px] xl:text-heading-5">
                             Where is my order? Quisque molestie
                         </h4>
                     </summary>
-                    <p class="text-text content font-poppins mt-[30px] ml-[30px]">
+                    <p class="text-text content mt-[30px] ml-[30px]">
                         Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi
                         varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus
                         mattis ante nulla condimentum nulla.
@@ -78,11 +76,11 @@
             <div class="relative accordion-item mb-5">
                 <details>
                     <summary class="flex justify-between py-5 items-center gap-5 px-[30px]">
-                        <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5">
+                        <h4 class="font-bold text-[14px] xl:text-heading-5">
                             How can I return an item purchased online?
                         </h4>
                     </summary>
-                    <p class="text-text content font-poppins mt-[30px] ml-[30px]">
+                    <p class="text-text content mt-[30px] ml-[30px]">
                         Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi
                         varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus
                         mattis ante nulla condimentum nulla.
@@ -92,11 +90,11 @@
             <div class="relative accordion-item mb-5">
                 <details>
                     <summary class="flex justify-between py-5 items-center gap-5 px-[30px]">
-                        <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5">
+                        <h4 class="font-bold text-[14px] xl:text-heading-5">
                             Can I cancel or change my order?
                         </h4>
                     </summary>
-                    <p class="text-text content font-poppins mt-[30px] ml-[30px]">
+                    <p class="text-text content mt-[30px] ml-[30px]">
                         Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi
                         varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus
                         mattis ante nulla condimentum nulla.
@@ -106,11 +104,11 @@
             <div class="relative accordion-item mb-5">
                 <details>
                     <summary class="flex justify-between py-5 items-center gap-5 px-[30px]">
-                        <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5">
+                        <h4 class="font-bold text-[14px] xl:text-heading-5">
                             I have promotional or discount code?
                         </h4>
                     </summary>
-                    <p class="text-text content font-poppins mt-[30px] ml-[30px]">
+                    <p class="text-text content mt-[30px] ml-[30px]">
                         Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi
                         varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus
                         mattis ante nulla condimentum nulla.
@@ -120,11 +118,11 @@
             <div class="relative accordion-item mb-5">
                 <details>
                     <summary class="flex justify-between py-5 items-center gap-5 px-[30px]">
-                        <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5">
+                        <h4 class="font-bold text-[14px] xl:text-heading-5">
                             What are the delivery types you use?
                         </h4>
                     </summary>
-                    <p class="text-text content font-poppins mt-[30px] ml-[30px]">
+                    <p class="text-text content mt-[30px] ml-[30px]">
                         Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi
                         varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus
                         mattis ante nulla condimentum nulla.
@@ -134,11 +132,11 @@
             <div class="relative accordion-item mb-5">
                 <details>
                     <summary class="flex justify-between py-5 items-center gap-5 px-[30px]">
-                        <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5">
+                        <h4 class="font-bold text-[14px] xl:text-heading-5">
                             How can I pay for my purchases?
                         </h4>
                     </summary>
-                    <p class="text-text content font-poppins mt-[30px] ml-[30px]">
+                    <p class="text-text content mt-[30px] ml-[30px]">
                         Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi
                         varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus
                         mattis ante nulla condimentum nulla.
@@ -148,11 +146,11 @@
             <div class="relative accordion-item mb-5">
                 <details>
                     <summary class="flex justify-between py-5 items-center gap-5 px-[30px]">
-                        <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5">
+                        <h4 class="font-bold text-[14px] xl:text-heading-5">
                             Can I cancel my order?
                         </h4>
                     </summary>
-                    <p class="text-text content font-poppins mt-[30px] ml-[30px]">
+                    <p class="text-text content mt-[30px] ml-[30px]">
                         Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi
                         varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus
                         mattis ante nulla condimentum nulla.

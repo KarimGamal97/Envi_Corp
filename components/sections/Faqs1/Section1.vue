@@ -7,7 +7,7 @@
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] z-10 relative lg:mt-[84px]">
         <div class="text-center text-white">
             <h1
-                class="font-poppins font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] text-white mb-[45px]"
+                class="font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] text-white mb-[45px]"
             >
                 We are here to help you
             </h1>

@@ -2,7 +2,7 @@
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[100px]">
         <div class="text-center mb-[70px]">
             <h2
-                class="font-bold font-poppins mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
+                class="font-bold mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
             >
                 Services We Offer
             </h2>
@@ -20,9 +20,7 @@
                         src="/assets/images/icons/icon-flower.svg"
                         alt="icon"
                     />
-                    <h2
-                        class="font-bold font-poppins text-[28px] leading-[32px] md:text-heading-2 mb-[30px]"
-                    >
+                    <h2 class="font-bold text-[28px] leading-[32px] md:text-heading-2 mb-[30px]">
                         Application
                     </h2>
                     <p class="text-excerpt text-gray-600 mb-[30px]">
@@ -45,9 +43,7 @@
                         src="/assets/images/icons/icon-map.svg"
                         alt="icon"
                     />
-                    <h2
-                        class="font-bold font-poppins text-[28px] leading-[32px] md:text-heading-2 mb-[30px]"
-                    >
+                    <h2 class="font-bold text-[28px] leading-[32px] md:text-heading-2 mb-[30px]">
                         Planning
                     </h2>
                     <p class="text-excerpt text-gray-600 mb-[30px]">
@@ -70,9 +66,7 @@
                         src="/assets/images/icons/icon-pine.svg"
                         alt="icon"
                     />
-                    <h2
-                        class="font-bold font-poppins text-[28px] leading-[32px] md:text-heading-2 mb-[30px]"
-                    >
+                    <h2 class="font-bold text-[28px] leading-[32px] md:text-heading-2 mb-[30px]">
                         Reporting
                     </h2>
                     <p class="text-excerpt text-gray-600 mb-[30px]">
@@ -95,9 +89,7 @@
                         src="/assets/images/icons/icon-map.svg"
                         alt="icon"
                     />
-                    <h2
-                        class="font-bold font-poppins text-[28px] leading-[32px] md:text-heading-2 mb-[30px]"
-                    >
+                    <h2 class="font-bold text-[28px] leading-[32px] md:text-heading-2 mb-[30px]">
                         Consultancy
                     </h2>
                     <p class="text-excerpt text-gray-600 mb-[30px]">

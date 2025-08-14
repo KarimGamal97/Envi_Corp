@@ -3,7 +3,7 @@
         <div class="rounded-2xl px-5 py-24 lg:pt-[96px] lg:px-[122px] lg:pb-[139px] bg-gray-100">
             <div class="text-center">
                 <h2
-                    class="font-bold font-poppins mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-[8px] max-w-[725px]"
+                    class="font-bold mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-[8px] max-w-[725px]"
                 >
                     Our Happy Customers
                 </h2>
@@ -18,7 +18,7 @@
                 <div
                     class="rounded-2xl py-[40px] px-[30px] md:py-[55px] md:px-[48px] hover:translate-y-[-3px] transition-all duration-300 bg-white"
                 >
-                    <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5 mb-[30px]">
+                    <h4 class="font-bold text-[14px] xl:text-heading-5 mb-[30px]">
                         Satisfied client testimonial
                     </h4>
                     <p class="text-text text-gray-600 mb-[30px]">
@@ -40,7 +40,7 @@
                 <div
                     class="rounded-2xl py-[40px] px-[30px] md:py-[55px] md:px-[48px] hover:translate-y-[-3px] transition-all duration-300 bg-white"
                 >
-                    <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5 mb-[30px]">
+                    <h4 class="font-bold text-[14px] xl:text-heading-5 mb-[30px]">
                         98% of residents recommend us
                     </h4>
                     <p class="text-text text-gray-600 mb-[30px]">
@@ -62,7 +62,7 @@
                 <div
                     class="rounded-2xl py-[40px] px-[30px] md:py-[55px] md:px-[48px] hover:translate-y-[-3px] transition-all duration-300 bg-white"
                 >
-                    <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5 mb-[30px]">
+                    <h4 class="font-bold text-[14px] xl:text-heading-5 mb-[30px]">
                         Our success stories
                     </h4>
                     <p class="text-text text-gray-600 mb-[30px]">
@@ -85,7 +85,7 @@
                 <div
                     class="rounded-2xl py-[40px] px-[30px] md:py-[55px] md:px-[48px] hover:translate-y-[-3px] transition-all duration-300 bg-white"
                 >
-                    <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5 mb-[30px]">
+                    <h4 class="font-bold text-[14px] xl:text-heading-5 mb-[30px]">
                         This is simply unbelievable
                     </h4>
                     <p class="text-text text-gray-600 mb-[30px]">

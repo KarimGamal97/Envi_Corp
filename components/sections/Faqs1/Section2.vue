@@ -10,9 +10,7 @@
                         src="/assets/images/icons/icon-trees.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
-                        Lorem ipsum
-                    </h3>
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">Lorem ipsum</h3>
                     <p class="text-text text-gray-600">
                         Lorem ipsum dolor sit consectetur adipisicing .
                     </p>
@@ -25,9 +23,7 @@
                         src="/assets/images/icons/icon-sun.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
-                        Lorem ipsum
-                    </h3>
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">Lorem ipsum</h3>
                     <p class="text-text text-gray-600">
                         Lorem ipsum dolor sit consectetur adipisicing .
                     </p>
@@ -40,9 +36,7 @@
                         src="/assets/images/icons/icon-hat.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
-                        Lorem ipsum
-                    </h3>
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">Lorem ipsum</h3>
                     <p class="text-text text-gray-600">
                         Lorem ipsum dolor sit consectetur adipisicing .
                     </p>

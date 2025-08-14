@@ -4,15 +4,11 @@
     >
         <div class="flex flex-col gap-[30px]">
             <div class="rounded-2xl border border-gray-200 h-fit p-[30px]">
-                <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5 mb-[22px]">
-                    Filter items
-                </h4>
+                <h4 class="font-bold text-[14px] xl:text-heading-5 mb-[22px]">Filter items</h4>
                 <div class="w-full bg-gray-200 h-[1px] mb-[33px]"></div>
                 <div class="flex items-center gap-[15px] mb-2">
                     <p class="text-text text-gray-500 font-bold">Price Range ($):</p>
-                    <p class="text-heading-5 text-green-900 font-bold font-poppins">
-                        0 - {{ value }}
-                    </p>
+                    <p class="text-heading-5 text-green-900 font-bold">0 - {{ value }}</p>
                 </div>
                 <div class="mb-5">
                     <input
@@ -24,9 +20,7 @@
                         @input="handleChange"
                     />
                 </div>
-                <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 text-green-900 mb-[18px]"
-                >
+                <p class="font-bold text-[14px] md:text-heading-6 text-green-900 mb-[18px]">
                     Used for
                 </p>
                 <ul class="mb-5">
@@ -131,9 +125,7 @@
                         <p class="text-text">Sport</p>
                     </li>
                 </ul>
-                <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 text-green-900 mb-[18px]"
-                >
+                <p class="font-bold text-[14px] md:text-heading-6 text-green-900 mb-[18px]">
                     Brand
                 </p>
                 <ul class="mb-5">
@@ -238,9 +230,7 @@
                         <p class="text-text">Toshiba</p>
                     </li>
                 </ul>
-                <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 text-green-900 mb-[18px]"
-                >
+                <p class="font-bold text-[14px] md:text-heading-6 text-green-900 mb-[18px]">
                     Color
                 </p>
                 <ul class="mb-5">
@@ -269,15 +259,11 @@
                     class="flex items-center bg-bg-6 py-3 justify-center transition-colors duration-200 w-[130px] gap-[6px] rounded-[4px] hover:bg-bg-9 hover:text-gray-900"
                 >
                     <img src="/assets/images/icons/icon-filter.svg" alt="filter icon" />
-                    <p class="font-bold font-poppins text-[14px] md:text-heading-6 text-green-900">
-                        Filter
-                    </p>
+                    <p class="font-bold text-[14px] md:text-heading-6 text-green-900">Filter</p>
                 </button>
             </div>
             <div class="rounded-2xl border border-gray-200 h-fit p-[30px]">
-                <h4 class="font-bold font-poppins text-[14px] xl:text-heading-5 mb-[22px]">
-                    Popular Items
-                </h4>
+                <h4 class="font-bold text-[14px] xl:text-heading-5 mb-[22px]">Popular Items</h4>
                 <div class="w-full bg-gray-200 h-[1px] mb-[33px]"></div>
                 <div class="flex flex-col gap-[33px]">
                     <div class="flex items-center gap-[15px]">
@@ -334,9 +320,7 @@
                                 <p class="text-tiny font-semibold text-gray-400">(84 rates)</p>
                             </div>
                             <div class="flex items-baseline gap-2">
-                                <h4
-                                    class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
-                                >
+                                <h4 class="font-bold text-[14px] xl:text-heading-5 text-green-900">
                                     $22.51
                                 </h4>
                                 <span class="text-gray-400 line-through text-tiny lg:text-md"
@@ -399,9 +383,7 @@
                                 <p class="text-tiny font-semibold text-gray-400">(84 rates)</p>
                             </div>
                             <div class="flex items-baseline gap-2">
-                                <h4
-                                    class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
-                                >
+                                <h4 class="font-bold text-[14px] xl:text-heading-5 text-green-900">
                                     $22.51
                                 </h4>
                                 <span class="text-gray-400 line-through text-tiny lg:text-md"
@@ -464,9 +446,7 @@
                                 <p class="text-tiny font-semibold text-gray-400">(84 rates)</p>
                             </div>
                             <div class="flex items-baseline gap-2">
-                                <h4
-                                    class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
-                                >
+                                <h4 class="font-bold text-[14px] xl:text-heading-5 text-green-900">
                                     $22.51
                                 </h4>
                                 <span class="text-gray-400 line-through text-tiny lg:text-md"
@@ -529,9 +509,7 @@
                                 <p class="text-tiny font-semibold text-gray-400">(84 rates)</p>
                             </div>
                             <div class="flex items-baseline gap-2">
-                                <h4
-                                    class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
-                                >
+                                <h4 class="font-bold text-[14px] xl:text-heading-5 text-green-900">
                                     $22.51
                                 </h4>
                                 <span class="text-gray-400 line-through text-tiny lg:text-md"
@@ -594,9 +572,7 @@
                                 <p class="text-tiny font-semibold text-gray-400">(84 rates)</p>
                             </div>
                             <div class="flex items-baseline gap-2">
-                                <h4
-                                    class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
-                                >
+                                <h4 class="font-bold text-[14px] xl:text-heading-5 text-green-900">
                                     $22.51
                                 </h4>
                                 <span class="text-gray-400 line-through text-tiny lg:text-md"
@@ -659,9 +635,7 @@
                                 <p class="text-tiny font-semibold text-gray-400">(84 rates)</p>
                             </div>
                             <div class="flex items-baseline gap-2">
-                                <h4
-                                    class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
-                                >
+                                <h4 class="font-bold text-[14px] xl:text-heading-5 text-green-900">
                                     $22.51
                                 </h4>
                                 <span class="text-gray-400 line-through text-tiny lg:text-md"
@@ -724,9 +698,7 @@
                                 <p class="text-tiny font-semibold text-gray-400">(84 rates)</p>
                             </div>
                             <div class="flex items-baseline gap-2">
-                                <h4
-                                    class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
-                                >
+                                <h4 class="font-bold text-[14px] xl:text-heading-5 text-green-900">
                                     $22.51
                                 </h4>
                                 <span class="text-gray-400 line-through text-tiny lg:text-md"
@@ -738,20 +710,20 @@
                 </div>
             </div>
             <form class="bg-gray-100 rounded-2xl h-fit p-[30px]" action="#">
-                <p class="mb-9 text-heading-6 font-bold font-poppins">Get free coupons</p>
+                <p class="mb-9 text-heading-6 font-bold">Get free coupons</p>
                 <p class="text-text text-gray-500 mb-[18px]">
                     Enter you email address and get free coupons.
                 </p>
                 <div class="flex items-center p-4 bg-white gap-[9px] rounded-[8px] mb-[22px]">
                     <img src="/assets/images/icons/icon-mail.svg" alt="Mail icon" />
                     <input
-                        class="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md placeholder:font-poppins p-0"
+                        class="outline-none flex-1 placeholder:text-gray-400 placeholder:text-md placeholder: p-0"
                         type="text"
                         placeholder="Enter email address"
                     />
                 </div>
                 <button
-                    class="flex items-center transition-colors duration-200 py-3 px-[33px] rounded-[50px] text-heading-6 font-poppins font-bold bg-green-900 text-white hover:bg-black"
+                    class="flex items-center transition-colors duration-200 py-3 px-[33px] rounded-[50px] text-heading-6 font-bold bg-green-900 text-white hover:bg-black"
                 >
                     Submit
                 </button>
@@ -905,7 +877,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -914,7 +886,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -1012,7 +984,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -1021,7 +993,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -1119,7 +1091,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -1128,7 +1100,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -1226,7 +1198,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -1235,7 +1207,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -1333,7 +1305,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -1342,7 +1314,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -1440,7 +1412,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -1449,7 +1421,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -1547,7 +1519,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -1556,7 +1528,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -1654,7 +1626,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -1663,7 +1635,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -1761,7 +1733,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -1770,7 +1742,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -1868,7 +1840,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -1877,7 +1849,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -1975,7 +1947,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -1984,7 +1956,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -2082,7 +2054,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -2091,7 +2063,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -2189,7 +2161,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -2198,7 +2170,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -2296,7 +2268,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -2305,7 +2277,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>
@@ -2403,7 +2375,7 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-baseline gap-2">
                                     <h4
-                                        class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900"
+                                        class="font-bold text-[14px] xl:text-heading-5 text-green-900"
                                     >
                                         $22.51
                                     </h4>
@@ -2412,7 +2384,7 @@
                                     >
                                 </div>
                                 <button
-                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-poppins font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
+                                    class="flex items-center transition-colors duration-200 py-[5px] px-4 rounded-[8px] font-semibold text-md md:text-lg text-white bg-green-100 text-green-900 w-fit"
                                 >
                                     Add +
                                 </button>

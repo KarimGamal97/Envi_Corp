@@ -1,6 +1,6 @@
 <template>
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px]">
-        <h3 class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[50px]">
+        <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[50px]">
             Popular Search
         </h3>
         <ul class="flex items-center flex-wrap gap-[15px]">

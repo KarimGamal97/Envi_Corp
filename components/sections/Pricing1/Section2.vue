@@ -4,7 +4,7 @@
     >
         <div>
             <h1
-                class="font-poppins text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 font-extrabold mb-[28px]"
+                class="text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 font-extrabold mb-[28px]"
             >
                 How It Works
             </h1>
@@ -23,9 +23,7 @@
                     alt="icon"
                 />
                 <div>
-                    <h3
-                        class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
-                    >
+                    <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">
                         1. Acquisition
                     </h3>
                     <p class="text-excerpt">
@@ -43,9 +41,7 @@
                     alt="icon"
                 />
                 <div>
-                    <h3
-                        class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
-                    >
+                    <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">
                         2. Activation
                     </h3>
                     <p class="text-excerpt">
@@ -63,9 +59,7 @@
                     alt="icon"
                 />
                 <div>
-                    <h3
-                        class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
-                    >
+                    <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">
                         3. Retention
                     </h3>
                     <p class="text-excerpt">

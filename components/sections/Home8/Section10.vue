@@ -2,17 +2,10 @@
     <section class="pt-20">
         <div class="container">
             <div class="mb-[50px] text-center">
-                <h3
-                    class="font-poppins text-[20px] md:text-heading-3 mb-3 uppercase"
-                    data-aos="fade-up"
-                >
+                <h3 class="text-[20px] md:text-heading-3 mb-3 uppercase" data-aos="fade-up">
                     Trusted By over 300+ clients.
                 </h3>
-                <p
-                    class="text-md md:text-lg 4k:text-2xl font-poppins"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                >
+                <p class="text-md md:text-lg 4k:text-2xl" data-aos="fade-up" data-aos-delay="300">
                     Our clients are our top priority, and we are committed to providing them with
                     the best possible experience.
                 </p>

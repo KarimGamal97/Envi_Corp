@@ -12,7 +12,7 @@
             </div>
             <div class="flex-1 max-w-[667px]">
                 <h3
-                    class="font-poppins font-bold lg:text-heading-1 md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]"
+                    class="font-bold lg:text-heading-1 md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]"
                 >
                     Perfect Services Offered
                 </h3>
@@ -32,7 +32,7 @@
                         />
                         <div>
                             <h3
-                                class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
+                                class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
                             >
                                 Work smarter with powerful features
                             </h3>
@@ -52,7 +52,7 @@
                         />
                         <div>
                             <h3
-                                class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
+                                class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
                             >
                                 Designed for teams of all sorts and sizes
                             </h3>
@@ -72,7 +72,7 @@
                         />
                         <div>
                             <h3
-                                class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
+                                class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
                             >
                                 Advanced analytics to grow your business
                             </h3>

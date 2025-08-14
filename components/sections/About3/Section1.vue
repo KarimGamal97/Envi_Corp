@@ -2,14 +2,14 @@
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] text-center">
         <div class="text-center mb-[35px] md:mb-[43px]">
             <h2
-                class="font-bold font-poppins mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
+                class="font-bold mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
             >
                 Our Story
             </h2>
             <p class="text-quote md:text-lead-lg text-gray-600 mx-auto max-w-[976px]"></p>
         </div>
         <h3
-            class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 text-gray-600 mx-auto mb-[40px] md:mb-[75px] md:w-[50ch]"
+            class="font-bold text-[20px] leading-[26px] md:text-heading-4 text-gray-600 mx-auto mb-[40px] md:mb-[75px] md:w-[50ch]"
         >
             ENVI-COMM CORPORATION is an environmental consulting corporation composed of individuals
             passionate about sustainable development through compliance with various environmental

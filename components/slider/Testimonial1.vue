@@ -61,9 +61,7 @@
                     />
                 </div>
                 <div class="md:text-left">
-                    <p class="text-heading-6 font-poppins font-bold mb-[6px]">
-                        EASTLAND PROPERTY VENTURES, INC
-                    </p>
+                    <p class="text-heading-6 font-bold mb-[6px]">EASTLAND PROPERTY VENTURES, INC</p>
                     <p class="text-sm md:text-md font-semibold text-gray-700">
                         Proposed 10-Storey Socialized Condominium Development
                     </p>
@@ -95,9 +93,7 @@
                     />
                 </div>
                 <div class="md:text-left">
-                    <p class="text-heading-6 font-poppins font-bold mb-[6px]">
-                        HAGNAYA BEACH RESORT
-                    </p>
+                    <p class="text-heading-6 font-bold mb-[6px]">HAGNAYA BEACH RESORT</p>
                     <p class="text-sm md:text-md font-semibold text-gray-700">
                         Beach Resort Project
                     </p>
@@ -129,7 +125,7 @@
                     />
                 </div>
                 <div class="md:text-left">
-                    <p class="text-heading-6 font-poppins font-bold mb-[6px]">
+                    <p class="text-heading-6 font-bold mb-[6px]">
                         SHEMBERG-INGREDIENTS GUMS AND CORPORATION
                     </p>
                     <p class="text-sm md:text-md font-semibold text-gray-700">
@@ -162,7 +158,7 @@
                     />
                 </div>
                 <div class="md:text-left">
-                    <p class="text-heading-6 font-poppins font-bold mb-[6px]">
+                    <p class="text-heading-6 font-bold mb-[6px]">
                         Panasonic Manufacturing Philippines Coporation
                     </p>
                     <p class="text-sm md:text-md font-semibold text-gray-700">PANASONIC CEBU</p>

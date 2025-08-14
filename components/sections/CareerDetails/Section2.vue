@@ -1,9 +1,7 @@
 <template>
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] mx-auto max-w-[1090px]">
         <div class="mx-auto max-w-[866px]">
-            <h3
-                class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[17px]"
-            >
+            <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[17px]">
                 Job Description
             </h3>
             <p class="text-text">
@@ -39,9 +37,7 @@
             ><br />
         </div>
         <div class="mx-auto max-w-[866px]">
-            <h3
-                class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[17px]"
-            >
+            <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[17px]">
                 Essential Knowledge, Skills, and Experience
             </h3>
             <ul class="list-disc pl-5">
@@ -73,9 +69,7 @@
                 </li>
             </ul>
             <br />
-            <h3
-                class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[17px]"
-            >
+            <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[17px]">
                 Preferred Experience
             </h3>
             <ul class="list-disc pl-5">
@@ -88,9 +82,7 @@
                 </li>
             </ul>
             <br />
-            <h3
-                class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[17px]"
-            >
+            <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[17px]">
                 Product Designer
             </h3>
             <p class="text-text">
@@ -119,7 +111,7 @@
                             class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-green-900 text-white hover:bg-gray-900"
                             to="#"
                             ><span
-                                class="block text-inherit w-full h-full rounded-[50px] text-heading-6 font-poppins font-semibold"
+                                class="block text-inherit w-full h-full rounded-[50px] text-heading-6 font-semibold"
                                 >Apply Now</span
                             ><i>
                                 <img
@@ -133,7 +125,7 @@
                             class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-100 text-gray-900 hover:bg-gray-900 hover:text-white"
                             to="#"
                             ><span
-                                class="block text-inherit w-full h-full rounded-[50px] text-heading-6 font-poppins font-semibold"
+                                class="block text-inherit w-full h-full rounded-[50px] text-heading-6 font-semibold"
                                 >Contact Us</span
                             ><i>
                                 <img

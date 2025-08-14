@@ -4,7 +4,7 @@
             <div
                 class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]"
             >
-                <p class="text-heading-5 font-bold font-poppins text-green-1000">
+                <p class="text-heading-5 font-bold text-green-1000">
                     {{ timeParts.days }}
                 </p>
                 <img
@@ -19,7 +19,7 @@
             <div
                 class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]"
             >
-                <p class="text-heading-5 font-bold font-poppins text-green-1000">
+                <p class="text-heading-5 font-bold text-green-1000">
                     {{ timeParts.hours }}
                 </p>
                 <img
@@ -34,7 +34,7 @@
             <div
                 class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]"
             >
-                <p class="text-heading-5 font-bold font-poppins text-green-1000">
+                <p class="text-heading-5 font-bold text-green-1000">
                     {{ timeParts.minutes }}
                 </p>
                 <img
@@ -49,7 +49,7 @@
             <div
                 class="border border-gray-200 rounded grid place-items-center relative w-[57px] h-[64px] mb-[2px]"
             >
-                <p class="text-heading-5 font-bold font-poppins text-green-1000">
+                <p class="text-heading-5 font-bold text-green-1000">
                     {{ timeParts.seconds }}
                 </p>
             </div>

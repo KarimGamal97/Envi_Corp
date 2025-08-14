@@ -15,11 +15,11 @@
             <img class="max-w-[50px]" src="/assets/images/avatar-9.png" alt="avatar" />
             <div>
                 <p class="font-bold">Hi! User</p>
-                <p class="text-sm font-poppins text-gray-500">You have 5 new messages</p>
+                <p class="text-sm text-gray-500">You have 5 new messages</p>
             </div>
         </div>
         <div class="p-[30px]">
-            <ul class="font-poppins font-medium text-[16px] leading-[16px]">
+            <ul class="font-medium text-[16px] leading-[16px]">
                 <li class="group menu-mobile-item py-[13px]" @click="handleClick(1)">
                     <div
                         class="flex items-center justify-between transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]"
@@ -376,7 +376,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="text-gray-400 font-poppins text-[13px]">
+            <div class="text-gray-400 text-[13px]">
                 Copyright 2024 © Envi Corp - Agency Template.<br /><span>Designed by</span>
                 <NuxtLink class="text-green-900" href="http://alithemes.com"
                     >&nbsp;AliThemes</NuxtLink

@@ -2,7 +2,7 @@
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[100px]">
         <div class="mb-[35px] md:mb-[64px]">
             <h2
-                class="text-gray-900 font-bold font-poppins mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
+                class="text-gray-900 font-bold mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
             >
                 You may also like
             </h2>
@@ -18,7 +18,7 @@
                         src="/assets/images/product-sm-1.png"
                         alt="product image"
                     />
-                    <div class="font-poppins">
+                    <div class="">
                         <p
                             class="font-bold mb-3 text-[18px] leading-[21px] lg:text-[26px] lg:leading-[32px]"
                         >
@@ -45,7 +45,7 @@
                         src="/assets/images/product-sm-2.png"
                         alt="product image"
                     />
-                    <div class="font-poppins">
+                    <div class="">
                         <p
                             class="font-bold mb-3 text-[18px] leading-[21px] lg:text-[26px] lg:leading-[32px]"
                         >
@@ -72,7 +72,7 @@
                         src="/assets/images/product-sm-3.png"
                         alt="product image"
                     />
-                    <div class="font-poppins">
+                    <div class="">
                         <p
                             class="font-bold mb-3 text-[18px] leading-[21px] lg:text-[26px] lg:leading-[32px]"
                         >
@@ -99,7 +99,7 @@
                         src="/assets/images/product-sm-1.png"
                         alt="product image"
                     />
-                    <div class="font-poppins">
+                    <div class="">
                         <p
                             class="font-bold mb-3 text-[18px] leading-[21px] lg:text-[26px] lg:leading-[32px]"
                         >
@@ -126,7 +126,7 @@
                         src="/assets/images/product-sm-2.png"
                         alt="product image"
                     />
-                    <div class="font-poppins">
+                    <div class="">
                         <p
                             class="font-bold mb-3 text-[18px] leading-[21px] lg:text-[26px] lg:leading-[32px]"
                         >
@@ -153,7 +153,7 @@
                         src="/assets/images/product-sm-3.png"
                         alt="product image"
                     />
-                    <div class="font-poppins">
+                    <div class="">
                         <p
                             class="font-bold mb-3 text-[18px] leading-[21px] lg:text-[26px] lg:leading-[32px]"
                         >

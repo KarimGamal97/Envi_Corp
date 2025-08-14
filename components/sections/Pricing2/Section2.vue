@@ -2,7 +2,7 @@
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[104px]">
         <div class="text-center mb-[104px]">
             <h2
-                class="font-bold font-poppins mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[16ch]"
+                class="font-bold mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[16ch]"
             >
                 Compare Pricing Packages
             </h2>
@@ -14,15 +14,15 @@
                     <tr>
                         <th class="pb-9"></th>
                         <th class="pb-9">
-                            <p class="text-heading-4 font-poppins mb-3">Basic</p>
+                            <p class="text-heading-4 mb-3">Basic</p>
                             <p class="text-text text-gray-400 font-normal">On request</p>
                         </th>
                         <th class="pb-9">
-                            <p class="text-heading-4 font-poppins mb-3">Premium</p>
+                            <p class="text-heading-4 mb-3">Premium</p>
                             <p class="text-text text-gray-400 font-normal">On request</p>
                         </th>
                         <th class="pb-9">
-                            <p class="text-heading-4 font-poppins mb-3">Enterprise</p>
+                            <p class="text-heading-4 mb-3">Enterprise</p>
                             <p class="text-text text-gray-400 font-normal">On request</p>
                         </th>
                     </tr>

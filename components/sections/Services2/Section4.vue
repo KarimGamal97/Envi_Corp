@@ -3,7 +3,7 @@
         <div class="bg-bg-2 relative px-[12px] py-[70px] rounded-[50px]">
             <div class="text-center relative mb-[70px] md:mb-[90px]">
                 <h2
-                    class="font-bold font-poppins mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
+                    class="font-bold mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
                 >
                     What We Offer
                 </h2>
@@ -65,7 +65,7 @@
                         src="/assets/images/icons/icon-trees.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">
                         Market research
                     </h3>
                     <p class="text-text text-gray-600">
@@ -80,7 +80,7 @@
                         src="/assets/images/icons/icon-sun.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">
                         Strategic Consulting
                     </h3>
                     <p class="text-text text-gray-600">
@@ -95,7 +95,7 @@
                         src="/assets/images/icons/icon-hat.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">
                         Cognitive Solution
                     </h3>
                     <p class="text-text text-gray-600">
@@ -110,7 +110,7 @@
                         src="/assets/images/icons/icon-trees.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">
                         Market research
                     </h3>
                     <p class="text-text text-gray-600">
@@ -125,7 +125,7 @@
                         src="/assets/images/icons/icon-sun.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">
                         Strategic Consulting
                     </h3>
                     <p class="text-text text-gray-600">
@@ -140,7 +140,7 @@
                         src="/assets/images/icons/icon-hat.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">
                         Cognitive Solution
                     </h3>
                     <p class="text-text text-gray-600">
@@ -155,7 +155,7 @@
                         src="/assets/images/icons/icon-trees.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">
                         Market research
                     </h3>
                     <p class="text-text text-gray-600">
@@ -170,7 +170,7 @@
                         src="/assets/images/icons/icon-sun.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">
                         Strategic Consulting
                     </h3>
                     <p class="text-text text-gray-600">
@@ -185,7 +185,7 @@
                         src="/assets/images/icons/icon-hat.svg"
                         alt="icon"
                     />
-                    <h3 class="font-poppins font-bold text-[18px] md:text-heading-5 mb-[20px]">
+                    <h3 class="font-bold text-[18px] md:text-heading-5 mb-[20px]">
                         Cognitive Solution
                     </h3>
                     <p class="text-text text-gray-600">

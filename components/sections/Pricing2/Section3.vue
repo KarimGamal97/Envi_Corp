@@ -2,7 +2,7 @@
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[138px]">
         <div class="text-center mb-[45px]">
             <h2
-                class="font-bold font-poppins mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-full"
+                class="font-bold mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-full"
             >
                 Providing solutions of every kind
             </h2>
@@ -21,9 +21,7 @@
                     alt="icon"
                 />
                 <div>
-                    <h3
-                        class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
-                    >
+                    <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">
                         1. Acquisition
                     </h3>
                     <p class="text-excerpt">
@@ -41,9 +39,7 @@
                     alt="icon"
                 />
                 <div>
-                    <h3
-                        class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
-                    >
+                    <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">
                         2. Activation
                     </h3>
                     <p class="text-excerpt">
@@ -61,9 +57,7 @@
                     alt="icon"
                 />
                 <div>
-                    <h3
-                        class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-[14px]"
-                    >
+                    <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">
                         3. Retention
                     </h3>
                     <p class="text-excerpt">

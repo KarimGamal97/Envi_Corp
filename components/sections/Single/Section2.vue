@@ -5,7 +5,7 @@
         <div
             class="flex flex-col items-center gap-6 follow-scroll translate-x-[-106px] absolute top-0"
         >
-            <p class="text-heading-6 font-bold font-poppins text-gray-400">Share</p>
+            <p class="text-heading-6 font-bold text-gray-400">Share</p>
             <NuxtLink to="#"> <img src="/assets/images/icons/icon-fb.svg" alt="" /></NuxtLink>
             <NuxtLink to="#">
                 <img src="/assets/images/icons/icon-twitter-black.svg" alt=""
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <span
-                class="font-poppins inline-block bg-bg-6 text-green-900 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px]"
+                class="inline-block bg-bg-6 text-green-900 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px]"
                 >18 comments</span
             >
         </div>
@@ -51,7 +51,7 @@
             odio porta. Egestas mauris placerat leo phasellu s ut sit.
         </p>
         <h2
-            class="font-bold font-poppins text-[25px] leading-[30px] md:text-heading-3 mb-6 text-gray-900 md:mb-9"
+            class="font-bold text-[25px] leading-[30px] md:text-heading-3 mb-6 text-gray-900 md:mb-9"
         >
             Use your headings
         </h2>
@@ -72,9 +72,7 @@
                     src="/assets/images/icons/icon-left-quote.svg"
                     alt="quote icon"
                 />
-                <p
-                    class="text-white font-poppins mb-5 text-lead md:text-[32px] md:leading-[48px] md:mb-7"
-                >
+                <p class="text-white mb-5 text-lead md:text-[32px] md:leading-[48px] md:mb-7">
                     Blandit consequat feugiat sed dapibus lorem diam nibh venenatis sodales pulvinar
                     augue adipiscing turpis nulla sit tincidunt non lacus sit amet et white dreamy
                     dramatically place.
@@ -85,14 +83,12 @@
                         src="/assets/images/avatar-7.png"
                         alt="avatar"
                     />
-                    <p class="text-white font-bold font-poppins text-[22px] leading-[38px]">
-                        Ronald Richards
-                    </p>
+                    <p class="text-white font-bold text-[22px] leading-[38px]">Ronald Richards</p>
                 </div>
             </div>
         </div>
         <h3
-            class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 text-gray-900 mb-6 md:mb-9"
+            class="font-bold text-[20px] leading-[26px] md:text-heading-4 text-gray-900 mb-6 md:mb-9"
         >
             Smaller heading
         </h3>
@@ -142,9 +138,7 @@
             </div>
             <figcaption class="text-center mt-4">furniture in your house</figcaption>
         </figure>
-        <h2
-            class="font-bold font-poppins text-[25px] leading-[30px] md:text-heading-3 mb-10 text-gray-900"
-        >
+        <h2 class="font-bold text-[25px] leading-[30px] md:text-heading-3 mb-10 text-gray-900">
             Use your headings
         </h2>
         <p class="mb-[40px] md:mb-[71px]">
@@ -193,7 +187,7 @@
             </button>
         </div>
         <h2
-            class="font-bold font-poppins text-[28px] leading-[32px] md:text-heading-2 text-gray-900 mb-[35px] md:mb-[52px]"
+            class="font-bold text-[28px] leading-[32px] md:text-heading-2 text-gray-900 mb-[35px] md:mb-[52px]"
         >
             Comments
         </h2>
@@ -270,7 +264,7 @@
         </div>
         <div class="w-full bg-gray-200 mb-7 h-[1px] md:mb-10"></div>
         <h3
-            class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 text-gray-900 mb-[30px] md:mb-[42px]"
+            class="font-bold text-[20px] leading-[26px] md:text-heading-4 text-gray-900 mb-[30px] md:mb-[42px]"
         >
             Leave a comment
         </h3>

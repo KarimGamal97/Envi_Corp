@@ -5,11 +5,11 @@
         >
             <div class="flex-[1.36] mr-[90px]">
                 <span
-                    class="font-poppins inline-block bg-bg-9 text-gray-900 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[36px]"
+                    class="inline-block bg-bg-9 text-gray-900 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[36px]"
                     >Built Exclusively For You</span
                 >
                 <h1
-                    class="font-poppins text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 font-extrabold mb-[25px]"
+                    class="text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 font-extrabold mb-[25px]"
                 >
                     Don’t take our word for it. See what our clients say.
                 </h1>
@@ -22,7 +22,7 @@
                         class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-100 text-gray-900 hover:bg-gray-900 hover:text-white w-fit"
                         to="#"
                         ><span
-                            class="block text-inherit w-full h-full rounded-[50px] text-lg font-poppins font-semibold"
+                            class="block text-inherit w-full h-full rounded-[50px] text-lg font-semibold"
                             >Learn More</span
                         ><i>
                             <img

@@ -4,7 +4,7 @@
             <div class="mb-[30px] md:mb-[90px] px-10 md:px-20">
                 <div class="mb-8 text-center">
                     <h2
-                        class="text-gray-900 uppercase font-poppins mb-5 text-[26px] leading-[44px] md:text-[46px] lg:text-heading-1 md:mb-5"
+                        class="text-gray-900 uppercase mb-5 text-[26px] leading-[44px] md:text-[46px] lg:text-heading-1 md:mb-5"
                         data-aos="fade-up"
                     >
                         Our Happy Customers

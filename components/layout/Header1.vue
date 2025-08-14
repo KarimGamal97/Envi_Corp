@@ -36,7 +36,7 @@
                         class="flex items-center z-10 relative transition-all duration-200 group px-[22px] rounded-[50px] bg-gray-100 text-gray-900 hover:bg-gray-900 hover:text-white"
                         href="/contact"
                         ><span
-                            class="block text-inherit w-full h-full rounded-[50px] text-heading-6 font-bold font-poppins"
+                            class="block text-inherit w-full h-full rounded-[50px] text-heading-6 font-bold "
                             >Contact Us</span
                         ><i>
                             <img

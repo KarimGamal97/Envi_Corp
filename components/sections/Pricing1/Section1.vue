@@ -2,7 +2,7 @@
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[137px]">
         <div class="text-center">
             <h2
-                class="font-bold font-poppins mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
+                class="font-bold mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
             >
                 Choose The Best Plan That’s For You
             </h2>
@@ -38,7 +38,7 @@
                 >
                     <div>
                         <div class="mb-[21px]">
-                            <span class="text-heading-3 font-bold font-poppins"
+                            <span class="text-heading-3 font-bold"
                                 >$<template v-if="isToggled">420</template
                                 ><template v-else>35</template></span
                             ><span class="text-sm font-bold text-gray-400 ml-[2px]"
@@ -46,7 +46,7 @@
                                 ><template v-else>month</template></span
                             >
                         </div>
-                        <h5 class="text-heading-5 font-poppins font-bold mb-[9px]">Standard</h5>
+                        <h5 class="text-heading-5 font-bold mb-[9px]">Standard</h5>
                         <p class="text-sm font-bold text-gray-400 mb-[43px]">
                             All the basics for businesses that are just getting started.
                         </p>
@@ -87,7 +87,7 @@
                             class="flex items-center z-10 relative transition-all duration-200 group py-[11px] px-[22px] rounded-md bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 border-[2px] border-[#171B24]"
                             to="#"
                             ><span
-                                class="block text-inherit w-full h-full rounded-md text-lg font-poppins font-semibold"
+                                class="block text-inherit w-full h-full rounded-md text-lg font-semibold"
                                 >Get Started</span
                             ><i>
                                 <img
@@ -102,7 +102,7 @@
                 >
                     <div>
                         <div class="mb-[21px]">
-                            <span class="text-heading-3 font-bold font-poppins"
+                            <span class="text-heading-3 font-bold"
                                 >$<template v-if="isToggled">1068</template
                                 ><template v-else>89</template></span
                             ><span class="text-sm font-bold text-gray-400 ml-[2px]"
@@ -110,7 +110,7 @@
                                 ><template v-else>month</template></span
                             >
                         </div>
-                        <h5 class="text-heading-5 font-poppins font-bold mb-[9px]">Standard</h5>
+                        <h5 class="text-heading-5 font-bold mb-[9px]">Standard</h5>
                         <p class="text-sm font-bold text-gray-400 mb-[43px]">
                             All the basics for businesses that are just getting started.
                         </p>
@@ -151,7 +151,7 @@
                             class="flex items-center z-10 relative transition-all duration-200 group py-[11px] px-[22px] rounded-md bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 border-[2px] border-[#171B24]"
                             to="#"
                             ><span
-                                class="block text-inherit w-full h-full rounded-md text-lg font-poppins font-semibold"
+                                class="block text-inherit w-full h-full rounded-md text-lg font-semibold"
                                 >Get Started</span
                             ><i>
                                 <img
@@ -166,7 +166,7 @@
                 >
                     <div>
                         <div class="mb-[21px]">
-                            <span class="text-heading-3 font-bold font-poppins"
+                            <span class="text-heading-3 font-bold"
                                 >$<template v-if="isToggled">1500</template
                                 ><template v-else>125</template></span
                             ><span class="text-sm font-bold text-gray-400 ml-[2px]"
@@ -174,7 +174,7 @@
                                 ><template v-else>month</template></span
                             >
                         </div>
-                        <h5 class="text-heading-5 font-poppins font-bold mb-[9px]">Standard</h5>
+                        <h5 class="text-heading-5 font-bold mb-[9px]">Standard</h5>
                         <p class="text-sm font-bold text-gray-400 mb-[43px]">
                             All the basics for businesses that are just getting started.
                         </p>
@@ -215,7 +215,7 @@
                             class="flex items-center z-10 relative transition-all duration-200 group py-[11px] px-[22px] rounded-md bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 border-[2px] border-[#171B24]"
                             to="#"
                             ><span
-                                class="block text-inherit w-full h-full rounded-md text-lg font-poppins font-semibold"
+                                class="block text-inherit w-full h-full rounded-md text-lg font-semibold"
                                 >Get Started</span
                             ><i>
                                 <img
@@ -230,7 +230,7 @@
                 >
                     <div>
                         <div class="mb-[21px]">
-                            <span class="text-heading-3 font-bold font-poppins"
+                            <span class="text-heading-3 font-bold"
                                 >$<template v-if="isToggled">2388</template
                                 ><template v-else>199</template></span
                             ><span class="text-sm font-bold text-gray-400 ml-[2px]"
@@ -238,7 +238,7 @@
                                 ><template v-else>month</template></span
                             >
                         </div>
-                        <h5 class="text-heading-5 font-poppins font-bold mb-[9px]">Standard</h5>
+                        <h5 class="text-heading-5 font-bold mb-[9px]">Standard</h5>
                         <p class="text-sm font-bold text-gray-400 mb-[43px]">
                             All the basics for businesses that are just getting started.
                         </p>
@@ -279,7 +279,7 @@
                             class="flex items-center z-10 relative transition-all duration-200 group py-[11px] px-[22px] rounded-md bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 border-[2px] border-[#171B24]"
                             to="#"
                             ><span
-                                class="block text-inherit w-full h-full rounded-md text-lg font-poppins font-semibold"
+                                class="block text-inherit w-full h-full rounded-md text-lg font-semibold"
                                 >Get Started</span
                             ><i>
                                 <img

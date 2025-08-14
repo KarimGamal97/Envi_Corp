@@ -1,7 +1,7 @@
 <template>
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[30px] md:mt-[80px] lg:mt-[143px]">
         <h2
-            class="font-bold font-poppins text-[25px] leading-[30px] md:text-heading-3 text-center mb-[40px] md:mb-[60px] lg:mb-[84px]"
+            class="font-bold text-[25px] leading-[30px] md:text-heading-3 text-center mb-[40px] md:mb-[60px] lg:mb-[84px]"
         >
             Trusted by the world’s leading companies
         </h2>

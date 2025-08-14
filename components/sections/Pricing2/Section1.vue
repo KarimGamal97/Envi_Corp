@@ -7,7 +7,7 @@
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[139px]">
         <div class="text-center mb-10 md:mb-[80px]">
             <h2
-                class="font-bold font-poppins mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
+                class="font-bold mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-[725px]"
             >
                 Choose The Best Plan That’s For You
             </h2>
@@ -66,7 +66,7 @@
                             class="block-price-icon w-[26px] h-[26px] bg-[url(/assets/images/icons/icon-checkbox.svg)]"
                         ></div>
                         <div>
-                            <p class="text-heading-5 font-poppins font-bold mb-[14px]">Standard</p>
+                            <p class="text-heading-5 font-bold mb-[14px]">Standard</p>
                             <p
                                 class="text-text px-3 bg-gray-500 text-white discount rounded-[14px]"
                             >
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                     <div>
-                        <span class="text-heading-3 font-bold font-poppins"
+                        <span class="text-heading-3 font-bold"
                             >$<template v-if="isToggled">420</template
                             ><template v-else>35</template></span
                         ><span class="text-sm font-bold text-gray-400 price-length ml-[2px]"
@@ -92,7 +92,7 @@
                             class="block-price-icon w-[26px] h-[26px] bg-[url(/assets/images/icons/icon-checkbox.svg)]"
                         ></div>
                         <div>
-                            <p class="text-heading-5 font-poppins font-bold mb-[14px]">Standard</p>
+                            <p class="text-heading-5 font-bold mb-[14px]">Standard</p>
                             <p
                                 class="text-text px-3 bg-gray-500 text-white discount rounded-[14px]"
                             >
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                     <div>
-                        <span class="text-heading-3 font-bold font-poppins"
+                        <span class="text-heading-3 font-bold"
                             >$<template v-if="isToggled">1068</template
                             ><template v-else>89</template></span
                         ><span class="text-sm font-bold text-gray-400 price-length ml-[2px]"
@@ -118,7 +118,7 @@
                             class="block-price-icon w-[26px] h-[26px] bg-[url(/assets/images/icons/icon-checkbox.svg)]"
                         ></div>
                         <div>
-                            <p class="text-heading-5 font-poppins font-bold mb-[14px]">Standard</p>
+                            <p class="text-heading-5 font-bold mb-[14px]">Standard</p>
                             <p
                                 class="text-text px-3 bg-gray-500 text-white discount rounded-[14px]"
                             >
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                     <div>
-                        <span class="text-heading-3 font-bold font-poppins"
+                        <span class="text-heading-3 font-bold"
                             >$<template v-if="isToggled">1500</template
                             ><template v-else>125</template></span
                         ><span class="text-sm font-bold text-gray-400 price-length ml-[2px]"
@@ -144,7 +144,7 @@
                             class="block-price-icon w-[26px] h-[26px] bg-[url(/assets/images/icons/icon-checkbox.svg)]"
                         ></div>
                         <div>
-                            <p class="text-heading-5 font-poppins font-bold mb-[14px]">Standard</p>
+                            <p class="text-heading-5 font-bold mb-[14px]">Standard</p>
                             <p
                                 class="text-text px-3 bg-gray-500 text-white discount rounded-[14px]"
                             >
@@ -153,7 +153,7 @@
                         </div>
                     </div>
                     <div>
-                        <span class="text-heading-3 font-bold font-poppins"
+                        <span class="text-heading-3 font-bold"
                             >$<template v-if="isToggled">2388</template
                             ><template v-else>199</template></span
                         ><span class="text-sm font-bold text-gray-400 price-length ml-[2px]"
@@ -170,7 +170,7 @@
                     class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900"
                     to="#"
                     ><span
-                        class="block text-inherit w-full h-full rounded-[50px] text-lg font-poppins font-semibold"
+                        class="block text-inherit w-full h-full rounded-[50px] text-lg font-semibold"
                         >Start free trial</span
                     ><i>
                         <img
@@ -184,7 +184,7 @@
                     class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-100 text-gray-900 hover:bg-gray-900 hover:text-white"
                     to="#"
                     ><span
-                        class="block text-inherit w-full h-full rounded-[50px] text-lg font-poppins font-semibold"
+                        class="block text-inherit w-full h-full rounded-[50px] text-lg font-semibold"
                         >View plans comparison</span
                     ><i>
                         <img

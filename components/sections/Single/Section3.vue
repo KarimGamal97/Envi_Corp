@@ -8,9 +8,7 @@
                 <p class="text-capitalized uppercase text-gray-500 tracking-[2px] mb-[13px]">
                     newsletter
                 </p>
-                <h4
-                    class="font-bold font-poppins text-[28px] leading-[32px] md:text-heading-2 mb-[20px]"
-                >
+                <h4 class="font-bold text-[28px] leading-[32px] md:text-heading-2 mb-[20px]">
                     Subscribe our newsletter
                 </h4>
                 <p class="text-text text-gray-500">

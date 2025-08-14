@@ -3564,7 +3564,7 @@ select {
     vertical-align: middle;
 }
 
-.font-poppins {
+. {
     font-family: poppins, sans-serif;
 }
 
@@ -4040,15 +4040,15 @@ select {
     display: none;
 }
 
-.placeholder\:font-poppins::-moz-placeholder {
+.placeholder\:::-moz-placeholder {
     font-family: poppins, sans-serif;
 }
 
-.placeholder\:font-poppins:-ms-input-placeholder {
+.placeholder\::-ms-input-placeholder {
     font-family: poppins, sans-serif;
 }
 
-.placeholder\:font-poppins::placeholder {
+.placeholder\:::placeholder {
     font-family: poppins, sans-serif;
 }
 

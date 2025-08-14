@@ -5,7 +5,7 @@
         >
             <div>
                 <h1
-                    class="font-poppins font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-green-900"
+                    class="font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-green-900"
                 >
                     +12
                 </h1>
@@ -13,7 +13,7 @@
             </div>
             <div>
                 <h1
-                    class="font-poppins font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-green-900"
+                    class="font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-green-900"
                 >
                     2K+
                 </h1>
@@ -21,7 +21,7 @@
             </div>
             <div>
                 <h1
-                    class="font-poppins font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-green-900"
+                    class="font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-green-900"
                 >
                     28+
                 </h1>
@@ -29,7 +29,7 @@
             </div>
             <div>
                 <h1
-                    class="font-poppins font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-green-900"
+                    class="font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-green-900"
                 >
                     86
                 </h1>
@@ -37,7 +37,7 @@
             </div>
             <div>
                 <h1
-                    class="font-poppins font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-green-900"
+                    class="font-bold lg:text-display-3 md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-green-900"
                 >
                     +12
                 </h1>

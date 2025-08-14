@@ -2,7 +2,7 @@
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[140px]">
         <div class="mb-[40px] lg:mb-[73px]">
             <h2
-                class="text-gray-900 font-bold font-poppins mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
+                class="text-gray-900 font-bold mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
             >
                 What's new
             </h2>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <h3
-                    class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mt-[45px] md:mt-[73px] mb-[18px]"
+                    class="font-bold text-[20px] leading-[26px] md:text-heading-4 mt-[45px] md:mt-[73px] mb-[18px]"
                 >
                     How To Blow Through Capital At An Incredible Rate
                 </h3>
@@ -43,7 +43,7 @@
                         alt="avatar"
                     />
                     <div>
-                        <p class="line-clamp-2 font-bold mb-[3px] font-poppins lg:text-heading-6">
+                        <p class="line-clamp-2 font-bold mb-[3px] lg:text-heading-6">
                             Jenny Wilson
                         </p>
                         <p class="font-bold text-sm">August 25, 2024</p>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <h3
-                    class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mt-[45px] md:mt-[73px] mb-[18px]"
+                    class="font-bold text-[20px] leading-[26px] md:text-heading-4 mt-[45px] md:mt-[73px] mb-[18px]"
                 >
                     How To Blow Through Capital At An Incredible Rate
                 </h3>
@@ -84,7 +84,7 @@
                         alt="avatar"
                     />
                     <div>
-                        <p class="line-clamp-2 font-bold mb-[3px] font-poppins lg:text-heading-6">
+                        <p class="line-clamp-2 font-bold mb-[3px] lg:text-heading-6">
                             Jenny Wilson
                         </p>
                         <p class="font-bold text-sm">August 25, 2024</p>
@@ -96,9 +96,7 @@
                     class="flex items-center gap-6 pb-12 border-b border-gray-200 justify-between cursor-pointer"
                 >
                     <div class="flex-1">
-                        <p
-                            class="font-bold font-poppins text-[14px] md:text-heading-6 line-clamp-2 mb-[18px]"
-                        >
+                        <p class="font-bold text-[14px] md:text-heading-6 line-clamp-2 mb-[18px]">
                             Design Studios That Everyone Should Know
                         </p>
                         <div class="flex items-center gap-[11px]">
@@ -134,9 +132,7 @@
                     class="flex items-center gap-6 pb-12 border-b border-gray-200 justify-between cursor-pointer"
                 >
                     <div class="flex-1">
-                        <p
-                            class="font-bold font-poppins text-[14px] md:text-heading-6 line-clamp-2 mb-[18px]"
-                        >
+                        <p class="font-bold text-[14px] md:text-heading-6 line-clamp-2 mb-[18px]">
                             Design Studios That Everyone Should Know
                         </p>
                         <div class="flex items-center gap-[11px]">
@@ -172,9 +168,7 @@
                     class="flex items-center gap-6 pb-12 border-b border-gray-200 justify-between cursor-pointer"
                 >
                     <div class="flex-1">
-                        <p
-                            class="font-bold font-poppins text-[14px] md:text-heading-6 line-clamp-2 mb-[18px]"
-                        >
+                        <p class="font-bold text-[14px] md:text-heading-6 line-clamp-2 mb-[18px]">
                             Design Studios That Everyone Should Know
                         </p>
                         <div class="flex items-center gap-[11px]">
@@ -210,9 +204,7 @@
                     class="flex items-center gap-6 pb-12 border-b border-gray-200 justify-between cursor-pointer"
                 >
                     <div class="flex-1">
-                        <p
-                            class="font-bold font-poppins text-[14px] md:text-heading-6 line-clamp-2 mb-[18px]"
-                        >
+                        <p class="font-bold text-[14px] md:text-heading-6 line-clamp-2 mb-[18px]">
                             Design Studios That Everyone Should Know
                         </p>
                         <div class="flex items-center gap-[11px]">

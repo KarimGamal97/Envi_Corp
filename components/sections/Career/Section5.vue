@@ -5,7 +5,7 @@
         >
             <div>
                 <h2
-                    class="text-gray-900 font-bold font-poppins mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
+                    class="text-gray-900 font-bold mb-5 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px]"
                 >
                     Latest News
                 </h2>
@@ -18,7 +18,7 @@
                     class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 w-fit"
                     to="#"
                     ><span
-                        class="block text-inherit w-full h-full rounded-[50px] text-lg font-poppins font-semibold"
+                        class="block text-inherit w-full h-full rounded-[50px] text-lg font-semibold"
                         >View More</span
                     ><i>
                         <img
@@ -34,7 +34,7 @@
                     <div class="bg-gray-500 rounded-full w-[3px] h-[3px] mr-[6px]"></div>
                     <span class="uppercase text-gray-500">company</span>
                 </div>
-                <p class="text-heading-4 font-poppins font-bold inline-block mb-[26px]">
+                <p class="text-heading-4 font-bold inline-block mb-[26px]">
                     We can blend colors multiple ways, the most common
                 </p>
                 <div class="relative mb-16">
@@ -61,7 +61,7 @@
                     <div class="bg-gray-500 rounded-full w-[3px] h-[3px] mr-[6px]"></div>
                     <span class="uppercase text-gray-500">Marketing Event</span>
                 </div>
-                <p class="text-heading-4 font-poppins font-bold inline-block mb-[26px]">
+                <p class="text-heading-4 font-bold inline-block mb-[26px]">
                     How To Blow Through Capital At An Incredible Rate
                 </p>
                 <div class="relative mb-16">
@@ -88,7 +88,7 @@
                     <div class="bg-gray-500 rounded-full w-[3px] h-[3px] mr-[6px]"></div>
                     <span class="uppercase text-gray-500">Customer Services</span>
                 </div>
-                <p class="text-heading-4 font-poppins font-bold inline-block mb-[26px]">
+                <p class="text-heading-4 font-bold inline-block mb-[26px]">
                     Design Studios That Everyone Should Know About?
                 </p>
                 <div class="relative mb-16">
@@ -119,9 +119,7 @@
                 <p class="text-capitalized uppercase text-gray-500 tracking-[2px] mb-[13px]">
                     newsletter
                 </p>
-                <h4
-                    class="font-bold font-poppins text-[28px] leading-[32px] md:text-heading-2 mb-[20px]"
-                >
+                <h4 class="font-bold text-[28px] leading-[32px] md:text-heading-2 mb-[20px]">
                     Subscribe our newsletter
                 </h4>
                 <p class="text-text text-gray-500">

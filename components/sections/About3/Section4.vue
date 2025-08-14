@@ -8,11 +8,11 @@
             />
             <div class="flex-1 order-1 lg:gap-[30px] xl:gap-[64px]">
                 <span
-                    class="font-poppins inline-block bg-bg-6 text-green-900 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]"
+                    class="inline-block bg-bg-6 text-green-900 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]"
                     >Integrity Guides Our Professional Relationships</span
                 >
                 <h3
-                    class="font-poppins font-bold lg:text-heading-1 md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]"
+                    class="font-bold lg:text-heading-1 md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]"
                 >
                     We value our relationships with co-workers, clients, and shareholders.
                 </h3>
@@ -28,7 +28,7 @@
                                 src="/assets/images/icons/icon-leaf.svg"
                                 alt="leaf icon"
                             />
-                            <h4 class="text-heading-6 font-poppins font-bold">Professionalism</h4>
+                            <h4 class="text-heading-6 font-bold">Professionalism</h4>
                         </div>
                         <p class="text-excerpt text-gray-600">
                             As a consultancy firm, we seek to achieve work with quality.
@@ -41,7 +41,7 @@
                                 src="/assets/images/icons/icon-leaf.svg"
                                 alt="leaf icon"
                             />
-                            <h4 class="text-heading-6 font-poppins font-bold">Ethical Expertise</h4>
+                            <h4 class="text-heading-6 font-bold">Ethical Expertise</h4>
                         </div>
                         <p class="text-excerpt text-gray-600">
                             Professional expertise with highest ethical standards.
@@ -54,9 +54,7 @@
                                 src="/assets/images/icons/icon-leaf.svg"
                                 alt="leaf icon"
                             />
-                            <h4 class="text-heading-6 font-poppins font-bold">
-                                Unparalleled Service
-                            </h4>
+                            <h4 class="text-heading-6 font-bold">Unparalleled Service</h4>
                         </div>
                         <p class="text-excerpt text-gray-600">
                             As a consultancy firm, we seek to achieve work with quality
@@ -69,7 +67,7 @@
                                 src="/assets/images/icons/icon-leaf.svg"
                                 alt="leaf icon"
                             />
-                            <h4 class="text-heading-6 font-poppins font-bold">Dynamic Boosting</h4>
+                            <h4 class="text-heading-6 font-bold">Dynamic Boosting</h4>
                         </div>
                         <p class="text-excerpt text-gray-600">
                             Expert competence with top ethical standards.

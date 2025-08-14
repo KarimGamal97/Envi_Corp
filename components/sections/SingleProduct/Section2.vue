@@ -28,18 +28,16 @@
                     <p class="text-tiny font-semibold text-gray-400">(138 rates)</p>
                 </div>
             </div>
-            <h3 class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 mb-8">
+            <h3 class="font-bold text-[20px] leading-[26px] md:text-heading-4 mb-8">
                 Sony Digital Surround Wireless Headphones Black Bundle with Deco Gear 6FT Universal
                 4K
             </h3>
             <div class="flex items-baseline gap-4 mb-8">
-                <h2
-                    class="font-bold font-poppins text-[25px] leading-[30px] md:text-heading-3 text-green-1000"
-                >
+                <h2 class="font-bold text-[25px] leading-[30px] md:text-heading-3 text-green-1000">
                     $318.00
                 </h2>
                 <h3
-                    class="font-bold font-poppins text-[20px] leading-[26px] md:text-heading-4 text-gray-500 line-through"
+                    class="font-bold text-[20px] leading-[26px] md:text-heading-4 text-gray-500 line-through"
                 >
                     $420.00
                 </h3>
@@ -52,7 +50,7 @@
             </p>
             <div class="flex flex-col gap-5 mb-[30px] md:flex-row md:gap-[37px]">
                 <div class="flex-1">
-                    <div class="font-poppins text-heading-6 font-bold text-green-1000 mb-[10px]">
+                    <div class="text-heading-6 font-bold text-green-1000 mb-[10px]">
                         <span class="block">Hurry up!</span
                         ><span class="block">Sales ends soon!</span>
                     </div>
@@ -69,7 +67,7 @@
                     class="detail-qty border border-green-100 rounded-lg flex items-center justify-between w-[118px]"
                 >
                     <input
-                        class="qty-val text-green-1000 px-4 text-center font-bold font-poppins text-[20px] max-w-[80px]"
+                        class="qty-val text-green-1000 px-4 text-center font-bold text-[20px] max-w-[80px]"
                         v-model="qtyVal"
                     />
                     <div class="flex flex-col">
@@ -93,7 +91,7 @@
                     >
                         <img src="/assets/images/icons/icon-cart.svg" alt="cart icon" />
                         <p
-                            class="text-green-1000 font-poppins font-bold text-[14px] md:text-[18px] md:leading-[20px]"
+                            class="text-green-1000 font-bold text-[14px] md:text-[18px] md:leading-[20px]"
                         >
                             Add To Cart
                         </p>

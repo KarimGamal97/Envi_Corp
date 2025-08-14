@@ -249,9 +249,7 @@
                         </div>
                         <div>
                             <div class="flex justify-between mb-3">
-                                <span class="font-poppins flex-1 text-[13px]"
-                                    >December 4, 2022 at 3:12 pm</span
-                                >
+                                <span class="flex-1 text-[13px]">December 4, 2022 at 3:12 pm</span>
                                 <div
                                     class="flex items-center relative z-10 overflow-hidden gap-[3px] max-w-[75px]"
                                 >
@@ -319,9 +317,7 @@
                         </div>
                         <div>
                             <div class="flex justify-between mb-3">
-                                <span class="font-poppins flex-1 text-[13px]"
-                                    >December 4, 2022 at 3:12 pm</span
-                                >
+                                <span class="flex-1 text-[13px]">December 4, 2022 at 3:12 pm</span>
                                 <div
                                     class="flex items-center relative z-10 overflow-hidden gap-[3px] max-w-[75px]"
                                 >
@@ -387,9 +383,7 @@
                         </div>
                         <div>
                             <div class="flex justify-between mb-3">
-                                <span class="font-poppins flex-1 text-[13px]"
-                                    >December 4, 2022 at 3:12 pm</span
-                                >
+                                <span class="flex-1 text-[13px]">December 4, 2022 at 3:12 pm</span>
                                 <div
                                     class="flex items-center relative z-10 overflow-hidden gap-[3px] max-w-[75px]"
                                 >

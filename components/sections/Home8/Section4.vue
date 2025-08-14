@@ -11,7 +11,7 @@
         </div>
         <div class="flex-1 order-1">
             <h3
-                class="font-poppins font-bold lg:text-heading-1 md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]"
+                class="font-bold lg:text-heading-1 md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]"
             >
                 Core Values
             </h3>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="flex-1">
                         <h4
-                            class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900 mb-[14px]"
+                            class="font-bold text-[14px] xl:text-heading-5 text-green-900 mb-[14px]"
                         >
                             Integrity
                         </h4>
@@ -53,7 +53,7 @@
                     </div>
                     <div class="flex-1">
                         <h4
-                            class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900 mb-[14px]"
+                            class="font-bold text-[14px] xl:text-heading-5 text-green-900 mb-[14px]"
                         >
                             Professionalism
                         </h4>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="flex-1">
                         <h4
-                            class="font-bold font-poppins text-[14px] xl:text-heading-5 text-green-900 mb-[14px]"
+                            class="font-bold text-[14px] xl:text-heading-5 text-green-900 mb-[14px]"
                         >
                             Unparalleled Service
                         </h4>

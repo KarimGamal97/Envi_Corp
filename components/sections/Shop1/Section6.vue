@@ -3,7 +3,7 @@
         <div class="rounded-2xl p-[30px] md:py-[41px] md:px-[87px] bg-green-900 flex relative">
             <div class="lg:w-[45%]">
                 <h1
-                    class="font-poppins text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 font-extrabold text-white mb-[6px]"
+                    class="text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 font-extrabold text-white mb-[6px]"
                 >
                     You can order on App and Play store
                 </h1>

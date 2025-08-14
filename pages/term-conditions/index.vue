@@ -3,7 +3,7 @@
         <div class="grid grid-cols-1 mb-[61px]">
             <div></div>
             <h1
-                class="font-poppins text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 font-extrabold text-center md:ml-[78px] md:mr-[50px]"
+                class="text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 font-extrabold text-center md:ml-[78px] md:mr-[50px]"
             >
                 Terms & Conditions
             </h1>
@@ -21,7 +21,7 @@
                     />
                 </div>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="limitation-of-liability"
                 >
                     Limitation of Liability
@@ -36,7 +36,7 @@
                     or data, you assume any costs thereof.
                 </p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="licensing-policy"
                 >
                     Licensing Policy
@@ -47,7 +47,7 @@
                     details.
                 </p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="product-compatibility"
                 >
                     Product Compatibility
@@ -59,7 +59,7 @@
                     with the products if you use any version prior to that.
                 </p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="delivery"
                 >
                     Delivery
@@ -73,7 +73,7 @@
                     in AliThemes after logging in.
                 </p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="ownership"
                 >
                     Ownership
@@ -88,7 +88,7 @@
                     incapacity to use our products.
                 </p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="browser-compatibility"
                 >
                     Browser Compatibility
@@ -101,7 +101,7 @@
                     systems.
                 </p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="updates"
                 >
                     Updates
@@ -112,14 +112,14 @@
                     of our themes.
                 </p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="theme-support"
                 >
                     Theme Support
                 </p>
                 <p class="mb-[30px]">Please refer to Help and Support Policy page for details.</p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="price-changes"
                 >
                     Price Changes
@@ -130,14 +130,14 @@
                     notice.
                 </p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="refund-policy"
                 >
                     Refund Policy
                 </p>
                 <p class="mb-[30px]">Please refer to Refund Policy page for details.</p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="email-and-newsletter"
                 >
                     Email & Newsletter
@@ -150,7 +150,7 @@
                     penalty.
                 </p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="license-agreement"
                 >
                     License Agreement
@@ -162,7 +162,7 @@
                     or consent.
                 </p>
                 <p
-                    class="font-bold font-poppins text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
+                    class="font-bold text-[14px] md:text-heading-6 scroll-mt-5 mb-5 text-gray-900"
                     id="severability"
                 >
                     Severability

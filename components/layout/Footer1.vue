@@ -31,7 +31,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5 class="text-lg md:text-xl font-poppins mb-10">Quick Links</h5>
+                    <h5 class="text-lg md:text-xl mb-10">Quick Links</h5>
                     <ul>
                         <li class="mb-5">
                             <a
@@ -71,7 +71,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h5 class="text-lg md:text-xl font-poppins mb-10 text-[18px]">Resources</h5>
+                    <h5 class="text-lg md:text-xl mb-10 text-[18px]">Resources</h5>
                     <ul>
                         <li class="mb-5">
                             <a
@@ -111,9 +111,7 @@
                     </ul>
                 </div>
                 <div class="col-span-2 md:col-span-1">
-                    <h5
-                        class="text-lg font-poppins mb-8 md:mb-10 text-[18px] text-center md:text-left"
-                    >
+                    <h5 class="text-lg mb-8 md:mb-10 text-[18px] text-center md:text-left">
                         Connect With Us
                     </h5>
                     <ul class="flex md:flex-col justify-center gap-5 md:gap-0">
