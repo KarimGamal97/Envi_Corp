@@ -84,7 +84,7 @@
             </p>
             <!-- <GreenBtn to="/list-of-applications">List of Applications</GreenBtn> -->
             <NuxtLink
-                to="/list-of-applications"
+                to="/services/list-of-applications"
                 class="bg-[#547326] hover:bg-[#4c6822] transition-all duration-200 text-white py-2 px-5 rounded"
             >
                 List of Applications
