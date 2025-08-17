@@ -1,7 +1,7 @@
 <template>
     <!-- hero section  -->
     <section
-        class="bg-[url('/assets/images/main-imgs/services/application-and-permitting.jpg')] bg-cover bg-left md:bg-center min-h-dvh w-full py-40 px-10 md:px-20"
+        class="bg-[url('/assets/images/main-imgs/services/application-and-permitting.jpg')] bg-cover bg-left md:bg-top min-h-[400px] py-20 w-full px-10 md:px-20"
     >
         <div class="md:max-w-[35%] text-white">
             <h1 class="text-2xl md:text-5xl 4k:text-6xl mb-5">DENR: Application & Permitting</h1>
