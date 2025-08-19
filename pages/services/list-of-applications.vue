@@ -18,7 +18,10 @@
         <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-3 4k:grid-cols-5 gap-5">
                 <!-- item 1  -->
-                <NuxtLink class="relative group" to="/">
+                <NuxtLink
+                    class="relative group"
+                    to="/services/environmental-compliance-certificate"
+                >
                     <div
                         class="absolute inset-0 w-full h-full opacity-100 z-10 group-hover:opacity-0 group-active:opacity-100 group-active:bg-[#86B93F] transition-all duration-300 bg-[#547326] py-8 px-10 rounded-lg flex items-center justify-center"
                     >
