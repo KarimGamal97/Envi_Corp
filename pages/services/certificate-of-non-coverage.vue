@@ -40,7 +40,7 @@
                 </h5>
                 <ul class="4k:text-2xl list-disc list-inside mb-10 ml-[19px]">
                     <li class="mb-2">Generate of Duly Notarized Accountability Statement</li>
-                    <li class="mb-2">GPrepare the Project Fact Sheet</li>
+                    <li class="mb-2">Prepare the Project Fact Sheet</li>
                     <li class="mb-2">Generate the Geotagged Photos of the Site</li>
                     <li class="mb-2">
                         Consolidate the supporting documents provided by the Proponent
