@@ -282,7 +282,7 @@
 
 <script setup>
 useHead({
-    title: "CERTIFICATE OF NON-COVERAGE - Envi-Comm Corporation",
+    title: "DISCHARGE PERMIT (DP) - Envi-Comm Corporation",
 });
 </script>
 
