@@ -46,7 +46,7 @@
                 </h5>
                 <ul class="4k:text-2xl list-disc list-inside mb-10 ml-[19px]">
                     <li class="mb-2">
-                         Generation and notarization of the Joint Affidavit of Undertaking
+                        Generation and notarization of the Joint Affidavit of Undertaking
                     </li>
                     <li class="mb-2">Generation of the Letter of Designation</li>
                     <li class="mb-2">
